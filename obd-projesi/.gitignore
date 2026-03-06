@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+assets/cache/
+
+# Ortam Değişkenleri (Burası çok önemli, şifreler vs buraya girecek)
+.env
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
