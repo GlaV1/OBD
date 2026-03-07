@@ -1,0 +1,1134 @@
+{
+  "P0342": {
+    "Meaning": "Camshaft Position Sensor A Bank 1 Low Input",
+    "Brand": "CHRYSLER"
+  },
+  "P1031": {
+    "Meaning": "HO2S Heater Current Monitor Control Circuit Sensors 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1032": {
+    "Meaning": "HO2S Heater Warm Up Control Circuit Sensors 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1105": {
+    "Meaning": "Secondary Vacuum Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1106": {
+    "Meaning": "MAP Sensor Circuit Intermittent High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1107": {
+    "Meaning": "MAP Sensor Circuit Intermittent Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1108": {
+    "Meaning": "BARO To MAP Sensor Circuit Comparison Too High",
+    "Brand": "CHRYSLER"
+  },
+  "P1109": {
+    "Meaning": "Secondary Port Throttle System",
+    "Brand": "CHRYSLER"
+  },
+  "P1111": {
+    "Meaning": "Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1112": {
+    "Meaning": "Intake Air Temperature (IAT) Sensor Circuit Intermittent Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1113": {
+    "Meaning": "Intake Resonance Switchover Valve Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1114": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1115": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1116": {
+    "Meaning": "ECT Signal Unstable Or Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1117": {
+    "Meaning": "Engine Coolant Temp Signal Out-Of-Range Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1118": {
+    "Meaning": "Engine Coolant Temp Signal Out-Of Range High",
+    "Brand": "CHRYSLER"
+  },
+  "P1119": {
+    "Meaning": "ECT Signal Out Of Rage With TFT Sensor",
+    "Brand": "CHRYSLER"
+  },
+  "P1120": {
+    "Meaning": "Throttle Position (TP) Sensor 1 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1121": {
+    "Meaning": "TP Sensor Circuit Intermittent High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1122": {
+    "Meaning": "TP Sensor Circuit Intermittent Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1125": {
+    "Meaning": "Accelerator Pedal Position (APP) System",
+    "Brand": "CHRYSLER"
+  },
+  "P1130": {
+    "Meaning": "HO2S Circuit Low Variance Bank 1 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1131": {
+    "Meaning": "HO2S Circuit Low Variance Bank 1 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1132": {
+    "Meaning": "H02S Circuit Low Variance Bank 2 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1133": {
+    "Meaning": "HO2S Insufficient Switching",
+    "Brand": "CHRYSLER"
+  },
+  "P1134": {
+    "Meaning": "HO2S Transition Time Ratio",
+    "Brand": "CHRYSLER"
+  },
+  "P1135": {
+    "Meaning": "HO2S Lean Average Bank 1 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1136": {
+    "Meaning": "HO2S Rich Average Bank 1 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1137": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Lean Or Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1138": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Rich Or High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1139": {
+    "Meaning": "HO2S Insufficient Switching Bank 1 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1140": {
+    "Meaning": "HO2S Transition Time Ratio Bank 1 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1141": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Average Voltage Level",
+    "Brand": "CHRYSLER"
+  },
+  "P1143": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Lean Or Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1144": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Rich Or High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1145": {
+    "Meaning": "HO2S Cross Counts Bank 1 Sensor 3",
+    "Brand": "CHRYSLER"
+  },
+  "P1153": {
+    "Meaning": "HO2S Insufficient Switching",
+    "Brand": "CHRYSLER"
+  },
+  "P1154": {
+    "Meaning": "HO2S Transition Time Ratio",
+    "Brand": "CHRYSLER"
+  },
+  "P1155": {
+    "Meaning": "HO2S Lean Average Bank 2 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1156": {
+    "Meaning": "HO2S Rich Average Bank 2 Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1157": {
+    "Meaning": "HO2S Bank 2 Sensor 2 Lean System Or Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1158": {
+    "Meaning": "HO2S Bank 2 Sensor 2 Rich Or High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1159": {
+    "Meaning": "HO2S Cross Counts Bank 2 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1161": {
+    "Meaning": "HO2S Heater Power Stage Circuit Bank 2 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1163": {
+    "Meaning": "HO2S Bank 2 Sensor 3 Lean System Or Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1164": {
+    "Meaning": "HO2S Bank 2 Sensor 3 Rich Or High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1165": {
+    "Meaning": "HO2S Cross Counts Bank 2 Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1170": {
+    "Meaning": "Bank To Bank Fuel Trim Offset",
+    "Brand": "CHRYSLER"
+  },
+  "P1171": {
+    "Meaning": "Fuel System Lean During Acceleration",
+    "Brand": "CHRYSLER"
+  },
+  "P1185": {
+    "Meaning": "Engine Oil Temperature Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1186": {
+    "Meaning": "EOT Circuit Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1187": {
+    "Meaning": "EOT Sensor Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1188": {
+    "Meaning": "EOT Sensor Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1189": {
+    "Meaning": "Engine Oil Pressure Switch Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1190": {
+    "Meaning": "Engine Vacuum Leak",
+    "Brand": "CHRYSLER"
+  },
+  "P1191": {
+    "Meaning": "Intake Air Duct Air Leak",
+    "Brand": "CHRYSLER"
+  },
+  "P1200": {
+    "Meaning": "Injector Control Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1201": {
+    "Meaning": "(Alternative Fuel) Gas Mass Sensor Circuit Range/Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1202": {
+    "Meaning": "(Alternative Fuel) Gas Mass Sensor Circuit Low Frequency",
+    "Brand": "CHRYSLER"
+  },
+  "P1203": {
+    "Meaning": "(Alternative Fuel) Gas Mass Sensor Circuit High Frequency",
+    "Brand": "CHRYSLER"
+  },
+  "P1211": {
+    "Meaning": "Mass Air Flow Circuit Intermittent High",
+    "Brand": "CHRYSLER"
+  },
+  "P1212": {
+    "Meaning": "Mass Air Flow Circuit Intermittent Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1214": {
+    "Meaning": "Injection Pump Timing Offset",
+    "Brand": "CHRYSLER"
+  },
+  "P1215": {
+    "Meaning": "Ground Fault Detection Indicated",
+    "Brand": "CHRYSLER"
+  },
+  "P1216": {
+    "Meaning": "Fuel Solenoid Response Time Too Short",
+    "Brand": "CHRYSLER"
+  },
+  "P1217": {
+    "Meaning": "Fuel Solenoid Response Time Too Long",
+    "Brand": "CHRYSLER"
+  },
+  "P1218": {
+    "Meaning": "Injection Pump Calibration Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1219": {
+    "Meaning": "Throttle Position Sensor Reference Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1220": {
+    "Meaning": "Throttle Position (TP) Sensor 2 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1221": {
+    "Meaning": "Throttle Position (TP) Sensor 1-2 Correlation",
+    "Brand": "CHRYSLER"
+  },
+  "P1222": {
+    "Meaning": "Injector Control Circuit Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1225": {
+    "Meaning": "Injector Circuit Cylinder 2 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1228": {
+    "Meaning": "Injector Circuit Cylinder 3 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1231": {
+    "Meaning": "Injector Circuit Cylinder 4 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1234": {
+    "Meaning": "Injector Circuit Cylinder 5 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1237": {
+    "Meaning": "Injector Circuit Cylinder 6 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1240": {
+    "Meaning": "Injector Circuit Cylinder 7 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1243": {
+    "Meaning": "Injector Circuit Cylinder 8 Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1245": {
+    "Meaning": "Intake Plenum Switchover Valve",
+    "Brand": "CHRYSLER"
+  },
+  "P1250": {
+    "Meaning": "Early Fuel Evaporation Heater Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1257": {
+    "Meaning": "Supercharger System Overboost",
+    "Brand": "CHRYSLER"
+  },
+  "P1258": {
+    "Meaning": "Engine Coolant Overtemperature Protection Mode Active",
+    "Brand": "CHRYSLER"
+  },
+  "P1260": {
+    "Meaning": "Last Test Failed SCC Or Theft Detected Vehicle Immobilized",
+    "Brand": "CHRYSLER"
+  },
+  "P1270": {
+    "Meaning": "Accelerator Pedal Position Sensor A/D Converter Error",
+    "Brand": "CHRYSLER"
+  },
+  "P1271": {
+    "Meaning": "APP Sensor 1-2 Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1272": {
+    "Meaning": "Accelerator Pedal Position Sensor 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1273": {
+    "Meaning": "Accelerator Pedal Position Sensor 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1274": {
+    "Meaning": "Injectors Wired Incorrectly",
+    "Brand": "CHRYSLER"
+  },
+  "P1275": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 1 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1276": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 1 Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1277": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1278": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1280": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 2 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1281": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 2 Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1282": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1283": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1285": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 3 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1286": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 3 Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1287": {
+    "Meaning": "Accelerator Pedal Position Sensor 3 Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1288": {
+    "Meaning": "Accelerator Pedal Position Sensor 3 Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1300": {
+    "Meaning": "Ignitor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1305": {
+    "Meaning": "Ignition Coil 2 Primary Feedback Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1310": {
+    "Meaning": "Ignition Coil 3 Primary Feedback Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1315": {
+    "Meaning": "Ignition Coil 4 Primary Feedback Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1320": {
+    "Meaning": "IC Module 4X Ref Circuit Intermittent No Pulses",
+    "Brand": "CHRYSLER"
+  },
+  "P1321": {
+    "Meaning": "Electronic Ignition System Fault Line",
+    "Brand": "CHRYSLER"
+  },
+  "P1322": {
+    "Meaning": "EI System Or Ignition Control Missing",
+    "Brand": "CHRYSLER"
+  },
+  "P1323": {
+    "Meaning": "24X Reference Circuit Low Frequency",
+    "Brand": "CHRYSLER"
+  },
+  "P1324": {
+    "Meaning": "Crank RPM Too Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1335": {
+    "Meaning": "CKP Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1336": {
+    "Meaning": "Crankshaft Position (CKP) System Variation Not Learned",
+    "Brand": "CHRYSLER"
+  },
+  "P1345": {
+    "Meaning": "CKP/CMP Correlation",
+    "Brand": "CHRYSLER"
+  },
+  "P1346": {
+    "Meaning": "Intake Camshaft Position (CMP) Sensor System Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1350": {
+    "Meaning": "Ignition Control System",
+    "Brand": "CHRYSLER"
+  },
+  "P1351": {
+    "Meaning": "IC Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1352": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1353": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 3",
+    "Brand": "CHRYSLER"
+  },
+  "P1354": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 4",
+    "Brand": "CHRYSLER"
+  },
+  "P1355": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 5",
+    "Brand": "CHRYSLER"
+  },
+  "P1356": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 6",
+    "Brand": "CHRYSLER"
+  },
+  "P1357": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 7",
+    "Brand": "CHRYSLER"
+  },
+  "P1358": {
+    "Meaning": "IC Output High Pulse Detected When Grounded Cyl 8",
+    "Brand": "CHRYSLER"
+  },
+  "P1359": {
+    "Meaning": "Ignition Control Circuit Group A",
+    "Brand": "CHRYSLER"
+  },
+  "P1360": {
+    "Meaning": "Ignition Control Circuit Group B",
+    "Brand": "CHRYSLER"
+  },
+  "P1361": {
+    "Meaning": "IC Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1362": {
+    "Meaning": "IC Cylinder 2 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1363": {
+    "Meaning": "IC Cylinder 3 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1364": {
+    "Meaning": "IC Cylinder 4 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1365": {
+    "Meaning": "IC Cylinder 5 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1366": {
+    "Meaning": "IC Cylinder 6 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1367": {
+    "Meaning": "IC Cylinder 7 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1368": {
+    "Meaning": "IC Cylinder 8 Not Toggling After Enable",
+    "Brand": "CHRYSLER"
+  },
+  "P1370": {
+    "Meaning": "IC Module 4X Reference Circuit Too Many Pulses",
+    "Brand": "CHRYSLER"
+  },
+  "P1371": {
+    "Meaning": "DI Low Resolution Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1372": {
+    "Meaning": "Crankshaft Position Sensor Circuit Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1374": {
+    "Meaning": "3X Reference Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1375": {
+    "Meaning": "24X Reference Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1376": {
+    "Meaning": "Ignition Ground Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1377": {
+    "Meaning": "IC Module CAM Pulse To 4X Reference Pulse Comparison",
+    "Brand": "CHRYSLER"
+  },
+  "P1380": {
+    "Meaning": "Misfire Detected Rough Road Data Not Available",
+    "Brand": "CHRYSLER"
+  },
+  "P1381": {
+    "Meaning": "Misfire Detected No Communication with Brake Control Module",
+    "Brand": "CHRYSLER"
+  },
+  "P1390": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1391": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1392": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1393": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1394": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1395": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1396": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1397": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1398": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1399": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1403": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1404": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 2",
+    "Brand": "CHRYSLER"
+  },
+  "P1405": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 3",
+    "Brand": "CHRYSLER"
+  },
+  "P1406": {
+    "Meaning": "EGR Valve Pintle Position Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1407": {
+    "Meaning": "EGR Air Intrusion In Exhaust Supply To EGR Valve",
+    "Brand": "CHRYSLER"
+  },
+  "P1408": {
+    "Meaning": "Intake Manifold Pressure Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1409": {
+    "Meaning": "EGR Vacuum System Leak",
+    "Brand": "CHRYSLER"
+  },
+  "P1410": {
+    "Meaning": "Fuel Tank Pressure System",
+    "Brand": "CHRYSLER"
+  },
+  "P1415": {
+    "Meaning": "Secondary Air Injection (AIR) System",
+    "Brand": "CHRYSLER"
+  },
+  "P1416": {
+    "Meaning": "AIR System Bank 1",
+    "Brand": "CHRYSLER"
+  },
+  "P1418": {
+    "Meaning": "Secondary Air Injection System Relay A Control Circuit High",
+    "Brand": "CHRYSLER"
+  },
+  "P1420": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1421": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1423": {
+    "Meaning": "Intake Air High Pressure Switch Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1431": {
+    "Meaning": "Fuel Level Sensor 2 Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1432": {
+    "Meaning": "Fuel Level Sensor 2 Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1433": {
+    "Meaning": "Fuel Level Sensor 2 Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1441": {
+    "Meaning": "Evaporative Emission (EVAP) System Flow During Non-Purge",
+    "Brand": "CHRYSLER"
+  },
+  "P1442": {
+    "Meaning": "EVAP Vacuum Switch High Voltage During Ignition On",
+    "Brand": "CHRYSLER"
+  },
+  "P1450": {
+    "Meaning": "Barometric Pressure Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1451": {
+    "Meaning": "Barometric Pressure Sensor Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1460": {
+    "Meaning": "Cooling Fan Control System",
+    "Brand": "CHRYSLER"
+  },
+  "P1480": {
+    "Meaning": "Cooling Fan 1 Control Circuit High",
+    "Brand": "CHRYSLER"
+  },
+  "P1483": {
+    "Meaning": "Engine Coolilng System Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1500": {
+    "Meaning": "Starter Signal Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1501": {
+    "Meaning": "Vehicle Speed Sensor Circuit Intermittent",
+    "Brand": "CHRYSLER"
+  },
+  "P1502": {
+    "Meaning": "Theft Deterrent System No Password Received",
+    "Brand": "CHRYSLER"
+  },
+  "P1503": {
+    "Meaning": "Theft Deterrent System Password Incorrect",
+    "Brand": "CHRYSLER"
+  },
+  "P1504": {
+    "Meaning": "Vehicle Speed Output Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1508": {
+    "Meaning": "IAC System Low RPM",
+    "Brand": "CHRYSLER"
+  },
+  "P1509": {
+    "Meaning": "IAC System High RPM",
+    "Brand": "CHRYSLER"
+  },
+  "P1510": {
+    "Meaning": "Back UP Power Supply",
+    "Brand": "CHRYSLER"
+  },
+  "P1511": {
+    "Meaning": "Throttle Control System Backup System Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1514": {
+    "Meaning": "Throttle Body Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1515": {
+    "Meaning": "Control Module Throttle Actuator Position Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1516": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Throttle Actuator Position Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1517": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1518": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Serial Data Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1519": {
+    "Meaning": "Electronic Throttle Module Low Volts Communication Disable",
+    "Brand": "CHRYSLER"
+  },
+  "P1520": {
+    "Meaning": "Gear Indicator System",
+    "Brand": "CHRYSLER"
+  },
+  "P1521": {
+    "Meaning": "Transmission Engaged At High Throttle Angle",
+    "Brand": "CHRYSLER"
+  },
+  "P1522": {
+    "Meaning": "Park Neutral To Drive Reverse At High RPM",
+    "Brand": "CHRYSLER"
+  },
+  "P1523": {
+    "Meaning": "Electronic Throttle Control Throttle Return",
+    "Brand": "CHRYSLER"
+  },
+  "P1524": {
+    "Meaning": "TP Sensor Learned CI Throttle Angle Out Of Range",
+    "Brand": "CHRYSLER"
+  },
+  "P1525": {
+    "Meaning": "Throttle Body Service Required",
+    "Brand": "CHRYSLER"
+  },
+  "P1526": {
+    "Meaning": "TP Sensor Learn Not Complete",
+    "Brand": "CHRYSLER"
+  },
+  "P1527": {
+    "Meaning": "Transmission Range Pressure Switch Comparison",
+    "Brand": "CHRYSLER"
+  },
+  "P1528": {
+    "Meaning": "Governor",
+    "Brand": "CHRYSLER"
+  },
+  "P1529": {
+    "Meaning": "Heated Windshield Request Problem",
+    "Brand": "CHRYSLER"
+  },
+  "P1530": {
+    "Meaning": "Ignition Timing Adjustment Switch Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1531": {
+    "Meaning": "A/C Low Side Temperature Sensor Fault",
+    "Brand": "CHRYSLER"
+  },
+  "P1532": {
+    "Meaning": "A/C Evaporator Temperature Sensor Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1533": {
+    "Meaning": "A/C Evaporator Temperature Sensor Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1534": {
+    "Meaning": "A/C High Side Temperature Sensor Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1535": {
+    "Meaning": "A/C High Side Temperature Sensor Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1536": {
+    "Meaning": "A/C System ECT Overtemperature",
+    "Brand": "CHRYSLER"
+  },
+  "P1537": {
+    "Meaning": "A/C Request Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1538": {
+    "Meaning": "A/C Request Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1539": {
+    "Meaning": "Air Conditioning (A/C) Clutch Feedback Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1540": {
+    "Meaning": "A/C System High Pressure",
+    "Brand": "CHRYSLER"
+  },
+  "P1541": {
+    "Meaning": "A/C High Side Over Temperature",
+    "Brand": "CHRYSLER"
+  },
+  "P1542": {
+    "Meaning": "A/C System High Pressure High Temperature",
+    "Brand": "CHRYSLER"
+  },
+  "P1543": {
+    "Meaning": "A/C System Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1544": {
+    "Meaning": "A/C Refrigerant Condition Very Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1545": {
+    "Meaning": "A/C Clutch Relay Control Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1546": {
+    "Meaning": "Air Conditioning (A/C) Clutch Feedback Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1547": {
+    "Meaning": "A/C System Performance Degraded",
+    "Brand": "CHRYSLER"
+  },
+  "P1548": {
+    "Meaning": "A/C Recirculation Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1554": {
+    "Meaning": "Cruise Engaged Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1555": {
+    "Meaning": "Electronic Variable Orifice Output",
+    "Brand": "CHRYSLER"
+  },
+  "P1558": {
+    "Meaning": "Cruise Control Servo Indicates Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1559": {
+    "Meaning": "Cruise Control Power Management Mode",
+    "Brand": "CHRYSLER"
+  },
+  "P1560": {
+    "Meaning": "Cruise Control System Transaxle Not In Drive",
+    "Brand": "CHRYSLER"
+  },
+  "P1561": {
+    "Meaning": "Cruise Vent Solenoid",
+    "Brand": "CHRYSLER"
+  },
+  "P1562": {
+    "Meaning": "Cruise Vacuum Solenoid",
+    "Brand": "CHRYSLER"
+  },
+  "P1563": {
+    "Meaning": "Cruise Vehicle Speed Set Speed Difference Too High",
+    "Brand": "CHRYSLER"
+  },
+  "P1564": {
+    "Meaning": "Cruise Control System Vehicle Accel Too High",
+    "Brand": "CHRYSLER"
+  },
+  "P1565": {
+    "Meaning": "Cruise Servo Position Sensor",
+    "Brand": "CHRYSLER"
+  },
+  "P1566": {
+    "Meaning": "Cruise Control System Engine RPM Too High",
+    "Brand": "CHRYSLER"
+  },
+  "P1567": {
+    "Meaning": "Cruise Control System Active Braking Control Active",
+    "Brand": "CHRYSLER"
+  },
+  "P1568": {
+    "Meaning": "Cruise Servo Stroke Greater Than Commanded In Cruise",
+    "Brand": "CHRYSLER"
+  },
+  "P1569": {
+    "Meaning": "Cruise Servo Stroke High While Not In Cruise",
+    "Brand": "CHRYSLER"
+  },
+  "P1570": {
+    "Meaning": "Cruise Control System Traction Control Active",
+    "Brand": "CHRYSLER"
+  },
+  "P1571": {
+    "Meaning": "TCS PWM Circuit No Frequency",
+    "Brand": "CHRYSLER"
+  },
+  "P1572": {
+    "Meaning": "ASR Active Circuit Low Too Long",
+    "Brand": "CHRYSLER"
+  },
+  "P1573": {
+    "Meaning": "PCM EBTCM Serial Data Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1574": {
+    "Meaning": "Stoplamp Switch Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1575": {
+    "Meaning": "Extended Travel Brake Switch Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1576": {
+    "Meaning": "BBV Sensor Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1577": {
+    "Meaning": "BBV Sensor Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1578": {
+    "Meaning": "BBV Sensor Circuit Low Vacuum",
+    "Brand": "CHRYSLER"
+  },
+  "P1579": {
+    "Meaning": "P/N To D/R At High Throttle Angle",
+    "Brand": "CHRYSLER"
+  },
+  "P1580": {
+    "Meaning": "Cruise Move Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1581": {
+    "Meaning": "Cruise Move Circuit High Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1582": {
+    "Meaning": "Cruise Direction Circuit Low Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1583": {
+    "Meaning": "Cruise Direction Circuit High Volume",
+    "Brand": "CHRYSLER"
+  },
+  "P1584": {
+    "Meaning": "Cruise Control Disabled",
+    "Brand": "CHRYSLER"
+  },
+  "P1585": {
+    "Meaning": "Cruise Inhibit Control Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1586": {
+    "Meaning": "Cruise Control Brake Switch 2 Circuit",
+    "Brand": "CHRYSLER"
+  },
+  "P1587": {
+    "Meaning": "Cruise Control Clutch Control Circuit Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1588": {
+    "Meaning": "Cruise Control Clutch Control Circuit High",
+    "Brand": "CHRYSLER"
+  },
+  "P1599": {
+    "Meaning": "Engine Stall Or Near Stall Detected",
+    "Brand": "CHRYSLER"
+  },
+  "P1602": {
+    "Meaning": "PCM Not Programmed",
+    "Brand": "CHRYSLER"
+  },
+  "P1680": {
+    "Meaning": "Clutch Released Switch Circuit Open Or Shorted",
+    "Brand": "CHRYSLER"
+  },
+  "P1681": {
+    "Meaning": "No Instrument Panel Cluster CCD J1850 Messages Received",
+    "Brand": "CHRYSLER"
+  },
+  "P1682": {
+    "Meaning": "Charging System Voltage Too Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1683": {
+    "Meaning": "Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit Open Or Shorted",
+    "Brand": "CHRYSLER"
+  },
+  "P1684": {
+    "Meaning": "Battery Disconnected Within Last 50 Starts",
+    "Brand": "CHRYSLER"
+  },
+  "P1685": {
+    "Meaning": "Skim Invalid Key",
+    "Brand": "CHRYSLER"
+  },
+  "P1686": {
+    "Meaning": "No SKIM Bus Message Received",
+    "Brand": "CHRYSLER"
+  },
+  "P1687": {
+    "Meaning": "No Cluster Bus Message",
+    "Brand": "CHRYSLER"
+  },
+  "P1688": {
+    "Meaning": "Internal Fuel Injection Pump Controller Failure",
+    "Brand": "CHRYSLER"
+  },
+  "P1689": {
+    "Meaning": "No Communication Between ECM & Injection Pump Module",
+    "Brand": "CHRYSLER"
+  },
+  "P1690": {
+    "Meaning": "Fuel Injection Pump CKP Sensor Does Not Agree With ECM CKP Sensor",
+    "Brand": "CHRYSLER"
+  },
+  "P1691": {
+    "Meaning": "Fuel Injection Pump Controller Calibration Failure",
+    "Brand": "CHRYSLER"
+  },
+  "P1693": {
+    "Meaning": "DTC Detected In ECM Or PCM",
+    "Brand": "CHRYSLER"
+  },
+  "P1694": {
+    "Meaning": "No CCD Messages Received From ECM",
+    "Brand": "CHRYSLER"
+  },
+  "P1695": {
+    "Meaning": "No CCD J1850 Message From BCM",
+    "Brand": "CHRYSLER"
+  },
+  "P1696": {
+    "Meaning": "PCM Failure EEPROM Write Denied",
+    "Brand": "CHRYSLER"
+  },
+  "P1697": {
+    "Meaning": "PCM Failure SRI Mile Not Stored",
+    "Brand": "CHRYSLER"
+  },
+  "P1698": {
+    "Meaning": "No CCD Messages Received From PCM",
+    "Brand": "CHRYSLER"
+  },
+  "P1699": {
+    "Meaning": "No CCD J1850 Messages Received From The Climate Control Module (CCM)",
+    "Brand": "CHRYSLER"
+  },
+  "P1719": {
+    "Meaning": "Skip Shift Solenoid Circuit Open Or Shorted",
+    "Brand": "CHRYSLER"
+  },
+  "P1740": {
+    "Meaning": "TCC Or OD Solenoid Performance",
+    "Brand": "CHRYSLER"
+  },
+  "P1756": {
+    "Meaning": "Governor Pressure Not Equal To Target At 15-20 PSI",
+    "Brand": "CHRYSLER"
+  },
+  "P1757": {
+    "Meaning": "Governor Pressure Above 3 PSI When Request Is 0 PSI",
+    "Brand": "CHRYSLER"
+  },
+  "P1762": {
+    "Meaning": "Governor Pressure Sensor Offset Improper Voltage",
+    "Brand": "CHRYSLER"
+  },
+  "P1763": {
+    "Meaning": "Governor Pressure Sensor Voltage Too High",
+    "Brand": "CHRYSLER"
+  },
+  "P1764": {
+    "Meaning": "Governor Pressure Sensor Voltage Too Low",
+    "Brand": "CHRYSLER"
+  },
+  "P1765": {
+    "Meaning": "Trans 12 Volt Supply Relay Control Circuit Open Or Shorted",
+    "Brand": "CHRYSLER"
+  },
+  "P1830": {
+    "Meaning": "Open Or Shorted Condition Detected In The Clutch Pedal Switch Override Relay Control",
+    "Brand": "CHRYSLER"
+  },
+  "P1899": {
+    "Meaning": "Park Neutral Position Switch Stuck In Park Or In Gear",
+    "Brand": "CHRYSLER"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "P1105": {
+    "Meaning": "Atmospheric Pressure Sensor In Control Module",
+    "Brand": "MERCEDES"
+  },
+  "P1220": {
+    "Meaning": "Fuel Quantity Actuator Y231",
+    "Brand": "MERCEDES"
+  },
+  "P1221": {
+    "Meaning": "CAN Communication ETC Or ETS Interrupted",
+    "Brand": "MERCEDES"
+  },
+  "P1222": {
+    "Meaning": "IFI Accelerator Pedal Position Sensor R252",
+    "Brand": "MERCEDES"
+  },
+  "P1223": {
+    "Meaning": "Fuel Rack Position Sensor Y2311",
+    "Brand": "MERCEDES"
+  },
+  "P1335": {
+    "Meaning": "CKP Sensor IFI",
+    "Brand": "MERCEDES"
+  },
+  "P1350": {
+    "Meaning": "Injection Sensor Solenoid",
+    "Brand": "MERCEDES"
+  },
+  "P1351": {
+    "Meaning": "Injection Sensor Circuit",
+    "Brand": "MERCEDES"
+  },
+  "P1352": {
+    "Meaning": "Needle Lift Sensor",
+    "Brand": "MERCEDES"
+  },
+  "P1401": {
+    "Meaning": "EGR Lifting Sender B283",
+    "Brand": "MERCEDES"
+  },
+  "P1404": {
+    "Meaning": "EGR Control",
+    "Brand": "MERCEDES"
+  },
+  "P1465": {
+    "Meaning": "EPW Power",
+    "Brand": "MERCEDES"
+  },
+  "P1470": {
+    "Meaning": "Pressure Control Flap Vacuum Transducer Y312",
+    "Brand": "MERCEDES"
+  },
+  "P1475": {
+    "Meaning": "Resonance Intake Line Switchover Valve Y227",
+    "Brand": "MERCEDES"
+  },
+  "P1476": {
+    "Meaning": "Resonance Intake Manifold Switchover Valve Y226",
+    "Brand": "MERCEDES"
+  },
+  "P1480": {
+    "Meaning": "Preglow Control",
+    "Brand": "MERCEDES"
+  },
+  "P1481": {
+    "Meaning": "Glow Plug Failure",
+    "Brand": "MERCEDES"
+  },
+  "P1482": {
+    "Meaning": "Preglow Control Module N142",
+    "Brand": "MERCEDES"
+  },
+  "P1520": {
+    "Meaning": "Cruise Control Switch S40",
+    "Brand": "MERCEDES"
+  },
+  "P1610": {
+    "Meaning": "Voltage Supply Missing Or Relay Module K40",
+    "Brand": "MERCEDES"
+  },
+  "P1611": {
+    "Meaning": "IFI Control Module N37",
+    "Brand": "MERCEDES"
+  },
+  "P1612": {
+    "Meaning": "IFI Control Module N37 Voltage Circuit 15",
+    "Brand": "MERCEDES"
+  },
+  "P1613": {
+    "Meaning": "IFI Control Module N37",
+    "Brand": "MERCEDES"
+  },
+  "P1614": {
+    "Meaning": "IFI Control Module N37 Voltage Or Fuel Metering Actuator Y231K1 Or Fuel Rack Position Sensor Y2311",
+    "Brand": "MERCEDES"
+  },
+  "P1615": {
+    "Meaning": "IFI Control Module N37 Supply Voltage",
+    "Brand": "MERCEDES"
+  },
+  "P1617": {
+    "Meaning": "Control Module Fault Or Control Module Not Coded",
+    "Brand": "MERCEDES"
+  },
+  "P1622": {
+    "Meaning": "Electrohydraulic Shut-Off Actuator Y11",
+    "Brand": "MERCEDES"
+  },
+  "P1625": {
+    "Meaning": "Check Engine MIL",
+    "Brand": "MERCEDES"
+  },
+  "P1630": {
+    "Meaning": "Drive Authorization Signal",
+    "Brand": "MERCEDES"
+  },
+  "P1705": {
+    "Meaning": "Starter Lock-Out Backup Lamp Switch S161",
+    "Brand": "MERCEDES"
+  },
+  "P1780": {
+    "Meaning": "Modulation Pressure Switchover Valve ATCC Y34 Or Upshift Delay Switchover Valve ATCC Y35",
+    "Brand": "MERCEDES"
+  },
+  "P1781": {
+    "Meaning": "Upshift Delay Switchover Valve ATCC Y35",
+    "Brand": "MERCEDES"
+  }
+}

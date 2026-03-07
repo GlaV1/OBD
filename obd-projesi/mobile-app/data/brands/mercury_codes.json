@@ -1,0 +1,1654 @@
+{
+  "P1000": {
+    "Meaning": "OBD System Readiness Test Not Complete",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1001": {
+    "Meaning": "KOER Test Cannot Be Completed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1039": {
+    "Meaning": "Vehicle Speed Signal Missing or Improper",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1051": {
+    "Meaning": "Brake Switch Signal Missing or Improper",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1100": {
+    "Meaning": "Mass Air Flow Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1101": {
+    "Meaning": "Mass Air Flow Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1105": {
+    "Meaning": "Dual Alternator Upper Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1106": {
+    "Meaning": "Dual Alternator Lower Fault Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1107": {
+    "Meaning": "Dual Alternator Lower Circuit Malfunction Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1108": {
+    "Meaning": "Dual Alternator Battery Lamp Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1109": {
+    "Meaning": "IAT B Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1111": {
+    "Meaning": "System Pass",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1112": {
+    "Meaning": "Intake Air Temperature Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1114": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent Low Voltage IAT B Circuit Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1115": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent High Voltage IAT B Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1116": {
+    "Meaning": "Engine Coolant Temperature Sensor is Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1117": {
+    "Meaning": "Engine Coolant Temperature Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1118": {
+    "Meaning": "Manifold Absolute Temperature Circuit Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1119": {
+    "Meaning": "Manifold Absolute Temperature Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1120": {
+    "Meaning": "Throttle Position Sensor Out of Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1121": {
+    "Meaning": "Throttle Position Sensor Inconsistent with Mass Air Flow Sensor",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1122": {
+    "Meaning": "Throttle Position TP Sensor Circuit Intermittent Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1123": {
+    "Meaning": "Throttle Position Sensor In Range But Higher Than Expected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1124": {
+    "Meaning": "Throttle Position Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1125": {
+    "Meaning": "Throttle Position Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1127": {
+    "Meaning": "Exhaust Not Warm Enough Downstream O2 Sensor Not Tested",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1128": {
+    "Meaning": "Upstream Heated Oxygen Sensor Signals Reversed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1129": {
+    "Meaning": "Downstream Heated Oxygen Sensor Signals Reversed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1130": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Adaptive Fuel Limit Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1131": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1132": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Rich Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1133": {
+    "Meaning": "Bank 1 Fuel Control Shifted Lean",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1134": {
+    "Meaning": "Bank 1 Fuel Control Shifted Rich",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1135": {
+    "Meaning": "Pedal Position Sensor A Circuit Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1137": {
+    "Meaning": "Lack of Downstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1138": {
+    "Meaning": "Lack of Downstream Heated Oxygen Sensor Switch Sensor Indicates Rich Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1139": {
+    "Meaning": "Water In Fuel Indicator Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1140": {
+    "Meaning": "Water In Fuel Condition",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1141": {
+    "Meaning": "Fuel Restriction Indicator Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1142": {
+    "Meaning": "Fuel Restriction Condition",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1150": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Adaptive Fuel Limit Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1151": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1152": {
+    "Meaning": "Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Rich Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1153": {
+    "Meaning": "Bank 2 Fuel Control Shifted Lean",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1154": {
+    "Meaning": "Bank 2 Fuel Control Shifted Rich",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1155": {
+    "Meaning": "Alternative Fuel Controller",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1157": {
+    "Meaning": "Lack of Downstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1158": {
+    "Meaning": "Lack of Downstream Heated Oxygen Sensor Switch Sensor Indicates Rich Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1168": {
+    "Meaning": "Fuel Rail Sensor In-Range Low Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1169": {
+    "Meaning": "Fuel Rail Sensor In-Range High Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1170": {
+    "Meaning": "ESO Engine Shut Off Solenoid Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1171": {
+    "Meaning": "Rotor Sensor Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1172": {
+    "Meaning": "Rotor Control Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1173": {
+    "Meaning": "Rotor Calibration Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1174": {
+    "Meaning": "Cam Sensor Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1175": {
+    "Meaning": "Cam Control Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1176": {
+    "Meaning": "Cam Calibration Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1177": {
+    "Meaning": "Synchronization Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1180": {
+    "Meaning": "Fuel Delivery System Malfunction Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1181": {
+    "Meaning": "Fuel Delivery System Malfunction High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1183": {
+    "Meaning": "Engine Oil Temperature Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1184": {
+    "Meaning": "Engine Oil Temperature Out Of Self Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1185": {
+    "Meaning": "FTS High Fuel Pump Temperature Sensor High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1186": {
+    "Meaning": "FTS Low Fuel Pump Temperature Sensor Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1187": {
+    "Meaning": "Variant Selection",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1188": {
+    "Meaning": "Calibration Memory Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1189": {
+    "Meaning": "Pump Speed Signal Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1190": {
+    "Meaning": "Calibration Resistor Out Of Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1191": {
+    "Meaning": "Key Line Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1192": {
+    "Meaning": "Voltage External",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1193": {
+    "Meaning": "EGR Drive Overcurrent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1194": {
+    "Meaning": "ECU A/D Converter",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1195": {
+    "Meaning": "SCP HBCC Failed To Initialize",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1196": {
+    "Meaning": "Key Off Voltage High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1197": {
+    "Meaning": "Key Off Voltage Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1198": {
+    "Meaning": "Pump Rotor Control Underfueling",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1209": {
+    "Meaning": "Injector Control Pressure System Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1210": {
+    "Meaning": "Injector Control Pressure Above Expected Level",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1211": {
+    "Meaning": "Injector Control Pressure Sensor Above Below Desired",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1212": {
+    "Meaning": "Injector Control Pressure Not Detected During Crank",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1213": {
+    "Meaning": "Start Injector Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1214": {
+    "Meaning": "Pedal Position Sensor B Circuit Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1215": {
+    "Meaning": "Pedal Position Sensor C Circuit Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1216": {
+    "Meaning": "Pedal Position Sensor C Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1217": {
+    "Meaning": "Pedal Position Sensor C Circuit Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1218": {
+    "Meaning": "CID High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1219": {
+    "Meaning": "CID Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1220": {
+    "Meaning": "Series Throttle Control Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1221": {
+    "Meaning": "Traction Control System Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1222": {
+    "Meaning": "Traction Control Output Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1223": {
+    "Meaning": "Pedal Demand Sensor B Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1224": {
+    "Meaning": "Throttle Position Sensor B Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1227": {
+    "Meaning": "Wastegate Failed Closed Over Pressure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1228": {
+    "Meaning": "Wastegate Failed Open Under Pressure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1229": {
+    "Meaning": "Intercooler Pump Driver Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1230": {
+    "Meaning": "Open Power to Fuel Pump Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1231": {
+    "Meaning": "High Speed Fuel Pump Relay Activated",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1232": {
+    "Meaning": "Low Speed Fuel Pump Primary Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1233": {
+    "Meaning": "Fuel Pump Driver Module Off-Line",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1234": {
+    "Meaning": "Fuel Pump Driver Module Off-Line",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1235": {
+    "Meaning": "Fuel Pump Control Out of Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1236": {
+    "Meaning": "Fuel Pump Control Out of Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1237": {
+    "Meaning": "Fuel Pump Secondary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1238": {
+    "Meaning": "Fuel Pump Secondary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1239": {
+    "Meaning": "Speed Fuel Pump Positive Feed Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1243": {
+    "Meaning": "Second Fuel Pump Faulty or Ground Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1244": {
+    "Meaning": "Alternator Load Input Failed High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1245": {
+    "Meaning": "Alternator Load Input Failed Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1246": {
+    "Meaning": "Alternator Load Input Failed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1247": {
+    "Meaning": "Turbo Boost Pressure Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1248": {
+    "Meaning": "Turbo Boost Pressure Not Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1249": {
+    "Meaning": "Wastegate Control Valve Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1250": {
+    "Meaning": "Lack of Power to FPRC Solenoid",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1252": {
+    "Meaning": "Pedal Correlation PDS1 and LPDS High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1253": {
+    "Meaning": "Pedal Correlation PDS1 and LPDS Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1254": {
+    "Meaning": "Pedal Correlation PDS2 and LPDS High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1255": {
+    "Meaning": "Pedal Correlation PDS2 and LPDS Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1256": {
+    "Meaning": "Pedal Correlation PDS1 and HPDS",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1257": {
+    "Meaning": "Pedal Correlation PDS2 and HPDS",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1258": {
+    "Meaning": "Pedal Correlation PDS1 and PDS2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1260": {
+    "Meaning": "Theft Detected Engine Disabled",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1261": {
+    "Meaning": "Cylinder 1 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1262": {
+    "Meaning": "Cylinder 2 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1263": {
+    "Meaning": "Cylinder 3 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1264": {
+    "Meaning": "Cylinder 4 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1265": {
+    "Meaning": "Cylinder 5 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1266": {
+    "Meaning": "Cylinder 6 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1267": {
+    "Meaning": "Cylinder 7 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1268": {
+    "Meaning": "Cylinder 8 High To Low Side Short",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1270": {
+    "Meaning": "Engine RPM Or Speed Limiter Reached",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1271": {
+    "Meaning": "Cylinder 1 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1272": {
+    "Meaning": "Cylinder 2 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1273": {
+    "Meaning": "Cylinder 3 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1274": {
+    "Meaning": "Cylinder 4 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1275": {
+    "Meaning": "Cylinder 5 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1276": {
+    "Meaning": "Cylinder 6 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1277": {
+    "Meaning": "Cylinder 7 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1278": {
+    "Meaning": "Cylinder 8 High To Low Side Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1280": {
+    "Meaning": "Injection Control Pressure Out Of Range Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1281": {
+    "Meaning": "Injection Control Pressure Out Of Range High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1282": {
+    "Meaning": "Excessive Injection Control Pressure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1283": {
+    "Meaning": "IPR Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1284": {
+    "Meaning": "Aborted KOER ICP Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1285": {
+    "Meaning": "Cylinder Head Over Temp Sensed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1286": {
+    "Meaning": "Fuel Pulse In Range But Lower Than Expected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1287": {
+    "Meaning": "Fuel Pulse In Range But Higher Than Expected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1288": {
+    "Meaning": "Cylinder Head Temperature Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1289": {
+    "Meaning": "Cylinder Head Temperature Sensor Signal Greater Than Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1290": {
+    "Meaning": "Cylinder Head Temperature Sensor Signal Less Than Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1291": {
+    "Meaning": "Injector High Side Short To GND Or VBATT Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1292": {
+    "Meaning": "Injector High Side Short To GND Or VBATT Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1293": {
+    "Meaning": "Injector High Side Open Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1294": {
+    "Meaning": "Injector High Side Open Bank 2 Target Idle Not Reached",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1295": {
+    "Meaning": "Multi-faults Bank 1 With Low Side Shorts",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1296": {
+    "Meaning": "Multi-faults Bank 2 With Low Side Shorts",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1297": {
+    "Meaning": "Injector High Sides Shorted Together",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1298": {
+    "Meaning": "IDM Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1299": {
+    "Meaning": "Cylinder Head Temperature Sensor Detected Engine Overheating Condition",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1300": {
+    "Meaning": "Boost Calibration Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1301": {
+    "Meaning": "Boost Calibration High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1302": {
+    "Meaning": "Boost Calibration Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1303": {
+    "Meaning": "EGR Calibration Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1304": {
+    "Meaning": "EGR Calibration High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1305": {
+    "Meaning": "EGR Calibration Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1306": {
+    "Meaning": "Kickdown Relay Pull In Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1307": {
+    "Meaning": "Kickdown Relay Hold Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1308": {
+    "Meaning": "A/C Clutch Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1309": {
+    "Meaning": "Misfire Detection Monitor Not Enabled",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1316": {
+    "Meaning": "Injector Circuit IDM Codes Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1317": {
+    "Meaning": "Injector Circuit IDM Codes Not Updated",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1340": {
+    "Meaning": "Camshaft Position Sensor B Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1351": {
+    "Meaning": "Ignition Diagnostic Monitor Circuit Input Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1352": {
+    "Meaning": "Ignition Coil A Primary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1353": {
+    "Meaning": "Ignition Coil B Primary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1354": {
+    "Meaning": "Ignition Coil C Primary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1355": {
+    "Meaning": "Ignition Coil D Primary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1356": {
+    "Meaning": "Loss of Ignition Diagnostic Module Input to PCM",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1357": {
+    "Meaning": "Ignition Diagnostic Monitor Pulsewidth Not Defined",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1358": {
+    "Meaning": "Ignition Diagnostic Monitor Signal Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1359": {
+    "Meaning": "Spark Output Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1360": {
+    "Meaning": "Ignition Coil A Secondary Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1361": {
+    "Meaning": "Ignition Control IC Circuit Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1362": {
+    "Meaning": "Ignition Coil C Secondary Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1363": {
+    "Meaning": "Ignition Coil D Secondary Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1364": {
+    "Meaning": "Ignition Coil Primary Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1365": {
+    "Meaning": "Ignition Coil Secondary Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1369": {
+    "Meaning": "Engine Temperature Light Monitor Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1380": {
+    "Meaning": "VCT Solenoid Valve Circuit Short or Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1381": {
+    "Meaning": "Cam Timing Advance is Excessive",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1383": {
+    "Meaning": "Cam Timing Advance is Excessive",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1385": {
+    "Meaning": "Variable Cam Timing Solenoid B Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1386": {
+    "Meaning": "Variable Cam Timing Overadvanced Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1388": {
+    "Meaning": "Variable Cam Timing Overretarded Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1389": {
+    "Meaning": "Glow Plug Circuit High Side Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1390": {
+    "Meaning": "Octane Adjust Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1391": {
+    "Meaning": "Glow Plug Circuit Low Input Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1392": {
+    "Meaning": "Glow Plug Circuit High Input Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1393": {
+    "Meaning": "Glow Plug Circuit Low Input Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1394": {
+    "Meaning": "Glow Plug Circuit High Input Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1395": {
+    "Meaning": "Glow Plug Monitor Fault Bank 1",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1396": {
+    "Meaning": "Glow Plug Monitor Fault Bank 2",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1397": {
+    "Meaning": "System Voltage Out Of Self Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1399": {
+    "Meaning": "Glow Plug Circuit High Side High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1400": {
+    "Meaning": "Differential Pressure Feedback Electronic Sensor Circuit Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1401": {
+    "Meaning": "Differential Pressure Feedback Electronic Sensor Circuit High Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1402": {
+    "Meaning": "EGR Metering Orifice Restricted",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1403": {
+    "Meaning": "Differential Pressure Feedback Electronic Sensor Hoses Reversed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1404": {
+    "Meaning": "IAT B Circuit Malfunction Exhaust Gas Recirculation Closed Position Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1405": {
+    "Meaning": "Differential Pressure Feedback Electronic Sensor Circuit Upstream Hose",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1406": {
+    "Meaning": "Differential Pressure Feedback Electronic Sensor Circuit Downstream Hose",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1407": {
+    "Meaning": "EGR No Flow Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1408": {
+    "Meaning": "EGR Flow Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1409": {
+    "Meaning": "Electronic Vacuum Regulator Control Circuit Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1410": {
+    "Meaning": "EGR Barometric Pressure Sensor VREF Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1411": {
+    "Meaning": "Secondary Air is Not being diverted",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1413": {
+    "Meaning": "Secondary Air Injection System Monitor Circuit Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1414": {
+    "Meaning": "Secondary Air Injection System Monitor Circuit High Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1431": {
+    "Meaning": "Misfire Monitor Disabled Unable to Learn Trigger Wheel Profile",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1442": {
+    "Meaning": "Secondary Air Injection System Monitor Circuit High Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1443": {
+    "Meaning": "Evaporative Emission Control System Vacuum System Purge Control Solenoid or Purge Control Valve Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1444": {
+    "Meaning": "Purge Flow Sensor Circuit Input Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1445": {
+    "Meaning": "Purge Flow Sensor Circuit Input High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1450": {
+    "Meaning": "Inability of Evaporative Emission Control System to Bleed Fuel Tank",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1451": {
+    "Meaning": "EVAP Control System Canister Vent Solenoid Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1452": {
+    "Meaning": "Inability of Evaporative Emission Control System to Bleed Fuel Tank",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1455": {
+    "Meaning": "Substantial Leak or Blockage in Evaporative Emission Control System",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1457": {
+    "Meaning": "Unable To Pull Vacuum In Tank",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1460": {
+    "Meaning": "Wide Open Throttle Air Conditioning Cutoff Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1461": {
+    "Meaning": "Air Conditioning Pressure Sensor Circuit Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1462": {
+    "Meaning": "Air Conditioning Pressure Sensor Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1463": {
+    "Meaning": "Air Conditioning Pressure Sensor Insufficient Pressure Change",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1464": {
+    "Meaning": "ACCS to PCM High During Self-Test",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1465": {
+    "Meaning": "A/C Relay Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1466": {
+    "Meaning": "A/C Refrigerant Temperature Sensor Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1469": {
+    "Meaning": "Low Air Conditioning Cycling Period",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1473": {
+    "Meaning": "Fan Secondary High with Fans Off",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1474": {
+    "Meaning": "Low Fan Control Primary Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1479": {
+    "Meaning": "High Fan Control Primary Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1480": {
+    "Meaning": "Fan Secondary Low with Low Fans On",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1481": {
+    "Meaning": "Fan Secondary Low with High Fans On",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1482": {
+    "Meaning": "SCP",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1483": {
+    "Meaning": "Power to Cooling Fan Exceeded Normal Draw",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1484": {
+    "Meaning": "Variable Load Control Module Pin 1 Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1485": {
+    "Meaning": "EGRV Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1500": {
+    "Meaning": "Vehicle Speed Sensor Intermittent",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1501": {
+    "Meaning": "Programmable Speedometer & Odometer Module Vehicle Speed Sensor Intermittent Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1502": {
+    "Meaning": "Invalid or Missing Vehicle Speed Message or Brake Data",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1504": {
+    "Meaning": "Intake Air Control Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1505": {
+    "Meaning": "Idle Air Control System at Adaptive Clip",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1506": {
+    "Meaning": "Idle Air Control Over Speed Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1507": {
+    "Meaning": "Idle Air Control Under Speed Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1512": {
+    "Meaning": "Intake Manifold Runner Control Stuck Closed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1513": {
+    "Meaning": "Intake Manifold Runner Control Stuck Closed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1516": {
+    "Meaning": "Intake Manifold Runner Control Input Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1517": {
+    "Meaning": "Intake Manifold Runner Control Input Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1518": {
+    "Meaning": "Intake Manifold Runner Control Fault Stuck Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1519": {
+    "Meaning": "Intake Manifold Runner Control Fault Stuck Closed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1520": {
+    "Meaning": "Intake Manifold Runner Control Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1530": {
+    "Meaning": "Open or Short to A/C Compressor Clutch Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1531": {
+    "Meaning": "Invalid Test Accelerator Pedal Movement",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1532": {
+    "Meaning": "IMCC Circuit Malfunction Bank B",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1533": {
+    "Meaning": "AAI Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1534": {
+    "Meaning": "Inertia Switch Activated",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1536": {
+    "Meaning": "Parking Brake Switch Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1537": {
+    "Meaning": "Intake Manifold Runner Control Stuck Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1538": {
+    "Meaning": "Intake Manifold Runner Control Stuck Open",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1539": {
+    "Meaning": "Power to A/C Compressor Clutch Circuit Exceeded Normal Current Draw",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1549": {
+    "Meaning": "Intake Manifold Temperature Valve Vacuum Actuator Connection",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1550": {
+    "Meaning": "Power Steering Pressure Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1565": {
+    "Meaning": "Speed Control Command Switch Out of Range High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1566": {
+    "Meaning": "Speed Control Command Switch Out of Range Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1567": {
+    "Meaning": "Speed Control Output Circuit Continuity",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1568": {
+    "Meaning": "Speed Control Unable to Hold Speed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1572": {
+    "Meaning": "Brake Pedal Switch Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1573": {
+    "Meaning": "Throttle Position Not Available",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1574": {
+    "Meaning": "Throttle Position Sensor Disagreement Between Sensors",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1575": {
+    "Meaning": "Pedal Position Out of Self Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1576": {
+    "Meaning": "Pedal Position Not Available",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1577": {
+    "Meaning": "Pedal Position Sensor Disagreement Between Sensors",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1578": {
+    "Meaning": "ETC Power Less Than Demand",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1579": {
+    "Meaning": "ETC In Power Limiting Mode",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1580": {
+    "Meaning": "Electronic Throttle Monitor PCM Override",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1581": {
+    "Meaning": "Electronic Throttle Monitor Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1582": {
+    "Meaning": "Electronic Throttle Monitor Data Available",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1583": {
+    "Meaning": "Electronic Throttle Monitor Cruise Disable",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1584": {
+    "Meaning": "Throttle Control Detected ETB Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1585": {
+    "Meaning": "Throttle Control Unit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1586": {
+    "Meaning": "Throttle Control Unit Throttle Position Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1587": {
+    "Meaning": "Throttle Control Unit Modulated Command Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1588": {
+    "Meaning": "Throttle Control Unit Detected Loss of Return Spring",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1589": {
+    "Meaning": "Throttle Control Unit Unable To Control Desired Throttle Angle",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1600": {
+    "Meaning": "Loss of KAM Power Open Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1605": {
+    "Meaning": "PCM Keep Alive Memory Test Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1625": {
+    "Meaning": "Voltage to Vehicle Load Control Module Fan Circuit Not Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1626": {
+    "Meaning": "Voltage to Vehicle Load Control Module Circuit Not Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1634": {
+    "Meaning": "Data Output Link Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1635": {
+    "Meaning": "Tire Axle Ratio Out of Acceptable Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1636": {
+    "Meaning": "Inductive Signature Chip Communication Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1639": {
+    "Meaning": "Vehicle ID Block Corrupted or Not Programmed",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1640": {
+    "Meaning": "Powertrain DTCs Available in Another Module",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1641": {
+    "Meaning": "Fuel Pump Primary Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1642": {
+    "Meaning": "Fuel Pump Monitor Circuit High Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1643": {
+    "Meaning": "Fuel Pump Monitor Circuit Low Input",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1644": {
+    "Meaning": "Fuel Pump Speed Control Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1650": {
+    "Meaning": "Power Steering Pressure Switch Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1651": {
+    "Meaning": "Power Steering Pressure Switch Input Fault",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1656": {
+    "Meaning": "CAN Link PCM PCM Circuit Network",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1657": {
+    "Meaning": "CAN Link Chip Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1660": {
+    "Meaning": "Output Circuit Check Signal High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1661": {
+    "Meaning": "Output Circuit Check Signal Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1662": {
+    "Meaning": "IDM_EN Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1663": {
+    "Meaning": "Fuel Demand Command Signal Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1667": {
+    "Meaning": "CI Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1668": {
+    "Meaning": "PCM IDM Communications Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1670": {
+    "Meaning": "Electronic Feedback Signal Not Detected",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1690": {
+    "Meaning": "Wastegate Solenoid Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1700": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1701": {
+    "Meaning": "Reverse Engagement Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1702": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1703": {
+    "Meaning": "Brake On Off Switch Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1704": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1705": {
+    "Meaning": "Manual Lever Position Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1706": {
+    "Meaning": "High Vehicle Speed Observed in Park",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1707": {
+    "Meaning": "Transfer Case Neutral Indicator Hard Fault Present",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1709": {
+    "Meaning": "Park or Neutral Position Switch Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1710": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1711": {
+    "Meaning": "Transmission Fluid Temperature Sensor Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1712": {
+    "Meaning": "Trans Torque Reduction Request Signal Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1713": {
+    "Meaning": "TFT Sensor In Range Failure Low Value",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1714": {
+    "Meaning": "SSA Inductive Signature Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1715": {
+    "Meaning": "SSB Inductive Signature Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1716": {
+    "Meaning": "SSC Inductive Signature Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1717": {
+    "Meaning": "SSD Inductive Signature Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1718": {
+    "Meaning": "TFT Sensor In Range Failure High",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1720": {
+    "Meaning": "Vehicle Speed Meter Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1721": {
+    "Meaning": "Gear 1 Incorrect Ratio",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1722": {
+    "Meaning": "Gear 2 Incorrect Ratio",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1723": {
+    "Meaning": "Gear 3 incorrect Ratio",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1724": {
+    "Meaning": "Gear 4 Incorrect Ratio",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1725": {
+    "Meaning": "Insufficient Engine Speed Increase During Self Test",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1726": {
+    "Meaning": "Insufficient Engine Speed Decrease During Self Test",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1727": {
+    "Meaning": "Coast Clutch Solenoid Inductive Signature Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1728": {
+    "Meaning": "Transmission Slip Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1729": {
+    "Meaning": "4x4 Low Switch Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1731": {
+    "Meaning": "1-2 Shift Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1732": {
+    "Meaning": "2-3 Shift Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1733": {
+    "Meaning": "3-4 Shift Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1740": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1741": {
+    "Meaning": "Torque Converter Clutch Control Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1742": {
+    "Meaning": "Torque Converter Clutch Solenoid Faulty",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1743": {
+    "Meaning": "Torque Converter Clutch Solenoid Faulty",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1744": {
+    "Meaning": "Torque Converter Clutch System Stuck in Off Position",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1745": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1746": {
+    "Meaning": "Electronic Pressure Control Solenoid A Open Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1747": {
+    "Meaning": "Electronic Pressure Control Solenoid A Short Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1748": {
+    "Meaning": "EPC Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1749": {
+    "Meaning": "Electronic Pressure Control Solenoid Failed Low",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1751": {
+    "Meaning": "Shift Solenoid A Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1754": {
+    "Meaning": "Coast Clutch Solenoid Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1756": {
+    "Meaning": "Shift Solenoid B Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1760": {
+    "Meaning": "Transmission system problems",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1761": {
+    "Meaning": "Shift Solenoid C Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1762": {
+    "Meaning": "Overdrive Band Failed Off",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1766": {
+    "Meaning": "Shift Solenoid D Performance",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1767": {
+    "Meaning": "Torque Converter Clutch Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1768": {
+    "Meaning": "Performance Normal Winter Mode Input Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1770": {
+    "Meaning": "Clutch Solenoid Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1779": {
+    "Meaning": "Transmission Control Indicator Lamp Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1780": {
+    "Meaning": "Transmission Control Switch Circuit is Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1781": {
+    "Meaning": "4x4 Low Switch is Out of Self-Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1782": {
+    "Meaning": "P/ES Circuit Out Of Self Test Range",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1783": {
+    "Meaning": "Transmission Over-Temperature Condition",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1784": {
+    "Meaning": "Transmission Mechanical Failure First And Reverse",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1785": {
+    "Meaning": "Transmission Mechanical Failure First And Second",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1786": {
+    "Meaning": "3-2 Downshift Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1787": {
+    "Meaning": "2-1 Downshift Error",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1788": {
+    "Meaning": "Pressure Control Solenoid B Open Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1789": {
+    "Meaning": "Pressure Control Solenoid B Short Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1795": {
+    "Meaning": "Idle Switch Circuit Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1804": {
+    "Meaning": "Transmission 4-Wheel Drive High Indicator Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1806": {
+    "Meaning": "Transmission 4-Wheel Drive High Indicator Short Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1808": {
+    "Meaning": "Transmission 4-Wheel Drive Low Indicator Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1810": {
+    "Meaning": "TFP Valve Position Switch Circuit Transmission 4-Wheel Drive Low Indicator Short Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1812": {
+    "Meaning": "Transmission 4-Wheel Drive Mode Select Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1815": {
+    "Meaning": "Transmission 4-Wheel Drive Mode Select Short Circuit To Ground",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1819": {
+    "Meaning": "Transmission Neutral Safety Switch Short Circuit To Ground",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1820": {
+    "Meaning": "Transmission Transfer Case Clockwise Shift Relay Coil Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1822": {
+    "Meaning": "Transmission Transfer Case Clockwise Shift Relay Coil Short Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1824": {
+    "Meaning": "Transmission 4-Wheel Drive Clutch Relay Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1826": {
+    "Meaning": "Transmission 4-Wheel Drive Low Clutch Relay Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1828": {
+    "Meaning": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1830": {
+    "Meaning": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Short Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1832": {
+    "Meaning": "Transmission Transfer Case Differential Lock-Up Solenoid Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1834": {
+    "Meaning": "Transmission Transfer Case Differential Lock-Up Solenoid Short Circuit To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1838": {
+    "Meaning": "Transmission Transfer Case Shift Motor Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1846": {
+    "Meaning": "Transmission Transfer Case Contact Plate A Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1850": {
+    "Meaning": "Transmission Transfer Case Contact Plate B Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1854": {
+    "Meaning": "Transmission Transfer Case Contact Plate C Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1858": {
+    "Meaning": "Transmission Transfer Case Contact Plate D Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1866": {
+    "Meaning": "Transmission Transfer Case System Concern Servicing Required",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1867": {
+    "Meaning": "Transmission Transfer Case Contact Plate General Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1876": {
+    "Meaning": "Transmission Transfer Case 2-Wheel Drive Solenoid Circuit Failure",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1877": {
+    "Meaning": "Transmission Transfer Case 2-Wheel Drive Solenoid Circuit Short To Battery",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1881": {
+    "Meaning": "Engine Coolant Level Switch Circuit Failure GEM",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1882": {
+    "Meaning": "Engine Coolant Level Switch Circuit Short to Ground",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1883": {
+    "Meaning": "Engine Coolant Level Switch Circuit Failure GEM",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1884": {
+    "Meaning": "Engine Coolant Level Lamp Circuit Short to Ground",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1891": {
+    "Meaning": "Transmission Transfer Case Contact Plate Ground Return Open Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1900": {
+    "Meaning": "Output Shaft Speed OSS Circuit Intermittent Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1901": {
+    "Meaning": "Turbine Shaft Speed TSS Circuit Intermittent Malfunction",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1902": {
+    "Meaning": "Kickdown Solenoid Relay Control Circuit",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1903": {
+    "Meaning": "Kickdown Solenoid Circuit Low Voltage",
+    "Brand": "MERCURY_CODES"
+  },
+  "P1904": {
+    "Meaning": "Kickdown Solenoid Circuit High Voltage",
+    "Brand": "MERCURY_CODES"
+  }
+}

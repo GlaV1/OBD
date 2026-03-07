@@ -1,0 +1,654 @@
+{
+  "P1000": {
+    "Meaning": "OBD Systems Readiness Test Not Complete",
+    "Brand": "JAGUAR"
+  },
+  "P1104": {
+    "Meaning": "Mass Air Flow Sensor Circuit Ground",
+    "Brand": "JAGUAR"
+  },
+  "P1111": {
+    "Meaning": "System Pass",
+    "Brand": "JAGUAR"
+  },
+  "P1121": {
+    "Meaning": "Pedal Position Sensor A Circuit Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1122": {
+    "Meaning": "Pedal Position Sensor A Circuit Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1123": {
+    "Meaning": "Pedal Position Sensor A Circuit High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1136": {
+    "Meaning": "Control Box Fan Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1137": {
+    "Meaning": "Lack Of HO2S12 Switches Sensor Indicates Lean",
+    "Brand": "JAGUAR"
+  },
+  "P1138": {
+    "Meaning": "Lack Of HO2S12 Switches Sensor Indicates Rich",
+    "Brand": "JAGUAR"
+  },
+  "P1143": {
+    "Meaning": "Air Assisted Injector Control Valve Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1144": {
+    "Meaning": "Air Assisted Injector Control Valve Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1157": {
+    "Meaning": "Lack Of HO2S22 Switches Sensor Indicates Lean",
+    "Brand": "JAGUAR"
+  },
+  "P1158": {
+    "Meaning": "Lack Of HO2S22 Switches Sensor Indicates Rich",
+    "Brand": "JAGUAR"
+  },
+  "P1171": {
+    "Meaning": "System Too Lean Banks 1 And 2 (Lean Fuel Fault)",
+    "Brand": "JAGUAR"
+  },
+  "P1172": {
+    "Meaning": "System Too Rich Banks 1 And 2 (Rich Fuel Fault)",
+    "Brand": "JAGUAR"
+  },
+  "P1174": {
+    "Meaning": "System Too Lean Banks 1 And 2 (Suspect HO2S)",
+    "Brand": "JAGUAR"
+  },
+  "P1175": {
+    "Meaning": "System Too Rich Banks 1 And 2 (Suspect HO2S)",
+    "Brand": "JAGUAR"
+  },
+  "P1176": {
+    "Meaning": "Long Term Fuel Trim Too Lean Banks 1 And 2 (FMFR)",
+    "Brand": "JAGUAR"
+  },
+  "P1177": {
+    "Meaning": "Long Term Fuel Trim Too Rich Banks 1 And 2 (FMFR)",
+    "Brand": "JAGUAR"
+  },
+  "P1178": {
+    "Meaning": "Long Term Fuel Trim Too Lean Banks 1 And 2 (AMFR)",
+    "Brand": "JAGUAR"
+  },
+  "P1179": {
+    "Meaning": "Long Term Fuel Trim Too Rich Banks 1 And 2 (AMFR)",
+    "Brand": "JAGUAR"
+  },
+  "P1185": {
+    "Meaning": "O2 Sensor Heater Circuit Open, Hardware Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1186": {
+    "Meaning": "O2 Sensor Heater Circuit Shorted, Hardware Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1187": {
+    "Meaning": "O2 Sensor Heater Circuit Open, Inferred Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1188": {
+    "Meaning": "O2 Sensor Heater Circuit Resistance",
+    "Brand": "JAGUAR"
+  },
+  "P1189": {
+    "Meaning": "O2 Sensor Heater Circuit Low Resistance Fault 1",
+    "Brand": "JAGUAR"
+  },
+  "P1190": {
+    "Meaning": "O2 Sensor Heater Circuit Low Resistance Fault 2",
+    "Brand": "JAGUAR"
+  },
+  "P1191": {
+    "Meaning": "O2 Sensor Heater Circuit Open, HArdware Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1192": {
+    "Meaning": "O2 Sensor Heater Circuit Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1193": {
+    "Meaning": "O2 Sensor Heater Circuit Open, Inferred Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1194": {
+    "Meaning": "O2 Sensor Heater Circuit Resistance Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1195": {
+    "Meaning": "O2 Sensor Heater Circuit Low Resistance Fault 1",
+    "Brand": "JAGUAR"
+  },
+  "P1196": {
+    "Meaning": "O2 Sensor Heater Circuit Low Resistance Fault 2",
+    "Brand": "JAGUAR"
+  },
+  "P1198": {
+    "Meaning": "Fuel Level Input Circuit High",
+    "Brand": "JAGUAR"
+  },
+  "P1199": {
+    "Meaning": "Fuel Level Input Circuit Low",
+    "Brand": "JAGUAR"
+  },
+  "P1201": {
+    "Meaning": "Cylinder 1 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1202": {
+    "Meaning": "Cylinder 2 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1203": {
+    "Meaning": "Cylinder 3 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1204": {
+    "Meaning": "Cylinder 4 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1205": {
+    "Meaning": "Cylinder 5 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1206": {
+    "Meaning": "Cylinder 6 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1207": {
+    "Meaning": "Cylinder 7 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1208": {
+    "Meaning": "Cylinder 8 Injector Circuit Open/Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1221": {
+    "Meaning": "Pedal Demand Sensor B Circuit Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1224": {
+    "Meaning": "Electronic Throttle Control Position Error",
+    "Brand": "JAGUAR"
+  },
+  "P1226": {
+    "Meaning": "Mechanical Guard Circuit Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1227": {
+    "Meaning": "Mechanical Guard Circuit Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1228": {
+    "Meaning": "Mechanical Guard Circuit High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1229": {
+    "Meaning": "Electronic Throttle Control Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1230": {
+    "Meaning": "Fuel Pump Relay",
+    "Brand": "JAGUAR"
+  },
+  "P1235": {
+    "Meaning": "VSV 1/2/3 Circuit Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1236": {
+    "Meaning": "VSV 1 Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1237": {
+    "Meaning": "VSV 2 Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1238": {
+    "Meaning": "VSV 3 Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1240": {
+    "Meaning": "Sensor Power Supply",
+    "Brand": "JAGUAR"
+  },
+  "P1241": {
+    "Meaning": "Sensor Power Supply Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1242": {
+    "Meaning": "Sensor Power Supply High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1243": {
+    "Meaning": "Analog Ground",
+    "Brand": "JAGUAR"
+  },
+  "P1245": {
+    "Meaning": "Crank Signal Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1246": {
+    "Meaning": "Crank Signal High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1250": {
+    "Meaning": "Throttle Valve Spring",
+    "Brand": "JAGUAR"
+  },
+  "P1251": {
+    "Meaning": "Throttle Position",
+    "Brand": "JAGUAR"
+  },
+  "P1252": {
+    "Meaning": "VSV Stuck On VA/VV",
+    "Brand": "JAGUAR"
+  },
+  "P1253": {
+    "Meaning": "VSV Stuck On VR",
+    "Brand": "JAGUAR"
+  },
+  "P1260": {
+    "Meaning": "Theft Detected Vehicle Immobilized",
+    "Brand": "JAGUAR"
+  },
+  "P1313": {
+    "Meaning": "Misfire Rate Catalyst Damage Fault Bank 1",
+    "Brand": "JAGUAR"
+  },
+  "P1314": {
+    "Meaning": "Misfire Rate Catalyst Damage Fault Bank 2",
+    "Brand": "JAGUAR"
+  },
+  "P1315": {
+    "Meaning": "Persistent Misfire",
+    "Brand": "JAGUAR"
+  },
+  "P1316": {
+    "Meaning": "Misfire Rate Exceeds Emissions",
+    "Brand": "JAGUAR"
+  },
+  "P1336": {
+    "Meaning": "Crankshaft Camshaft Sensor Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1340": {
+    "Meaning": "Camshaft Position Sensor B Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1341": {
+    "Meaning": "Camshaft Position Sensor B Circuit Range Performance",
+    "Brand": "JAGUAR"
+  },
+  "P1361": {
+    "Meaning": "Ignition Coil Cylinder 1 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1362": {
+    "Meaning": "Ignition Coil Cylinder 2 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1363": {
+    "Meaning": "Ignition Coil Cylinder 3 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1364": {
+    "Meaning": "Ignition Coil Cylinder 4 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1365": {
+    "Meaning": "Ignition Coil Cylinder 5 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1366": {
+    "Meaning": "Ignition Coil Cylinder 6 No Activation",
+    "Brand": "JAGUAR"
+  },
+  "P1367": {
+    "Meaning": "Ignition System Failure Group 1",
+    "Brand": "JAGUAR"
+  },
+  "P1368": {
+    "Meaning": "Ignition System Failure Group 2",
+    "Brand": "JAGUAR"
+  },
+  "P1370": {
+    "Meaning": "Insufficient RPM Increase During Spark Test",
+    "Brand": "JAGUAR"
+  },
+  "P1371": {
+    "Meaning": "Ignition Coil Cylinder 1 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1372": {
+    "Meaning": "Ignition Coil Cylinder 2 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1373": {
+    "Meaning": "Ignition Coil Cylinder 3 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1374": {
+    "Meaning": "Ignition Coil Cylinder 4 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1375": {
+    "Meaning": "Ignition Coil Cylinder 5 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1376": {
+    "Meaning": "Ignition Coil Cylinder 6 Early Activation Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1384": {
+    "Meaning": "Variable Valve Timing Solenoid A Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1392": {
+    "Meaning": "Variable Valve Timing Solenoid A Circuit Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1393": {
+    "Meaning": "Variable Valve Timing Solenoid A Circuit High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1396": {
+    "Meaning": "Variable Valve Timing Solenoid B Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1397": {
+    "Meaning": "Variable Valve Timing Solenoid B Circuit Low Input",
+    "Brand": "JAGUAR"
+  },
+  "P1398": {
+    "Meaning": "Variable Valve Timing Solenoid B Circuit High Input",
+    "Brand": "JAGUAR"
+  },
+  "P1400": {
+    "Meaning": "Exhaust Gas Recirculation Valve Postion Control",
+    "Brand": "JAGUAR"
+  },
+  "P1401": {
+    "Meaning": "Exhaust Gas Recirculation Valve Postion Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1408": {
+    "Meaning": "Exhaust Gas Recirculation Thermister",
+    "Brand": "JAGUAR"
+  },
+  "P1409": {
+    "Meaning": "Exhaust Gas Recirculation Valve Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1440": {
+    "Meaning": "Purge Valve Stuck Open",
+    "Brand": "JAGUAR"
+  },
+  "P1441": {
+    "Meaning": "ELC System 1",
+    "Brand": "JAGUAR"
+  },
+  "P1447": {
+    "Meaning": "ELC System Closure Valve Flow",
+    "Brand": "JAGUAR"
+  },
+  "P1448": {
+    "Meaning": "ELC System 2",
+    "Brand": "JAGUAR"
+  },
+  "P1453": {
+    "Meaning": "Fuel Tank Pressure Relief Valve Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1454": {
+    "Meaning": "Evaporative Emission Control System Vacuum Test",
+    "Brand": "JAGUAR"
+  },
+  "P1475": {
+    "Meaning": "Fan Relay Low Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1476": {
+    "Meaning": "Fan Relay High Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1508": {
+    "Meaning": "Idle Air Control Circuit Open",
+    "Brand": "JAGUAR"
+  },
+  "P1509": {
+    "Meaning": "Idle Air Control Circuit Shorted",
+    "Brand": "JAGUAR"
+  },
+  "P1514": {
+    "Meaning": "High Load Neutral Drive Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1516": {
+    "Meaning": "Gear Change Neutral Drive Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1517": {
+    "Meaning": "Cranking Neutral Drive Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1534": {
+    "Meaning": "Restraint Deployment Indicator Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1565": {
+    "Meaning": "Speed Control Command Switch Out Of Range High",
+    "Brand": "JAGUAR"
+  },
+  "P1566": {
+    "Meaning": "Speed Control Command Switch Out Range Low",
+    "Brand": "JAGUAR"
+  },
+  "P1567": {
+    "Meaning": "Speed Control Output Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1568": {
+    "Meaning": "Speed Control Unable To Hold Speed",
+    "Brand": "JAGUAR"
+  },
+  "P1571": {
+    "Meaning": "Brake Switch",
+    "Brand": "JAGUAR"
+  },
+  "P1582": {
+    "Meaning": "Electronic Throttle Monitor Data Available",
+    "Brand": "JAGUAR"
+  },
+  "P1600": {
+    "Meaning": "Loss Of Kam Power Circuit Open",
+    "Brand": "JAGUAR"
+  },
+  "P1603": {
+    "Meaning": "EEPROM Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1605": {
+    "Meaning": "Keep Alive Memory Test Failure",
+    "Brand": "JAGUAR"
+  },
+  "P1606": {
+    "Meaning": "ECM Control Relay Output Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1607": {
+    "Meaning": "MIL Output Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1608": {
+    "Meaning": "Watchdog Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1609": {
+    "Meaning": "Internal Control Module CPU To CPU Communication Failure",
+    "Brand": "JAGUAR"
+  },
+  "P1611": {
+    "Meaning": "Throttle Target Malfunction 1",
+    "Brand": "JAGUAR"
+  },
+  "P1612": {
+    "Meaning": "Throttle Offset Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1637": {
+    "Meaning": "CAN Link ECM ABS Control Module Circuit Network",
+    "Brand": "JAGUAR"
+  },
+  "P1638": {
+    "Meaning": "CAN Link ECM INSTM Circuit Network",
+    "Brand": "JAGUAR"
+  },
+  "P1641": {
+    "Meaning": "Fuel Pump Primary Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1642": {
+    "Meaning": "CAN Link Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1643": {
+    "Meaning": "CAN Link Engine Control Module Transmission Control Module Circuit Network",
+    "Brand": "JAGUAR"
+  },
+  "P1646": {
+    "Meaning": "Linear O2 Sensor Control Chip Bank 1",
+    "Brand": "JAGUAR"
+  },
+  "P1647": {
+    "Meaning": "Linear O2 Sensor Control Chip Bank 2",
+    "Brand": "JAGUAR"
+  },
+  "P1648": {
+    "Meaning": "Knock Sensor Input Chip",
+    "Brand": "JAGUAR"
+  },
+  "P1696": {
+    "Meaning": "CAN Link Engine Control Module Cruise Control Module Circuit Network",
+    "Brand": "JAGUAR"
+  },
+  "P1697": {
+    "Meaning": "Cruise Control Distance Control Input Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1700": {
+    "Meaning": "Transmission Indeterminate Failure Failed To Neutral",
+    "Brand": "JAGUAR"
+  },
+  "P1720": {
+    "Meaning": "Vehicle Speed Meter Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1722": {
+    "Meaning": "Stall Speed",
+    "Brand": "JAGUAR"
+  },
+  "P1726": {
+    "Meaning": "Engine Overspeed",
+    "Brand": "JAGUAR"
+  },
+  "P1730": {
+    "Meaning": "Gear Control Malfunction 2 3 5",
+    "Brand": "JAGUAR"
+  },
+  "P1731": {
+    "Meaning": "Inconsistent Gear Ratio",
+    "Brand": "JAGUAR"
+  },
+  "P1734": {
+    "Meaning": "Gear Control Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1745": {
+    "Meaning": "Pressure Regulator 1",
+    "Brand": "JAGUAR"
+  },
+  "P1746": {
+    "Meaning": "Pressure Regulator 2",
+    "Brand": "JAGUAR"
+  },
+  "P1747": {
+    "Meaning": "Pressure Regulator 3",
+    "Brand": "JAGUAR"
+  },
+  "P1748": {
+    "Meaning": "Pressure Regulator 5",
+    "Brand": "JAGUAR"
+  },
+  "P1758": {
+    "Meaning": "Pressure Solenoid Control System Incorrect Current",
+    "Brand": "JAGUAR"
+  },
+  "P1775": {
+    "Meaning": "Transmission System MIL Fault",
+    "Brand": "JAGUAR"
+  },
+  "P1776": {
+    "Meaning": "Ignition Retard Request Duration",
+    "Brand": "JAGUAR"
+  },
+  "P1777": {
+    "Meaning": "Ignition Retard Request Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1778": {
+    "Meaning": "Transmission Reverse IP Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1779": {
+    "Meaning": "Load Control",
+    "Brand": "JAGUAR"
+  },
+  "P1789": {
+    "Meaning": "Ignition Supply Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1790": {
+    "Meaning": "Ignition Supply Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1791": {
+    "Meaning": "Ignition Supply Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1792": {
+    "Meaning": "Ignition Supply Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1793": {
+    "Meaning": "Ignition Supply Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1794": {
+    "Meaning": "Battery Voltage Circuit",
+    "Brand": "JAGUAR"
+  },
+  "P1795": {
+    "Meaning": "Inconsistent CAN Level",
+    "Brand": "JAGUAR"
+  },
+  "P1796": {
+    "Meaning": "CAN Controller Circuit Bus Off",
+    "Brand": "JAGUAR"
+  },
+  "P1797": {
+    "Meaning": "CAN TCM ECM Circuit Malfunction",
+    "Brand": "JAGUAR"
+  },
+  "P1798": {
+    "Meaning": "CAN TCM INST Circuit Malfunction",
+    "Brand": "JAGUAR"
+  }
+}

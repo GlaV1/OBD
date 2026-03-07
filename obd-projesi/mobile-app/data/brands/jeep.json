@@ -1,0 +1,390 @@
+{
+  "P1105": {
+    "Meaning": "Open Or Shorted Condition Detected In The Baro Read Solenoid Control Circuit",
+    "Brand": "JEEP"
+  },
+  "P1192": {
+    "Meaning": "Inlet Air Temp. Circuit Low",
+    "Brand": "JEEP"
+  },
+  "P1193": {
+    "Meaning": "Inlet Air Temp. Circuit High",
+    "Brand": "JEEP"
+  },
+  "P1194": {
+    "Meaning": "Incorrect Or Irrational Performance Has Been Detected For The PWM",
+    "Brand": "JEEP"
+  },
+  "P1195": {
+    "Meaning": "O2 Sensor 1/1 (Bank 1 Sensor 1) Slow During Catalyst Monitor",
+    "Brand": "JEEP"
+  },
+  "P1196": {
+    "Meaning": "O2 Sensor 2/1 (Bank 2 Sensor 1) Slow During Catalyst Monitor",
+    "Brand": "JEEP"
+  },
+  "P1197": {
+    "Meaning": "O2 Sensor 1/2 (Bank 1 Sensor 2) Slow During Catalyst Monitor",
+    "Brand": "JEEP"
+  },
+  "P1198": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1199": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1243": {
+    "Meaning": "Open Or Shorted Condition Detected In The Turbocharger Surge Valve Solenoid Control",
+    "Brand": "JEEP"
+  },
+  "P1280": {
+    "Meaning": "Open Or Shorted Condition Detected In The Fuel System Relay Control Circuit",
+    "Brand": "JEEP"
+  },
+  "P1281": {
+    "Meaning": "Engine Operating Temp Below Acceptable Range",
+    "Brand": "JEEP"
+  },
+  "P1282": {
+    "Meaning": "Fuel Pump Relay Control Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1283": {
+    "Meaning": "Idle Select Signal Invalid",
+    "Brand": "JEEP"
+  },
+  "P1284": {
+    "Meaning": "Fuel Injection Pump Battery Voltage Out Of Range",
+    "Brand": "JEEP"
+  },
+  "P1285": {
+    "Meaning": "Fuel Injection Pump Controller Always On",
+    "Brand": "JEEP"
+  },
+  "P1286": {
+    "Meaning": "Accelerator Pedal Position Sensor Supply Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1287": {
+    "Meaning": "Fuel Injection Pump Controller Supply Voltage Low",
+    "Brand": "JEEP"
+  },
+  "P1288": {
+    "Meaning": "Intake Manifold Short Runner Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1289": {
+    "Meaning": "Manifold Tune Valve Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1290": {
+    "Meaning": "CNG Fuel Pressure Too High",
+    "Brand": "JEEP"
+  },
+  "P1291": {
+    "Meaning": "No Temp Rise Seen From Fuel Heaters",
+    "Brand": "JEEP"
+  },
+  "P1292": {
+    "Meaning": "CNG Pressure Sensor Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1293": {
+    "Meaning": "CNG Pressure Sensor Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1294": {
+    "Meaning": "Target Idle Not Reached",
+    "Brand": "JEEP"
+  },
+  "P1295": {
+    "Meaning": "Loss Of 5 Volts To TP Sensor",
+    "Brand": "JEEP"
+  },
+  "P1296": {
+    "Meaning": "Loss Of 5 Volts To MAP Sensor",
+    "Brand": "JEEP"
+  },
+  "P1297": {
+    "Meaning": "No Change In MAP From Start To Run",
+    "Brand": "JEEP"
+  },
+  "P1298": {
+    "Meaning": "Lean Operation At Wide Open Throttle",
+    "Brand": "JEEP"
+  },
+  "P1299": {
+    "Meaning": "Vacuum Leak Found (IAC Fully Seated)",
+    "Brand": "JEEP"
+  },
+  "P1388": {
+    "Meaning": "Auto Shutdown (ASD) Relay Control Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1389": {
+    "Meaning": "No Auto Shutdown (ASD) Relay Output Voltage At PCM",
+    "Brand": "JEEP"
+  },
+  "P1390": {
+    "Meaning": "Timing Belt Skipped One Tooth Or More",
+    "Brand": "JEEP"
+  },
+  "P1391": {
+    "Meaning": "Intermittent Loss of CMP Or CKP",
+    "Brand": "JEEP"
+  },
+  "P1398": {
+    "Meaning": "PCM Is Unable To Learn The Crankshaft Position Sensor's Signal",
+    "Brand": "JEEP"
+  },
+  "P1399": {
+    "Meaning": "Wait To Start Lamp Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1403": {
+    "Meaning": "Loss Of 5 Volts To EGR Sensor",
+    "Brand": "JEEP"
+  },
+  "P1475": {
+    "Meaning": "Auxiliary 5 Volt Output Too High",
+    "Brand": "JEEP"
+  },
+  "P1476": {
+    "Meaning": "Too Little Secondary Air",
+    "Brand": "JEEP"
+  },
+  "P1477": {
+    "Meaning": "Too Much Secondary Air",
+    "Brand": "JEEP"
+  },
+  "P1478": {
+    "Meaning": "Battery Temp Sensor Voltage Out Of Limit",
+    "Brand": "JEEP"
+  },
+  "P1479": {
+    "Meaning": "Transmission Fan Relay Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1480": {
+    "Meaning": "Open Or Shorted Condition Detected In The Positive Crankcase Ventilation (PCV",
+    "Brand": "JEEP"
+  },
+  "P1481": {
+    "Meaning": "EATX RPM Pulse Generator Signal For Misfire Detection",
+    "Brand": "JEEP"
+  },
+  "P1482": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted Low",
+    "Brand": "JEEP"
+  },
+  "P1483": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted High",
+    "Brand": "JEEP"
+  },
+  "P1484": {
+    "Meaning": "Catalytic Converter Overheat Detected",
+    "Brand": "JEEP"
+  },
+  "P1485": {
+    "Meaning": "Air Injection Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1486": {
+    "Meaning": "Evap Leak Monitor Pinched Hose",
+    "Brand": "JEEP"
+  },
+  "P1487": {
+    "Meaning": "Hi Speed Rad Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1488": {
+    "Meaning": "Auxiliary 5 Volt Supply Output Too Low",
+    "Brand": "JEEP"
+  },
+  "P1489": {
+    "Meaning": "High Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1490": {
+    "Meaning": "Low Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1491": {
+    "Meaning": "Radiator Fan Control Relay Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1492": {
+    "Meaning": "Battery Temperature Sensor Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1493": {
+    "Meaning": "Battery Temperature Sensor Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1494": {
+    "Meaning": "Leak Detection Pump Switch Or Mechanical Fault",
+    "Brand": "JEEP"
+  },
+  "P1495": {
+    "Meaning": "Leak Detection Pump Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1496": {
+    "Meaning": "5 Volt Supply Output Too Low",
+    "Brand": "JEEP"
+  },
+  "P1498": {
+    "Meaning": "High Speed Rad Fan Ground CTRL Rly Circuit",
+    "Brand": "JEEP"
+  },
+  "P1499": {
+    "Meaning": "Open Or Shorted Condition Detected In The Hydraulic Cooling Fan Solenoid Control",
+    "Brand": "JEEP"
+  },
+  "P1594": {
+    "Meaning": "Charging System Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1595": {
+    "Meaning": "Speed Control Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1596": {
+    "Meaning": "Speed Control Switch Always High",
+    "Brand": "JEEP"
+  },
+  "P1597": {
+    "Meaning": "Speed Control Switch Always Low",
+    "Brand": "JEEP"
+  },
+  "P1598": {
+    "Meaning": "A/C Pressure Sensor Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1599": {
+    "Meaning": "A/C Pressure Sensor Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1602": {
+    "Meaning": "PCM Not Programmed",
+    "Brand": "JEEP"
+  },
+  "P1680": {
+    "Meaning": "Clutch Released Switch Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1681": {
+    "Meaning": "No Instrument Panel Cluster CCD/J1850 Messages Received",
+    "Brand": "JEEP"
+  },
+  "P1682": {
+    "Meaning": "Charging System Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1683": {
+    "Meaning": "Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1684": {
+    "Meaning": "Battery Disconnected Within Last 50 Starts",
+    "Brand": "JEEP"
+  },
+  "P1685": {
+    "Meaning": "Skim Invalid Key",
+    "Brand": "JEEP"
+  },
+  "P1686": {
+    "Meaning": "No SKIM Bus Message Received",
+    "Brand": "JEEP"
+  },
+  "P1687": {
+    "Meaning": "No Cluster Bus Message",
+    "Brand": "JEEP"
+  },
+  "P1688": {
+    "Meaning": "Internal Fuel Injection Pump Controller Failure",
+    "Brand": "JEEP"
+  },
+  "P1689": {
+    "Meaning": "No Communication Between ECM & Injection Pump Module",
+    "Brand": "JEEP"
+  },
+  "P1690": {
+    "Meaning": "Fuel Injection Pump CKP Sensor Does Not Agree With ECM CKP Sensor",
+    "Brand": "JEEP"
+  },
+  "P1691": {
+    "Meaning": "Fuel Injection Pump Controller Calibration Failure",
+    "Brand": "JEEP"
+  },
+  "P1693": {
+    "Meaning": "DTC Detected In ECM Or PCM",
+    "Brand": "JEEP"
+  },
+  "P1694": {
+    "Meaning": "No CCD Messages Received From ECM",
+    "Brand": "JEEP"
+  },
+  "P1695": {
+    "Meaning": "No CCD/J1850 Message From BCM",
+    "Brand": "JEEP"
+  },
+  "P1696": {
+    "Meaning": "PCM Failure EEPROM Write Denied",
+    "Brand": "JEEP"
+  },
+  "P1697": {
+    "Meaning": "PCM Failure SRI Mile Not Stored",
+    "Brand": "JEEP"
+  },
+  "P1698": {
+    "Meaning": "No CCD Messages Received From PCM",
+    "Brand": "JEEP"
+  },
+  "P1699": {
+    "Meaning": "No CCD/J1850 Messages Received From The Climate Control Module (CCM)",
+    "Brand": "JEEP"
+  },
+  "P1719": {
+    "Meaning": "Skip Shift Solenoid Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1740": {
+    "Meaning": "TCC Or OD Solenoid Performance",
+    "Brand": "JEEP"
+  },
+  "P1756": {
+    "Meaning": "Governor Pressure Not Equal To Target At 15 20 PSI",
+    "Brand": "JEEP"
+  },
+  "P1757": {
+    "Meaning": "Governor Pressure Above 3 PSI When Request Is 0 PSI",
+    "Brand": "JEEP"
+  },
+  "P1762": {
+    "Meaning": "Governor Pressure Sensor Offset Improper Voltage",
+    "Brand": "JEEP"
+  },
+  "P1763": {
+    "Meaning": "Governor Pressure Sensor Voltage Too High",
+    "Brand": "JEEP"
+  },
+  "P1764": {
+    "Meaning": "Governor Pressure Sensor Voltage Too Low",
+    "Brand": "JEEP"
+  },
+  "P1765": {
+    "Meaning": "Trans 12 Volt Supply Relay Control Circuit Open Or Shorted",
+    "Brand": "JEEP"
+  },
+  "P1830": {
+    "Meaning": "Open Or Shorted Condition Detected In The Clutch Pedal Switch Over-Ride Relay Control",
+    "Brand": "JEEP"
+  },
+  "P1899": {
+    "Meaning": "Park Neutral Position Switch Stuck In Park or In Gear",
+    "Brand": "JEEP"
+  }
+}

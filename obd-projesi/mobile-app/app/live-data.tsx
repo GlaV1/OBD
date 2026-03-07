@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import { ProgressChart } from 'react-native-chart-kit'; // Grafik kütüphanemiz eklendi
 
 // DİKKAT: Buraya kendi bilgisayarının IP adresini yazmayı unutma!
-const SERVER_URL = 'http://192.168.X.X:3000'; 
+const SERVER_URL = 'http://192.168.1.101';
 const screenWidth = Dimensions.get("window").width;
 
 export default function App() {

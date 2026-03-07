@@ -1,0 +1,430 @@
+{
+  "B0081": {
+    "Meaning": "Wiring issues, Control module problems, A problem with the airbag",
+    "Brand": "AUDI"
+  },
+  "C0040": {
+    "Meaning": "A faulty wheel speed sensor, A problem with the wheel speed sensor circuit, Reluctor issues, A problem with the ABS module",
+    "Brand": "AUDI"
+  },
+  "P0010": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Variable valve timing actuator failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0011": {
+    "Meaning": "Camshaft variable timing solenoid failure, Engine oil level is too low, The engine is not timed correctly, The engine oil does not meet the manufacturer's requirements, Variable valve timing actuator failure, Worn timing chain",
+    "Brand": "AUDI"
+  },
+  "P0012": {
+    "Meaning": "Camshaft variable timing solenoid failure, Engine oil level is too low, The engine is not timed correctly, The engine oil does not meet the manufacturer's requirements, Variable valve timing actuator failure, Worn timing chain",
+    "Brand": "AUDI"
+  },
+  "P0013": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Variable valve timing actuator failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0014": {
+    "Meaning": "Camshaft variable timing solenoid failure, Engine oil level is too low, The engine is not timed correctly, The engine oil does not meet the manufacturer's requirements, Variable valve timing actuator failure, Worn timing chain",
+    "Brand": "AUDI"
+  },
+  "P0101": {
+    "Meaning": "Large vacuum leaks, Split Intake Air Boot or PCV Hose, Defective intake manifold gaskets, Mass Airflow Sensor (MAF), Mass Air Flow Sensor circuit and or wiring problems, Defective Barometric Pressure Sensor, Dirty or contaminated Mass Air Flow Sensing wire or filament, PCM software needs to be updated",
+    "Brand": "AUDI"
+  },
+  "P0102": {
+    "Meaning": "The Mass Airflow Sensor (MAF) Sensor is unplugged or the wiring is damaged, Loose or corroded electrical terminals in the MAF Sensor circuit, Faulty MAF Sensor",
+    "Brand": "AUDI"
+  },
+  "P0113": {
+    "Meaning": "Defective Intake Air Temperature Sensor, Dirty air filter, Defective Mass Air Flow Sensor, Faulty or corroded Intake Air Temperature Sensor wiring or connections",
+    "Brand": "AUDI"
+  },
+  "P0128": {
+    "Meaning": "Defective Engine Thermostat, Defective Engine Coolant Temperature Sensor, Defective Intake Air Temperature Sensor, Defective Cooling System, Low Engine Coolant, Dirty Engine Coolant causing incorrect Coolant Temperature Sensor readings, Defective/always running Engine Cooling fan(s)",
+    "Brand": "AUDI"
+  },
+  "P0135": {
+    "Meaning": "Defective Oxygen Sensor/Air Fuel Ratio Sensor, defective Oxygen Sensor/Air Fuel Ratio Sensor Heater Circuit, Exhaust System Leak, Intake Air System leak, Low Fuel Pressure, Defective Engine Coolant Temperature Sensor, Defective sensor wiring and or circuit problem, PCM software needs to be updated, Defective PCM",
+    "Brand": "AUDI"
+  },
+  "P0171": {
+    "Meaning": "Control module software needs to be updated, Vacuum leaks (intake manifold gaskets, vacuum hoses, PCV hoses, etc.), Mass air flow sensor, Plugged fuel filter or weak fuel pump, Plugged or dirty fuel injectors",
+    "Brand": "AUDI"
+  },
+  "P0174": {
+    "Meaning": "PCM software needs to be updated, Vacuum leaks (Intake Manifold Gaskets, vacuum hoses, PCV hoses, etc.), Faulty Mass Airflow (MAF) Sensor, Plugged Fuel Filter or weak Fuel Pump, Plugged or dirty Fuel Injectors",
+    "Brand": "AUDI"
+  },
+  "P0200": {
+    "Meaning": "Defective Fuel Injector, Faulty or corroded Fuel Injector, wiring, and or connections, Plugged Fuel Injector, Dirt in the Fuel Injector",
+    "Brand": "AUDI"
+  },
+  "P0201": {
+    "Meaning": "Defective Fuel Injector, Faulty or corroded Fuel Injector, wiring, and or connections, Plugged Fuel Injector, Dirt in the Fuel Injector",
+    "Brand": "AUDI"
+  },
+  "P0202": {
+    "Meaning": "Malfunction of the Fuel Injector, Malfunction of the PCM Fuel Injector driver circuit, Defective wiring/connections in the Fuel Injector wiring harness, Defective Fuel Injector power circuit(s)",
+    "Brand": "AUDI"
+  },
+  "P0203": {
+    "Meaning": "Fuel injector failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0205": {
+    "Meaning": "Fuel injector failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0300": {
+    "Meaning": "Worn out spark plugs, ignition wires, coil(s), distributor cap and rotor (when applicable), Incorrect ignition timing, Vacuum leak(s), Low or weak fuel pressure, Improperly functioning EGR system, Defective Mass Air Flow Sensor, Defective Crankshaft and or Camshaft Sensor, Defective Throttle Position Sensor, Mechanical engine problems (i.e.—low compression, leaking head gasket(s), or valve problems)",
+    "Brand": "AUDI"
+  },
+  "P0301": {
+    "Meaning": "Worn out spark plugs, ignition wires, coil(s), distributor cap and rotor (when applicable), Incorrect ignition timing, Vacuum leak(s), Low or weak fuel pressure, Improperly functioning EGR system, Defective Mass Air Flow Sensor, Defective Crankshaft and or Camshaft Sensor, Defective Throttle Position Sensor, Mechanical engine problems (i.e.—low compression, leaking head gasket(s), or valve problems)",
+    "Brand": "AUDI"
+  },
+  "P0302": {
+    "Meaning": "Worn out spark plugs, ignition wires, coil(s), distributor cap and rotor (when applicable), Incorrect ignition timing, Vacuum leak(s), Low or weak fuel pressure, Improperly functioning EGR system, Defective Mass Air Flow Sensor, Defective Crankshaft and or Camshaft Sensor, Defective Throttle Position Sensor, Mechanical engine problems (i.e.—low compression, leaking head gasket(s), or valve problems)",
+    "Brand": "AUDI"
+  },
+  "P0303": {
+    "Meaning": "Worn out spark plugs, ignition wires, coil(s), distributor cap and rotor (when applicable), Incorrect ignition timing, Vacuum leak(s), Low or weak fuel pressure, Improperly functioning EGR system, Defective Mass Air Flow Sensor, Defective Crankshaft and or Camshaft Sensor, Defective Throttle Position Sensor, Mechanical engine problems (i.e.—low compression, leaking head gasket(s), or valve problems)",
+    "Brand": "AUDI"
+  },
+  "P0304": {
+    "Meaning": "Worn out spark plugs, ignition wires, coil(s), distributor cap and rotor (when applicable), Incorrect ignition timing, Vacuum leak(s), Low or weak fuel pressure, Improperly functioning EGR system, Defective Mass Air Flow Sensor, Defective Crankshaft and or Camshaft Sensor, Defective Throttle Position Sensor, Mechanical engine problems (i.e.—low compression, leaking head gasket(s), or valve problems)",
+    "Brand": "AUDI"
+  },
+  "P0401": {
+    "Meaning": "Restriction in the EGR passages usually caused by carbon buildup, The EGR Valve is defective, Lack of proper vacuum or electrical signal to the EGR valve, Malfunctioning EGR Vacuum supply solenoid, Lack of proper EGR system feedback to the computer from the: Manifold Absolute Pressure Sensor (MAP), Differential EGR Pressure Feedback Sensor (DPFE), EGR Valve Position Sensor (EVP), EGR Temperature Sensor",
+    "Brand": "AUDI"
+  },
+  "P0420": {
+    "Meaning": "Inefficient Catalytic Converter(s), Defective Front or Rear Oxygen Sensor(s), Misfiring engines",
+    "Brand": "AUDI"
+  },
+  "P0430": {
+    "Meaning": "Defective Catalytic Converter, Internal engine damage resulting in high oil consumption and or a leaking Head Gasket has damaged the Catalytic Converter",
+    "Brand": "AUDI"
+  },
+  "P0440": {
+    "Meaning": "Missing fuel cap, Defective or damaged fuel cap, Distorted or damaged Fuel Tank Filler Neck, Torn or punctured Evaporative system hose(s), Defective Fuel Tank Sending Unit gasket or seal, Split or damaged Carbon Canister, Defective Evaporative Vent Valve and or Evaporative Purge Valve, Defective or damaged fuel tank",
+    "Brand": "AUDI"
+  },
+  "P0441": {
+    "Meaning": "Missing fuel cap, Stuck open or closed purge valve, Defective or damaged fuel cap, Distorted damaged or cracked Fuel Tank Filler Neck, Torn or punctured Evaporative system hose(s), Defective Fuel Tank Sending Unit gasket or seal, Split or damaged Carbon Canister, Defective Evaporative Vent Valve, Defective or damaged fuel tank",
+    "Brand": "AUDI"
+  },
+  "P0442": {
+    "Meaning": "Defective or damaged fuel cap, Distorted or damaged Fuel Tank Filler Neck, Small tear or puncture in the Evaporative system hose(s) and or Carbon Canister, Defective Fuel Tank Sending Unit gasket or seal, Small split in a seam of the Carbon Canister, Defective Evaporative Vent Valve and or Evaporative Purge Valve, Defective or damaged Fuel Tank, Defective Fuel Tank Pressure Sensor, Defective Leak Detection Pump, Slightly loose and or worn clamps or hardened O-rings anywhere in the EVAP system",
+    "Brand": "AUDI"
+  },
+  "P0455": {
+    "Meaning": "Missing fuel cap, Defective or damaged fuel cap, Distorted or damaged Fuel Tank Filler Neck, Torn or punctured Evaporative system hose(s), Defective Fuel Tank Sending Unit gasket or seal, Split or damaged Carbon Canister, Defective Evaporative Vent Valve and or Evaporative Purge Valve, Defective or damaged fuel tank, Defective Fuel Tank Pressure Sensor",
+    "Brand": "AUDI"
+  },
+  "P0500": {
+    "Meaning": "Defective Vehicle Speed Sensor, Defective Speedometer, Vehicle Speed Sensor wiring or connector, Communication (CAN) bus problems, Defective transmission or differential Vehicle Speed Sensor drive gear",
+    "Brand": "AUDI"
+  },
+  "P0501": {
+    "Meaning": "Defective Vehicle Speed Sensor, Defective Speedometer, Vehicle Speed Sensor wiring or connector, Communication (CAN) bus problems, Defective transmission or differential Vehicle Speed Sensor drive gear",
+    "Brand": "AUDI"
+  },
+  "P0505": {
+    "Meaning": "Defective Idle Air Control Motor, Intake Manifold Vacuum leaks, Carbon buildup in the Throttle Body air passages",
+    "Brand": "AUDI"
+  },
+  "P0506": {
+    "Meaning": "Defective or sticking Idle Air Control Motor, Intake Manifold Vacuum leaks, Carbon buildup in the Throttle Body air passages, Defective Power Steering Pressure Switch",
+    "Brand": "AUDI"
+  },
+  "P0507": {
+    "Meaning": "Defective or sticking Idle Air Control Motor, Intake Manifold Vacuum leaks, Carbon buildup in the Throttle Body air passages, Defective Coolant Temperature Sensor, Defective Charging System/Alternator, Defective Power Steering Pressure Switch",
+    "Brand": "AUDI"
+  },
+  "P0600": {
+    "Meaning": "Defective PCM (Power Train Control Module), Defective PCM data bus wiring/connections, Defective PCM data bus ground circuit(s), Defective PCM or other control module controlled output devices, Defective CAN bus communication",
+    "Brand": "AUDI"
+  },
+  "P0601": {
+    "Meaning": "Lack of proper voltage to the PCM, Defective PCM memory module, Defective PCM ground circuit(s), Defective PCM controlled output devices",
+    "Brand": "AUDI"
+  },
+  "P0602": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0603": {
+    "Meaning": "Lack of proper voltage to the Keep Alive Memory connection on the PCM, Defective PCM Keep Alive Memory Module (KAM), Defective PCM ground circuit(s), Defective PCM controlled output devices",
+    "Brand": "AUDI"
+  },
+  "P0605": {
+    "Meaning": "Lack of proper voltage and or ground to the PCM, Defective PCM ROM memory module, Defective PCM ground circuit(s), Defective PCM controlled output devices",
+    "Brand": "AUDI"
+  },
+  "P0700": {
+    "Meaning": "Defective Shift Solenoids, Defective Engine Coolant Temperature Sensor, Defective Valve Body, Dirty transmission fluid that restricts the hydraulic passages",
+    "Brand": "AUDI"
+  },
+  "P0705": {
+    "Meaning": "Defective Transmission Range Sensor (PRNDL input), Defective Transmission Range Sensor (PRNDL input) wiring or connector, Defective Valve Body, Defective manual shift valve linkage, Dirty transmission fluid that restricts the hydraulic passages",
+    "Brand": "AUDI"
+  },
+  "P0706": {
+    "Meaning": "Defective Transmission Range Sensor (PRNDL input), Defective Transmission Range Sensor (PRNDL input) wiring or connector, Defective Valve Body, Defective manual shift valve linkage, Dirty transmission fluid that restricts the hydraulic passages",
+    "Brand": "AUDI"
+  },
+  "P0720": {
+    "Meaning": "Defective Output Speed Sensor, Defective Shift Solenoids, Defective Engine Coolant Temperature Sensor, Defective Valve Body, Dirty transmission fluid that restricts the hydraulic passages, Defective Output Speed Sensor wiring or connector",
+    "Brand": "AUDI"
+  },
+  "P0730": {
+    "Meaning": "Defective Shift Solenoids, Defective Engine Coolant Temperature Sensor, Defective Valve Body, Dirty transmission fluid that restricts the hydraulic passages",
+    "Brand": "AUDI"
+  },
+  "P0841": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission fluid pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0842": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission fluid pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0845": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission fluid pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0846": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission fluid pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0847": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission fluid pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0901": {
+    "Meaning": "Clutch master cylinder failure, Clutch solenoid failure, Transmission Control Module (TCM) failure",
+    "Brand": "AUDI"
+  },
+  "P0935": {
+    "Meaning": "Hydraulic power unit assembly failure, Transmission Control Module (TCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0942": {
+    "Meaning": "Hydraulic power unit assembly failure, Transmission Control Module (TCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0944": {
+    "Meaning": "Clogged transmission filter, Transmission fluid level is low, Transmission oil pump failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P0961": {
+    "Meaning": "Transmission shift solenoid failure",
+    "Brand": "AUDI"
+  },
+  "P2000": {
+    "Meaning": "Diesel Particulate Filter (DPF) failure, Intake air leak, Mass Airflow (MAF) sensor is dirty/loss of calibration",
+    "Brand": "AUDI"
+  },
+  "P2004": {
+    "Meaning": "A failed IMRC actuator, A problem with the intake manifold or linkage, Wiring issues",
+    "Brand": "AUDI"
+  },
+  "P2006": {
+    "Meaning": "Intake manifold runner control actuator failure, Powertrain Control Module (PCM) failure, Restricted vacuum lines",
+    "Brand": "AUDI"
+  },
+  "P2101": {
+    "Meaning": "Accelerator Pedal Position (APP) assembly failure, Powertrain Control Module (PCM) failure, Throttle control motor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2122": {
+    "Meaning": "Accelerator Pedal Position (APP) assembly failure, Powertrain Control Module (PCM) failure, Throttle control motor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2135": {
+    "Meaning": "Accelerator Pedal Position (APP) assembly failure, Powertrain Control Module (PCM) failure, Throttle Position Sensor (TPS) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2138": {
+    "Meaning": "Accelerator Pedal Position (APP) assembly failure, Powertrain Control Module (PCM) failure, Throttle Position Sensor (TPS) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2181": {
+    "Meaning": "Engine coolant heater failure, Engine coolant level is too low, Thermostat failure",
+    "Brand": "AUDI"
+  },
+  "P2210": {
+    "Meaning": "NOx sensor failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2213": {
+    "Meaning": "NOx sensor failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2237": {
+    "Meaning": "Exhaust leak, Oxygen sensor failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2238": {
+    "Meaning": "Exhaust leak, Oxygen sensor failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2251": {
+    "Meaning": "Exhaust leak, Oxygen sensor failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2302": {
+    "Meaning": "Ignition coil failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2303": {
+    "Meaning": "Ignition coil failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2305": {
+    "Meaning": "Ignition coil failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2308": {
+    "Meaning": "Ignition coil failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2310": {
+    "Meaning": "Ignition coil failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2401": {
+    "Meaning": "Evap leak detection pump failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2402": {
+    "Meaning": "Evap leak detection pump failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2422": {
+    "Meaning": "EVAP vent valve failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2431": {
+    "Meaning": "Air control solenoid failure, Powertrain Control Module (PCM) failure, Secondary Air System pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2432": {
+    "Meaning": "Air control solenoid failure, Powertrain Control Module (PCM) failure, Secondary Air System pressure sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2500": {
+    "Meaning": "Alternator failure, Battery failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2501": {
+    "Meaning": "Alternator failure, Battery failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2503": {
+    "Meaning": "Alternator failure, Battery failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2509": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Powertrain Control Module (PCM) power relay failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2601": {
+    "Meaning": "Coolant Heat Storage (CHS) water pump failure, Coolant Heat Storage (CHS) water pump relay, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2607": {
+    "Meaning": "Intake air heater, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2609": {
+    "Meaning": "Intake air heater, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2610": {
+    "Meaning": "An internal PCM problem, A problem with the PCM power or ground circuit",
+    "Brand": "AUDI"
+  },
+  "P2614": {
+    "Meaning": "Broken tone ring, Camshaft Position Sensor (CMP) failure, Powertrain Control Module (PCM) failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2706": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission shift solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2711": {
+    "Meaning": "Internal transmission failure, Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2714": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission shift solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2716": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission shift solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2723": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission shift solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2803": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Transmission Control Module (TCM) failure, Transmission range sensor failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2806": {
+    "Meaning": "Powertrain Control Module (PCM) failure, Transmission Control Module (TCM) failure, Transmission range sensor failure, Transmission range sensor is out of adjustment, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2809": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission pressure control solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2810": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission pressure control solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P2815": {
+    "Meaning": "Transmission Control Module (TCM) failure, Transmission fluid level is low, Transmission pressure control solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "P3000": {
+    "Meaning": "Fuel level is too low, High voltage battery assembly failure, High voltage battery is not sufficiently charged",
+    "Brand": "AUDI"
+  },
+  "P3100": {
+    "Meaning": "High voltage powertrain control module failure",
+    "Brand": "AUDI"
+  },
+  "P3400": {
+    "Meaning": "Faulty Cylinder Deactivation System",
+    "Brand": "AUDI"
+  },
+  "P3401": {
+    "Meaning": "Engine oil level is too low, Powertrain Control Module (PCM) failure, Variable valve timing solenoid failure, Wiring issue",
+    "Brand": "AUDI"
+  },
+  "U0001": {
+    "Meaning": "A faulty wheel speed sensor, A problem with the wheel speed sensor circuit, Reluctor issues, A problem with the ABS module",
+    "Brand": "AUDI"
+  },
+  "U0073": {
+    "Meaning": "A faulty control module, A problem with the CAN bus",
+    "Brand": "AUDI"
+  },
+  "U0100": {
+    "Meaning": "A faulty PCM, A problem with the control module circuit, A problem with the CAN bus",
+    "Brand": "AUDI"
+  },
+  "U0107": {
+    "Meaning": "A dead battery, A faulty TAC module, A problem with TAC module circuit, A problem with the CAN bus",
+    "Brand": "AUDI"
+  },
+  "U0121": {
+    "Meaning": "A dead battery, A faulty ABS module, A problem with ABS module circuit, A problem with the CAN bus",
+    "Brand": "AUDI"
+  }
+}

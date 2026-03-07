@@ -1,0 +1,934 @@
+{
+  "P1000": {
+    "Meaning": "OBD II Monitor Testing Not Completed",
+    "Brand": "MAZDA"
+  },
+  "P1001": {
+    "Meaning": "Unable to Achieve Self-Test Function Or SCP Error",
+    "Brand": "MAZDA"
+  },
+  "P1100": {
+    "Meaning": "Mass Air Flow Sensor Circuit Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1101": {
+    "Meaning": "Mass Air Flow Sensor Circuit Out Of Self-Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1102": {
+    "Meaning": "Mass Air Flow Sensor Signal Inconsistent With Throttle Position Sensor",
+    "Brand": "MAZDA"
+  },
+  "P1103": {
+    "Meaning": "Mass Air Flow Sensor Signal Inconsistent With Engine Speed",
+    "Brand": "MAZDA"
+  },
+  "P1110": {
+    "Meaning": "Intake Air Temperature Sensor Signal Dynamic Chamber Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1112": {
+    "Meaning": "Intake Air Temperature Sensor Circuit Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1113": {
+    "Meaning": "Intake Air Temperature Sensor Signal Dynamic Chamber Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1114": {
+    "Meaning": "Intake Air Temperature Sensor Circuit Low Input",
+    "Brand": "MAZDA"
+  },
+  "P1116": {
+    "Meaning": "ECT Sensor Circuit Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1117": {
+    "Meaning": "ECT Sensor Signal Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1120": {
+    "Meaning": "Throttle Position Sensor Out Of Range Low",
+    "Brand": "MAZDA"
+  },
+  "P1121": {
+    "Meaning": "Throttle Position Sensor Signal Not Consistent With Mass Air Flow Signal",
+    "Brand": "MAZDA"
+  },
+  "P1122": {
+    "Meaning": "Throttle Position Stuck Closed",
+    "Brand": "MAZDA"
+  },
+  "P1123": {
+    "Meaning": "Throttle Position Stuck Open",
+    "Brand": "MAZDA"
+  },
+  "P1124": {
+    "Meaning": "Throttle Position Sensor Signal Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1125": {
+    "Meaning": "Throttle Position Sensor Signal Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1126": {
+    "Meaning": "Throttle Position Narrow Range Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1127": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Heater Not On During Key On Engine Running Self Test",
+    "Brand": "MAZDA"
+  },
+  "P1128": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Signals Swapped In Key On Engine Running Self Test",
+    "Brand": "MAZDA"
+  },
+  "P1129": {
+    "Meaning": "Downstream H02S Sensors Swapped",
+    "Brand": "MAZDA"
+  },
+  "P1130": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Not Switching Fuel Control Limit Reached",
+    "Brand": "MAZDA"
+  },
+  "P1131": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Signal Below 0.45v AF Ratio Too Lean",
+    "Brand": "MAZDA"
+  },
+  "P1132": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Signal Above 0.45v AF Ratio Too Rich",
+    "Brand": "MAZDA"
+  },
+  "P1133": {
+    "Meaning": "Bank 1 Fuel Control Shifted Lean",
+    "Brand": "MAZDA"
+  },
+  "P1134": {
+    "Meaning": "Bank 1 Fuel Control Shifted Rich",
+    "Brand": "MAZDA"
+  },
+  "P1135": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Heater Circuit Low Input",
+    "Brand": "MAZDA"
+  },
+  "P1136": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Heater Circuit High Input",
+    "Brand": "MAZDA"
+  },
+  "P1137": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Not Switching Fuel Control Limit Reached",
+    "Brand": "MAZDA"
+  },
+  "P1138": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Signal Above 0.45v AF Ratio Too Rich",
+    "Brand": "MAZDA"
+  },
+  "P1141": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Heater Circuit Low Input",
+    "Brand": "MAZDA"
+  },
+  "P1142": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Heater Circuit High Input",
+    "Brand": "MAZDA"
+  },
+  "P1143": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Signal Below 0.45v AF Ratio Too Lean",
+    "Brand": "MAZDA"
+  },
+  "P1144": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Signal Above 0.45v AF Ratio Too Rich",
+    "Brand": "MAZDA"
+  },
+  "P1150": {
+    "Meaning": "HO2S Bank 2 Sensor 1 Not Switching Fuel Control Limit Reached",
+    "Brand": "MAZDA"
+  },
+  "P1151": {
+    "Meaning": "HO2S Bank 2 Sensor 1 Signal Below 0.45v AF Ratio Too Lean",
+    "Brand": "MAZDA"
+  },
+  "P1152": {
+    "Meaning": "HO2S Bank 2 Sensor 1 Signal Above 0.45v AF Ratio Too Rich",
+    "Brand": "MAZDA"
+  },
+  "P1153": {
+    "Meaning": "Bank 2 Fuel Control Shifted Lean FAOSC",
+    "Brand": "MAZDA"
+  },
+  "P1154": {
+    "Meaning": "Bank 2 Fuel Control Shifted Rich FAOSC",
+    "Brand": "MAZDA"
+  },
+  "P1169": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Circuit Fixed Bank 1 Sensor 1",
+    "Brand": "MAZDA"
+  },
+  "P1170": {
+    "Meaning": "HO2S Bank 1 Sensor 1 Circuit Fixed Bank 1 Sensor 1",
+    "Brand": "MAZDA"
+  },
+  "P1173": {
+    "Meaning": "HO2S Bank 2 Sensor 1 Circuit Fixed Bank 2 Sensor 1",
+    "Brand": "MAZDA"
+  },
+  "P1182": {
+    "Meaning": "Fuel Shut Off Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1189": {
+    "Meaning": "Pump Speed Signal",
+    "Brand": "MAZDA"
+  },
+  "P1190": {
+    "Meaning": "Calibration Resistor Out Of Range",
+    "Brand": "MAZDA"
+  },
+  "P1191": {
+    "Meaning": "TP Controlled Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1194": {
+    "Meaning": "ECM PCM A D Converter",
+    "Brand": "MAZDA"
+  },
+  "P1195": {
+    "Meaning": "EGR Boost Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1196": {
+    "Meaning": "Ignition Switch Start Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1197": {
+    "Meaning": "Mileage Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1213": {
+    "Meaning": "Start Injector Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1221": {
+    "Meaning": "Traction Control System",
+    "Brand": "MAZDA"
+  },
+  "P1222": {
+    "Meaning": "Traction Control Output Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1226": {
+    "Meaning": "Control Sleeve Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1235": {
+    "Meaning": "Fuel Pump Control Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1236": {
+    "Meaning": "Fuel Pump Control Out Range",
+    "Brand": "MAZDA"
+  },
+  "P1248": {
+    "Meaning": "Turbo Boost Pressure Not Detected",
+    "Brand": "MAZDA"
+  },
+  "P1250": {
+    "Meaning": "Pressure Regulator Control Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1251": {
+    "Meaning": "Air Mixture Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1252": {
+    "Meaning": "Pressure Regulator Control Solenoid 2 Circuit Malfunction",
+    "Brand": "MAZDA"
+  },
+  "P1260": {
+    "Meaning": "Anti-Theft System Signal Detected Engine Disabled",
+    "Brand": "MAZDA"
+  },
+  "P1270": {
+    "Meaning": "Engine RPM or Vehicle Speed Limit Reached",
+    "Brand": "MAZDA"
+  },
+  "P1279": {
+    "Meaning": "Control Sleeve Sensor Circuit Range Performance",
+    "Brand": "MAZDA"
+  },
+  "P1298": {
+    "Meaning": "Injector Driver Module Failure",
+    "Brand": "MAZDA"
+  },
+  "P1309": {
+    "Meaning": "Misfire Detection Monitor",
+    "Brand": "MAZDA"
+  },
+  "P1312": {
+    "Meaning": "Injection Pump Timing Actuator Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1318": {
+    "Meaning": "Injection Timing Piston Position Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1319": {
+    "Meaning": "Injection Timing Piston Position Sensor Circuit Range Performance",
+    "Brand": "MAZDA"
+  },
+  "P1345": {
+    "Meaning": "No CMP or SGC Signal",
+    "Brand": "MAZDA"
+  },
+  "P1351": {
+    "Meaning": "Ignition Diagnostic Monitor Signal Lost To PCM Or Out Of Range",
+    "Brand": "MAZDA"
+  },
+  "P1352": {
+    "Meaning": "Ignition Coil A Primary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1353": {
+    "Meaning": "Ignition Coil B Primary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1354": {
+    "Meaning": "Ignition Coil C Primary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1358": {
+    "Meaning": "Ignition Diagnostic Monitor Signal Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1359": {
+    "Meaning": "SPOUT Signal Lost To Powertrain Control Module Or Out Of Range",
+    "Brand": "MAZDA"
+  },
+  "P1360": {
+    "Meaning": "Ignition Coil A Secondary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1361": {
+    "Meaning": "Ignition Coil B Secondary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1362": {
+    "Meaning": "Ignition Coil C Secondary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1364": {
+    "Meaning": "Ignition Coil Primary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1365": {
+    "Meaning": "Ignition Coil Secondary Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1382": {
+    "Meaning": "Camshaft Position Timing Solenoid 1 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1387": {
+    "Meaning": "Camshaft Position Timing Solenoid 2 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1390": {
+    "Meaning": "Octane Adjust Shorting Bar Out Or Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1400": {
+    "Meaning": "DPFE Sensor Circuit Low Input",
+    "Brand": "MAZDA"
+  },
+  "P1401": {
+    "Meaning": "DPFE Sensor Circuit High Input",
+    "Brand": "MAZDA"
+  },
+  "P1402": {
+    "Meaning": "EGR Valve Position Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1405": {
+    "Meaning": "DPFE Sensor Upstream Hose Off Or Plugged",
+    "Brand": "MAZDA"
+  },
+  "P1406": {
+    "Meaning": "DPFE Sensor Downstream Hose Off Or Plugged",
+    "Brand": "MAZDA"
+  },
+  "P1407": {
+    "Meaning": "No EGR Flow Detected",
+    "Brand": "MAZDA"
+  },
+  "P1408": {
+    "Meaning": "EGR System Flow Out Of Key On Engine Running Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1409": {
+    "Meaning": "EGR Vacuum Regulator Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1410": {
+    "Meaning": "EGR Boost Solenoid Valve Stuck",
+    "Brand": "MAZDA"
+  },
+  "P1412": {
+    "Meaning": "Exhaust Gas Recirculation Valve Frozen",
+    "Brand": "MAZDA"
+  },
+  "P1415": {
+    "Meaning": "Air Pump Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1416": {
+    "Meaning": "Port Air Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1417": {
+    "Meaning": "Port Air Relief Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1418": {
+    "Meaning": "Split Air 1 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1419": {
+    "Meaning": "Split Air 2 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1439": {
+    "Meaning": "Floor Temp Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1443": {
+    "Meaning": "EVAP System Purge Flow Fault",
+    "Brand": "MAZDA"
+  },
+  "P1444": {
+    "Meaning": "EVAP Purge Flow Sensor Circuit Low Voltage",
+    "Brand": "MAZDA"
+  },
+  "P1445": {
+    "Meaning": "EVAP Purge Flow Sensor Circuit High Voltage",
+    "Brand": "MAZDA"
+  },
+  "P1446": {
+    "Meaning": "Evaporative Vacuum Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1449": {
+    "Meaning": "Evaporative Check Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1450": {
+    "Meaning": "Unable To Bleed Up Fuel Tank Vacuum",
+    "Brand": "MAZDA"
+  },
+  "P1451": {
+    "Meaning": "Canister Vent Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1455": {
+    "Meaning": "Fuel Tank Level Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1456": {
+    "Meaning": "Fuel Tank Temperature Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1457": {
+    "Meaning": "Purge Solenoid Control System",
+    "Brand": "MAZDA"
+  },
+  "P1458": {
+    "Meaning": "A/C Compressor Clutch Signal Fault",
+    "Brand": "MAZDA"
+  },
+  "P1475": {
+    "Meaning": "Fan Relay Low Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1476": {
+    "Meaning": "Fan Relay High Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1508": {
+    "Meaning": "Idle Air Control Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1509": {
+    "Meaning": "Idle Air Control Circuit Shorted",
+    "Brand": "MAZDA"
+  },
+  "P1514": {
+    "Meaning": "High Load Neutral Drive Fault",
+    "Brand": "MAZDA"
+  },
+  "P1516": {
+    "Meaning": "Gear Change Neutral Drive Fault",
+    "Brand": "MAZDA"
+  },
+  "P1517": {
+    "Meaning": "Cranking Neutral Drive Fault",
+    "Brand": "MAZDA"
+  },
+  "P1534": {
+    "Meaning": "Restraint Deployment Indicator Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1562": {
+    "Meaning": "Powertrain Control Module +B Voltage Low",
+    "Brand": "MAZDA"
+  },
+  "P1566": {
+    "Meaning": "TCM B+ Voltage Low",
+    "Brand": "MAZDA"
+  },
+  "P1569": {
+    "Meaning": "IMRC Circuit Low",
+    "Brand": "MAZDA"
+  },
+  "P1570": {
+    "Meaning": "IMRC Circuit High",
+    "Brand": "MAZDA"
+  },
+  "P1600": {
+    "Meaning": "Loss Of KAM Power Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1601": {
+    "Meaning": "Powertrain Control Module Communication Line To TCM Error",
+    "Brand": "MAZDA"
+  },
+  "P1602": {
+    "Meaning": "Powertrain Control Module Communication Line To TCM Error, Immobilizer System Communication Error With Powertrain Control Module",
+    "Brand": "MAZDA"
+  },
+  "P1603": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1604": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1605": {
+    "Meaning": "Powertrain Control Module Keep Alive Memory Test Error",
+    "Brand": "MAZDA"
+  },
+  "P1608": {
+    "Meaning": "Powertrain Control Module ECM CPU DTC Test Fault",
+    "Brand": "MAZDA"
+  },
+  "P1609": {
+    "Meaning": "Powertrain Control Module ECM CPU Knock Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1621": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1622": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1623": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1624": {
+    "Meaning": "Immobilizer System Fault",
+    "Brand": "MAZDA"
+  },
+  "P1627": {
+    "Meaning": "Powertrain Control Module ECM TCS Line Communication Error",
+    "Brand": "MAZDA"
+  },
+  "P1628": {
+    "Meaning": "Powertrain Control Module ECM TCS Any Line Communication Error",
+    "Brand": "MAZDA"
+  },
+  "P1630": {
+    "Meaning": "Alternator Regulator 1 Control Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1631": {
+    "Meaning": "Generator Output Voltage Signal No Output",
+    "Brand": "MAZDA"
+  },
+  "P1632": {
+    "Meaning": "Battery Voltage Detection Circuit for Alternator Regulator",
+    "Brand": "MAZDA"
+  },
+  "P1633": {
+    "Meaning": "Battery Overcharge Fault",
+    "Brand": "MAZDA"
+  },
+  "P1634": {
+    "Meaning": "Generator Terminal B Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1645": {
+    "Meaning": "Fuel Pump Resistor Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1649": {
+    "Meaning": "Fuel Injection Pump Module",
+    "Brand": "MAZDA"
+  },
+  "P1650": {
+    "Meaning": "Power Steering Pressure Switch Out Of Range Fault",
+    "Brand": "MAZDA"
+  },
+  "P1651": {
+    "Meaning": "Power Steering Pressure Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1652": {
+    "Meaning": "Power Steering Pressure Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1680": {
+    "Meaning": "Metering Oil Pump Failure",
+    "Brand": "MAZDA"
+  },
+  "P1682": {
+    "Meaning": "Metering Oil Pump Failure",
+    "Brand": "MAZDA"
+  },
+  "P1683": {
+    "Meaning": "Metering Oil Pump Temperature Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1684": {
+    "Meaning": "Metering Oil Pump Position Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1685": {
+    "Meaning": "Metering Oil Pump Stepping Motor Cont Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1686": {
+    "Meaning": "Metering Oil Pump Stepping Motor Cont Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1687": {
+    "Meaning": "Metering Oil Pump Stepping Motor Cont Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1688": {
+    "Meaning": "Metering Oil Pump Stepping Motor Cont Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1689": {
+    "Meaning": "Oil Pressure Control Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1690": {
+    "Meaning": "Wastegate Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1691": {
+    "Meaning": "Turbo Pressure Control Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1692": {
+    "Meaning": "Turbo Control Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1693": {
+    "Meaning": "Turbo Charge Control Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1694": {
+    "Meaning": "Turbo Charge Relief Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1701": {
+    "Meaning": "Transmission Range Sensor Reverse Engagement Error",
+    "Brand": "MAZDA"
+  },
+  "P1702": {
+    "Meaning": "Transmission Range Sensor Circuit Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1703": {
+    "Meaning": "Brake On Off Switch Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1705": {
+    "Meaning": "Transmission Range Sensor Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1706": {
+    "Meaning": "High Vehicle Speed Observed In Park",
+    "Brand": "MAZDA"
+  },
+  "P1708": {
+    "Meaning": "Clutch Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1709": {
+    "Meaning": "Clutch Pedal Position Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1710": {
+    "Meaning": "Transmission Control Module Solenoid Internal Ground Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1711": {
+    "Meaning": "Transmission Fluid Temperature Sensor Circuit Out Of Self Test Range",
+    "Brand": "MAZDA"
+  },
+  "P1713": {
+    "Meaning": "Transmission Fluid Temperature Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1714": {
+    "Meaning": "Shift Solenoid 1 Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1715": {
+    "Meaning": "Shift Solenoid 2 Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1716": {
+    "Meaning": "Shift Solenoid 3 Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1717": {
+    "Meaning": "Shift Solenoid 4 Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1718": {
+    "Meaning": "Transmission Fluid Temperature Sensor Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1719": {
+    "Meaning": "Engine Torque Signal",
+    "Brand": "MAZDA"
+  },
+  "P1720": {
+    "Meaning": "Vehicle Speed Sensor 2 Signal Error",
+    "Brand": "MAZDA"
+  },
+  "P1721": {
+    "Meaning": "Gear 1 Incorrect Ratio",
+    "Brand": "MAZDA"
+  },
+  "P1722": {
+    "Meaning": "Gear 2 Incorrect Ratio",
+    "Brand": "MAZDA"
+  },
+  "P1723": {
+    "Meaning": "Gear 3 Incorrect Ratio",
+    "Brand": "MAZDA"
+  },
+  "P1724": {
+    "Meaning": "Gear 4 Incorrect Ratio",
+    "Brand": "MAZDA"
+  },
+  "P1729": {
+    "Meaning": "Transmission 4x4 Low Switch Error",
+    "Brand": "MAZDA"
+  },
+  "P1735": {
+    "Meaning": "First Gear Switch Circuit Failure",
+    "Brand": "MAZDA"
+  },
+  "P1736": {
+    "Meaning": "Second Gear Switch Circuit Failure",
+    "Brand": "MAZDA"
+  },
+  "P1737": {
+    "Meaning": "Lockup Solenoid",
+    "Brand": "MAZDA"
+  },
+  "P1738": {
+    "Meaning": "Shift Time Error",
+    "Brand": "MAZDA"
+  },
+  "P1739": {
+    "Meaning": "Slip Solenoid",
+    "Brand": "MAZDA"
+  },
+  "P1740": {
+    "Meaning": "Torque Converter Clutch Solenoid Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1741": {
+    "Meaning": "Torque Converter Clutch Control Electrical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1742": {
+    "Meaning": "Torque Converter Clutch Solenoid Shorted",
+    "Brand": "MAZDA"
+  },
+  "P1743": {
+    "Meaning": "Torque Converter Clutch Failed On TCIL Is On",
+    "Brand": "MAZDA"
+  },
+  "P1744": {
+    "Meaning": "Torque Converter Clutch Solenoid Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1745": {
+    "Meaning": "Line Pressure Solenoid",
+    "Brand": "MAZDA"
+  },
+  "P1746": {
+    "Meaning": "Electronic Pressure Control Solenoid Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1747": {
+    "Meaning": "Electronic Pressure Control Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1748": {
+    "Meaning": "Pressure Control Solenoid A",
+    "Brand": "MAZDA"
+  },
+  "P1749": {
+    "Meaning": "Electronic Pressure Control Solenoid Circuit Low",
+    "Brand": "MAZDA"
+  },
+  "P1751": {
+    "Meaning": "Transmission Shift Solenoid A Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1752": {
+    "Meaning": "Transmission Shift Solenoid A Circuit Shorted",
+    "Brand": "MAZDA"
+  },
+  "P1754": {
+    "Meaning": "Transmission Coast Clutch Solenoid Electrical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1756": {
+    "Meaning": "Transmission Shift Solenoid B Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1757": {
+    "Meaning": "Transmission Shift Solenoid B Circuit Shorted",
+    "Brand": "MAZDA"
+  },
+  "P1759": {
+    "Meaning": "2-4 Brake Failsafe Valve Malfunction",
+    "Brand": "MAZDA"
+  },
+  "P1761": {
+    "Meaning": "Transmission Shift Solenoid 3 Mechanical Fault",
+    "Brand": "MAZDA"
+  },
+  "P1762": {
+    "Meaning": "Transmission SS3 SS4 OD Band Fault",
+    "Brand": "MAZDA"
+  },
+  "P1763": {
+    "Meaning": "Low And Reverse Brake Pressure Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1764": {
+    "Meaning": "Low And Reverse Brake Failsafe Valve Malfunction",
+    "Brand": "MAZDA"
+  },
+  "P1765": {
+    "Meaning": "Transmission 3-2 Timing Solenoid Valve",
+    "Brand": "MAZDA"
+  },
+  "P1767": {
+    "Meaning": "Torque Converter Clutch Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1770": {
+    "Meaning": "Clutch Solenoid Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1771": {
+    "Meaning": "Throttle Position Sensor Circuit Open To Transmission Control Module",
+    "Brand": "MAZDA"
+  },
+  "P1772": {
+    "Meaning": "Throttle Position Sensor Circuit Shorted To Transmission Control Module",
+    "Brand": "MAZDA"
+  },
+  "P1775": {
+    "Meaning": "Torque Down Signal 1 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1776": {
+    "Meaning": "Torque Down Signal 2 Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1777": {
+    "Meaning": "Torque Down Response Signal Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1780": {
+    "Meaning": "Transmission Control Switch Circuit, Overdrive Off Switch Not Cycled During The Self Test",
+    "Brand": "MAZDA"
+  },
+  "P1781": {
+    "Meaning": "Transmission 4x4 Low Switch Out Of Range Fault",
+    "Brand": "MAZDA"
+  },
+  "P1783": {
+    "Meaning": "Transmission Fluid Temperature High Input",
+    "Brand": "MAZDA"
+  },
+  "P1788": {
+    "Meaning": "Pressure Control Solenoid B Circuit Open",
+    "Brand": "MAZDA"
+  },
+  "P1789": {
+    "Meaning": "Pressure Control Solenoid B Circuit Shorted",
+    "Brand": "MAZDA"
+  },
+  "P1790": {
+    "Meaning": "TP Mechanical Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1791": {
+    "Meaning": "TP Electric Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1792": {
+    "Meaning": "Barometer Pressure Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1793": {
+    "Meaning": "Intake Air Volume Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1794": {
+    "Meaning": "Powertrain Control Module Battery Direct Power Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1795": {
+    "Meaning": "Idle Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1796": {
+    "Meaning": "Kick Down Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1797": {
+    "Meaning": "P/N Switch Open Or Short Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1798": {
+    "Meaning": "Coolant Temperature Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1799": {
+    "Meaning": "Hold Switch Circuit",
+    "Brand": "MAZDA"
+  },
+  "P1900": {
+    "Meaning": "Turbine Speed Sensor Circuit Intermittent",
+    "Brand": "MAZDA"
+  },
+  "P1901": {
+    "Meaning": "Torque Converter Clutch Circuit Intermittent",
+    "Brand": "MAZDA"
+  }
+}

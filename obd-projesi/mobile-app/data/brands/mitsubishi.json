@@ -1,0 +1,134 @@
+{
+  "P1100": {
+    "Meaning": "Induction Control Motor Position Sensor Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1101": {
+    "Meaning": "Traction Control Vacuum Solenoid Circuit Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1102": {
+    "Meaning": "Traction Control Ventilation Solenoid Circuit Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1103": {
+    "Meaning": "Turbocharger Wastegate Actuator",
+    "Brand": "MITSUBISHI"
+  },
+  "P1104": {
+    "Meaning": "Turbocharger Wastegate Solenoid",
+    "Brand": "MITSUBISHI"
+  },
+  "P1105": {
+    "Meaning": "Fuel Pressure Solenoid",
+    "Brand": "MITSUBISHI"
+  },
+  "P1294": {
+    "Meaning": "Target Idle Speed Not Reached",
+    "Brand": "MITSUBISHI"
+  },
+  "P1295": {
+    "Meaning": "No 5 Volt Supply To TP Sensor",
+    "Brand": "MITSUBISHI"
+  },
+  "P1296": {
+    "Meaning": "No 5 Volt Supply To MAP Sensor",
+    "Brand": "MITSUBISHI"
+  },
+  "P1297": {
+    "Meaning": "No Charge In MAP From Start To Run",
+    "Brand": "MITSUBISHI"
+  },
+  "P1300": {
+    "Meaning": "Ignition Timing Adjustment Circuit",
+    "Brand": "MITSUBISHI"
+  },
+  "P1390": {
+    "Meaning": "Timing Belt Skipped One Tooth Or More",
+    "Brand": "MITSUBISHI"
+  },
+  "P1391": {
+    "Meaning": "Intermittent Loss Of CMP Or CKP Sensor Signals",
+    "Brand": "MITSUBISHI"
+  },
+  "P1400": {
+    "Meaning": "Manifold Differential Pressure Sensor Circuit",
+    "Brand": "MITSUBISHI"
+  },
+  "P1443": {
+    "Meaning": "EVAP Purge Control Solenoid 2 Circuit Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1486": {
+    "Meaning": "EVAP Leak Monitor Pinched Hose Detected",
+    "Brand": "MITSUBISHI"
+  },
+  "P1487": {
+    "Meaning": "High Speed Radiator Fan Control Relay Circuit Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1489": {
+    "Meaning": "High Speed Condenser Fan Control Relay Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1490": {
+    "Meaning": "Low Speed Fan Control Relay Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1492": {
+    "Meaning": "Battery Temperature Sensor High Voltage",
+    "Brand": "MITSUBISHI"
+  },
+  "P1494": {
+    "Meaning": "EVAP Ventilation Switch Or Mechanical Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1495": {
+    "Meaning": "EVAP Ventilation Solenoid Circuit Fault",
+    "Brand": "MITSUBISHI"
+  },
+  "P1496": {
+    "Meaning": "5 Volt Supply Output Too Low",
+    "Brand": "MITSUBISHI"
+  },
+  "P1500": {
+    "Meaning": "Alternator FR Terminal Circuit",
+    "Brand": "MITSUBISHI"
+  },
+  "P1600": {
+    "Meaning": "Serial Communication Link",
+    "Brand": "MITSUBISHI"
+  },
+  "P1696": {
+    "Meaning": "PCM Failure EEPROM Write Denied",
+    "Brand": "MITSUBISHI"
+  },
+  "P1698": {
+    "Meaning": "No CCD Messages From TCM",
+    "Brand": "MITSUBISHI"
+  },
+  "P1715": {
+    "Meaning": "Pulse Generator Assembly",
+    "Brand": "MITSUBISHI"
+  },
+  "P1750": {
+    "Meaning": "Solenoid Assembly",
+    "Brand": "MITSUBISHI"
+  },
+  "P1751": {
+    "Meaning": "A/T Control Relay",
+    "Brand": "MITSUBISHI"
+  },
+  "P1791": {
+    "Meaning": "Engine Coolant Temperature Level Input Circuit",
+    "Brand": "MITSUBISHI"
+  },
+  "P1795": {
+    "Meaning": "Throttle Position Input Circuit To TCM",
+    "Brand": "MITSUBISHI"
+  },
+  "P1899": {
+    "Meaning": "P/N Position Transaxle Range Switch Circuit Fault",
+    "Brand": "MITSUBISHI"
+  }
+}

@@ -1,0 +1,2114 @@
+{
+  "P1101": {
+    "Meaning": "Oxygen Sensor Circuit Bank 1 Sensor 1 Voltage Too Low/Air Leak",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1102": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 Sensor 1 Voltage Too Low/Air Leak",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1103": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 Sensor 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1104": {
+    "Meaning": "Oxygen Sensor Bank 1 Sensor 2 Voltage Too Low/Air Leak",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1105": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 Sensor 2 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1106": {
+    "Meaning": "Oxygen Sensor Circuit Bank 2 Sensor 1 Voltage Too Low/Air Leak",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1107": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 2 Sensor 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1108": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 2 Sensor 1 Output Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1109": {
+    "Meaning": "Oxygen Sensor Circuit Bank 2 Sensor 2 Voltage Too Low/Air Leak",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1110": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 2 Sensor 2 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1111": {
+    "Meaning": "Oxygen Sensor Control Bank 1 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1112": {
+    "Meaning": "Oxygen Sensor Control Bank 1 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1113": {
+    "Meaning": "Oxygen Sensor Heater Resistance Too High Bank 1 Sensor 1",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1114": {
+    "Meaning": "Bank 1 Sensor 2 Resistance Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1115": {
+    "Meaning": "Oxygen Sensor Heater Circuit Short To Ground Bank 1 Sensor 1",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1116": {
+    "Meaning": "Oxygen Sensor Heater Circuit Open Bank 1 Sensor 1",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1117": {
+    "Meaning": "Oxygen Sensor Heater Circuit Short To Ground Bank 1 Sensor 2",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1118": {
+    "Meaning": "Oxygen Sensor Heater Circuit Open Bank 1 Sensor 2",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1119": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 1 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1120": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 1 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1121": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 2 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1122": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 2 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1123": {
+    "Meaning": "Long Term Fuel Trim Add Air Bank 1 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1124": {
+    "Meaning": "Long Term Fuel Trim Add Air Bank 1 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1125": {
+    "Meaning": "Long Term Fuel Trim Add Air Bank 2 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1126": {
+    "Meaning": "Long Term Fuel Trim Add Air Bank 2 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1127": {
+    "Meaning": "Long Term Fuel Trim Bank 1 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1128": {
+    "Meaning": "Long Term Fuel Trim Bank 1 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1129": {
+    "Meaning": "Long Term Fuel Trim Bank 2 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1130": {
+    "Meaning": "Long Term Fuel Trim Bank 2 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1131": {
+    "Meaning": "Bank 2 Sensor 1 Resistance Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1132": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 + 2 Sensor 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1133": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 + 2 Sensor 1 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1134": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 + 2 Sensor 2 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1135": {
+    "Meaning": "Oxygen Sensor Heating Circuit Bank 1 + 2 Sensor 2 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1136": {
+    "Meaning": "Long Term Fuel Trim Add Fuel Bank 1 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1137": {
+    "Meaning": "Long Term Fuel Trim Add Fuel Bank 1 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1138": {
+    "Meaning": "Long Term Fuel Trim Add Fuel Bank 2 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1139": {
+    "Meaning": "Long Term Fuel Trim Add Fuel Bank 2 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1140": {
+    "Meaning": "Bank 2 Sensor 2 Resistance Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1141": {
+    "Meaning": "Load Calculation Cross Check Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1142": {
+    "Meaning": "Load Calculation Cross Check Lower Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1143": {
+    "Meaning": "Load Calculation Cross Check Upper Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1144": {
+    "Meaning": "Mass Or Volume Air Flow Circuit Open/Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1145": {
+    "Meaning": "Mass Or Volume Air Flow Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1146": {
+    "Meaning": "Mass Or Volume Air Flow Circuit Power Supply Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1147": {
+    "Meaning": "Oxygen Sensor Control Bank 2 System Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1148": {
+    "Meaning": "Oxygen Sensor Control Bank 2 System Too Rich",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1149": {
+    "Meaning": "Oxygen Sensor Control Bank 1 Out Of Range",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1150": {
+    "Meaning": "Oxygen Sensor Control Bank 2 Out Of Range",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1151": {
+    "Meaning": "Bank 1 Long Term Fuel Trim Range 1 Lower Lean Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1152": {
+    "Meaning": "Bank 1 Long Term Fuel Trim Range 2 Lower Lean Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1154": {
+    "Meaning": "Manifold Switch Over Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1155": {
+    "Meaning": "Manifold Absolute Pressure Sensor Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1156": {
+    "Meaning": "Manifold Absolute Pressure Sensor Circuit Open/Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1157": {
+    "Meaning": "Manifold Absolute Pressure Sensor Circuit Power Supply Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1158": {
+    "Meaning": "Manifold Absolute Pressure Sensor Circuit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1160": {
+    "Meaning": "Manifold Temperature Sensor Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1161": {
+    "Meaning": "Manifold Temperature Sensor Circuit Open/Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1162": {
+    "Meaning": "Fuel Temperature Sensor Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1163": {
+    "Meaning": "Fuel Temperature Sensor Circuit Open/Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1164": {
+    "Meaning": "Fuel Temperature Sensor Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1165": {
+    "Meaning": "Bank 1 Long Term Fuel Trim Range 1 Lower Lean Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1166": {
+    "Meaning": "Bank 1 Long Term Fuel Trim Range 2 Upper Rich Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1171": {
+    "Meaning": "Throttle Actuation Potentiometer Signal 2 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1172": {
+    "Meaning": "Throttle Actuation Potentiometer Signal 2 Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1173": {
+    "Meaning": "Throttle Actuation Potentiometer Signal 2 Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1174": {
+    "Meaning": "Fuel Trim Bank 1 Different Injection Times",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1176": {
+    "Meaning": "Rear Oxygen Sensor Correction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1177": {
+    "Meaning": "Oxygen Sensor Correction Behind Catalyst Bank 1 Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1178": {
+    "Meaning": "Linear Oxygen Sensor Pump Current Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1179": {
+    "Meaning": "Linear Oxygen Sensor Pump Current Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1180": {
+    "Meaning": "Linear Oxygen Sensor Pump Current Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1181": {
+    "Meaning": "Linear Oxygen Sensor Reference Voltage Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1182": {
+    "Meaning": "Linear Oxygen Sensor Reference Voltage Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1183": {
+    "Meaning": "Linear Oxygen Sensor Reference Voltage Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1184": {
+    "Meaning": "Linear Oxygen Sensor Common Ground Wire Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1185": {
+    "Meaning": "Linear Oxygen Sensor Common Ground Wire Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1186": {
+    "Meaning": "Linear Oxygen Sensor Common Ground Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1187": {
+    "Meaning": "Linear Oxygen Sensor Compensation Resistor Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1188": {
+    "Meaning": "Linear Oxygen Sensor Compensation Resistor Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1189": {
+    "Meaning": "Linear Oxygen Sensor Compensation Resistor Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1190": {
+    "Meaning": "Linear Oxygen Sensor Reference Voltage Incorrect Signal",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1196": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 1 Sensor 1 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1197": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 1 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1198": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 1 Sensor 2 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1199": {
+    "Meaning": "Oxygen Sensor Heater Circuit Bank 2 Sensor 2 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1201": {
+    "Meaning": "Cylinder 1 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1202": {
+    "Meaning": "Cylinder 2 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1203": {
+    "Meaning": "Cylinder 3 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1204": {
+    "Meaning": "Cylinder 4 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1205": {
+    "Meaning": "Cylinder 5 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1206": {
+    "Meaning": "Cylinder 6 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1207": {
+    "Meaning": "Cylinder 7 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1208": {
+    "Meaning": "Cylinder 8 Fuel Injector Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1209": {
+    "Meaning": "Intake Valves For Cylinder Shut-Off Short Circuit To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1210": {
+    "Meaning": "Intake Valves For Cylinder Shut-Off Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1211": {
+    "Meaning": "Intake Valves For Cylinder Shut-Off Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1213": {
+    "Meaning": "Cylinder 1 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1214": {
+    "Meaning": "Cylinder 2 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1215": {
+    "Meaning": "Cylinder 3 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1216": {
+    "Meaning": "Cylinder 4 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1217": {
+    "Meaning": "Cylinder 5 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1218": {
+    "Meaning": "Cylinder 6 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1219": {
+    "Meaning": "Cylinder 7 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1220": {
+    "Meaning": "Cylinder 8 Fuel Injector Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1225": {
+    "Meaning": "Cylinder 1 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1226": {
+    "Meaning": "Cylinder 2 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1227": {
+    "Meaning": "Cylinder 3 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1228": {
+    "Meaning": "Cylinder 4 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1229": {
+    "Meaning": "Cylinder 5 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1230": {
+    "Meaning": "Cylinder 6 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1231": {
+    "Meaning": "Cylinder 7 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1232": {
+    "Meaning": "Cylinder 8 Injector Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1237": {
+    "Meaning": "Cylinder 1 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1238": {
+    "Meaning": "Cylinder 2 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1239": {
+    "Meaning": "Cylinder 3 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1240": {
+    "Meaning": "Cylinder 4 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1241": {
+    "Meaning": "Cylinder 5 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1242": {
+    "Meaning": "Cylinder 6 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1243": {
+    "Meaning": "Cylinder 7 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1244": {
+    "Meaning": "Cylinder 8 Injector Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1245": {
+    "Meaning": "Needle Lift Sensor Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1246": {
+    "Meaning": "Needle Lift Sensor Circuit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1247": {
+    "Meaning": "Needle Lift Sensor Circuit Open/Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1248": {
+    "Meaning": "Injection Start Control Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1249": {
+    "Meaning": "Fuel Consumption Signal Electrical Fault In Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1250": {
+    "Meaning": "Fuel Level Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1251": {
+    "Meaning": "Start Of Injection Solenoid Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1252": {
+    "Meaning": "Start Of Injection Solenoid Circuit Open/Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1253": {
+    "Meaning": "Fuel Consumption Signal Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1254": {
+    "Meaning": "Fuel Consumption Signal Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1255": {
+    "Meaning": "Engine Coolant Temperature Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1256": {
+    "Meaning": "Engine Coolant Temperature Circuit Open/Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1257": {
+    "Meaning": "Engine Coolant System Valve Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1258": {
+    "Meaning": "Engine Coolant System Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1259": {
+    "Meaning": "Engine Coolant System Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1280": {
+    "Meaning": "Fuel Injection Air Control Valve Circuit Flow Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1283": {
+    "Meaning": "Fuel Injection Air Control Valve Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1284": {
+    "Meaning": "Fuel Injection Air Control Valve Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1285": {
+    "Meaning": "Fuel Injection Air Control Valve Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1286": {
+    "Meaning": "Fuel Injection Air Control Valve Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1287": {
+    "Meaning": "Turbocharge Bypass Valve Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1288": {
+    "Meaning": "Turbocharge Bypass Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1289": {
+    "Meaning": "Turbocharge Bypass Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1300": {
+    "Meaning": "Misfire Detected Fuel Level Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1319": {
+    "Meaning": "Knock Sensor 1 Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1320": {
+    "Meaning": "Knock Sensor 2 Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1321": {
+    "Meaning": "Knock Sensor 3 Circuit Low Input",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1322": {
+    "Meaning": "Knock Sensor 3 Circuit High Input",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1323": {
+    "Meaning": "Knock Sensor 4 Circuit Low Input",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1324": {
+    "Meaning": "Knock Sensor 4 Circuit High Input",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1325": {
+    "Meaning": "Cylinder 1 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1326": {
+    "Meaning": "Cylinder 2 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1327": {
+    "Meaning": "Cylinder 3 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1328": {
+    "Meaning": "Cylinder 4 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1329": {
+    "Meaning": "Cylinder 5 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1330": {
+    "Meaning": "Cylinder 6 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1331": {
+    "Meaning": "Cylinder 7 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1332": {
+    "Meaning": "Cylinder 8 Knock Control Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1335": {
+    "Meaning": "Engine Torque Monitoring 2 Control Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1336": {
+    "Meaning": "Engine Torque Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1337": {
+    "Meaning": "CMP Sensor Bank 1 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1338": {
+    "Meaning": "CMP Sensor Bank 1 Open Circuit Or Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1339": {
+    "Meaning": "Crankshaft Position Engine Speed Sensor Cross Connected",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1340": {
+    "Meaning": "CKP CMP Sensor Signals Out Of Sequence",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1341": {
+    "Meaning": "Ignition Coil Output Stage 1 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1342": {
+    "Meaning": "Ignition Coil Power Output State 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1343": {
+    "Meaning": "Ignition Coil Output Stage 2 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1345": {
+    "Meaning": "Ignition Coil Output Stage 3 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1346": {
+    "Meaning": "Ignition Coil Power Output State 3 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1347": {
+    "Meaning": "Bank 2 Crankshaft Camshaft Position Sensor Signal Out Of Sequence",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1348": {
+    "Meaning": "Ignition Coil Power Output Stage 1 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1349": {
+    "Meaning": "Ignition Coil Power Output Stage 2 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1350": {
+    "Meaning": "Ignition Coil Power Output Stage 3 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1354": {
+    "Meaning": "Modulation Piston Displacement Sensor Circuit Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1355": {
+    "Meaning": "Cylinder 1 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1356": {
+    "Meaning": "Cylinder 1 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1357": {
+    "Meaning": "Cylinder 1 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1358": {
+    "Meaning": "Cylinder 2 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1359": {
+    "Meaning": "Cylinder 2 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1360": {
+    "Meaning": "Cylinder 2 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1361": {
+    "Meaning": "Cylinder 3 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1362": {
+    "Meaning": "Cylinder 3 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1363": {
+    "Meaning": "Cylinder 3 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1364": {
+    "Meaning": "Cylinder 4 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1365": {
+    "Meaning": "Cylinder 4 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1366": {
+    "Meaning": "Cylinder 4 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1367": {
+    "Meaning": "Cylinder 5 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1368": {
+    "Meaning": "Cylinder 5 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1369": {
+    "Meaning": "Cylinder 5 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1370": {
+    "Meaning": "Cylinder 6 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1371": {
+    "Meaning": "Cylinder 6 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1372": {
+    "Meaning": "Cylinder 6 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1373": {
+    "Meaning": "Cylinder 7 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1374": {
+    "Meaning": "Cylinder 7 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1375": {
+    "Meaning": "Cylinder 7 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1376": {
+    "Meaning": "Cylinder 8 Ignition Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1377": {
+    "Meaning": "Cylinder 8 Ignition Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1378": {
+    "Meaning": "Cylinder 8 Ignition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1386": {
+    "Meaning": "Internal Control Module Knock Control Error",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1387": {
+    "Meaning": "Control Unit Internal Altitude Sensor",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1388": {
+    "Meaning": "Control Unit Internal Throttle Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1391": {
+    "Meaning": "CMP Sensor Bank 2 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1392": {
+    "Meaning": "CMP Sensor Bank 2 Open Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1393": {
+    "Meaning": "Ignition Coil Power Output Stage 1 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1394": {
+    "Meaning": "Ignition Coil Power Output Stage 2 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1395": {
+    "Meaning": "Ignition Coil Power Output Stage 3 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1396": {
+    "Meaning": "Engine Speed Sensor Missing Tooth",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1397": {
+    "Meaning": "Engine Speed Wheel Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1398": {
+    "Meaning": "Engine RPM Signal Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1399": {
+    "Meaning": "Engine RPM Signal Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1400": {
+    "Meaning": "EGR Valve Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1401": {
+    "Meaning": "EGR Valve Power Stage Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1402": {
+    "Meaning": "EGR Valve Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1403": {
+    "Meaning": "EGR Flow Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1404": {
+    "Meaning": "EGR Flow Adaptation Not Carried Out",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1406": {
+    "Meaning": "EGR Temperature Sensor Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1407": {
+    "Meaning": "EGR Temperature Sensor Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1408": {
+    "Meaning": "EGR Temperature Sensor Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1409": {
+    "Meaning": "Tank Ventilation Valve Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1410": {
+    "Meaning": "Tank Ventilation Valve Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1411": {
+    "Meaning": "Secondary Air Injection System Bank 2 Flow Too Lean",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1412": {
+    "Meaning": "EGR Differential Pressure Sensor Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1413": {
+    "Meaning": "EGR Differential Pressure Sensor Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1414": {
+    "Meaning": "Secondary Air Injection System Bank 2 Leak Detected",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1417": {
+    "Meaning": "Fuel Level Sensor Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1418": {
+    "Meaning": "Fuel Level Sensor Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1420": {
+    "Meaning": "Secondary Air Injection Control Module Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1421": {
+    "Meaning": "Secondary Air Injection Valve Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1422": {
+    "Meaning": "Secondary Air Injection Valve Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1423": {
+    "Meaning": "Secondary Air Injection System Bank 1 Flow Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1424": {
+    "Meaning": "Secondary Air Injection System Bank 1 Leak Detected",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1425": {
+    "Meaning": "Tank Ventilation Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1426": {
+    "Meaning": "Tank Ventilation Valve Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1432": {
+    "Meaning": "Secondary Air Injection Valve Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1433": {
+    "Meaning": "Secondary Air Injection Pump Relay Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1434": {
+    "Meaning": "Secondary Air Injection Pump Relay Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1435": {
+    "Meaning": "Secondary Air Injection Pump Relay Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1436": {
+    "Meaning": "Secondary Air Injection Pump Relay Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1439": {
+    "Meaning": "EGR Valve Position Sensor Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1440": {
+    "Meaning": "EGR Valve Power Stage Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1441": {
+    "Meaning": "EGR Valve Circuit Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1442": {
+    "Meaning": "EGR Valve Position Sensor Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1443": {
+    "Meaning": "EGR Valve Position Sensor Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1444": {
+    "Meaning": "EGR Valve Position Sensor Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1445": {
+    "Meaning": "Catalyst Temperature Sensor 2 Circuit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1446": {
+    "Meaning": "Catalyst Temperature Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1447": {
+    "Meaning": "Catalyst Temperature Circuit Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1448": {
+    "Meaning": "Catalyst Temperature Sensor 2 Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1449": {
+    "Meaning": "Catalyst Temperature Sensor 2 Circuit Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1450": {
+    "Meaning": "Secondary Air Injection System Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1451": {
+    "Meaning": "Secondary Air Injection Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1452": {
+    "Meaning": "Secondary Air Injection System Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1453": {
+    "Meaning": "Exhaust Gas Temperature Sensor 1 Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1454": {
+    "Meaning": "Exhaust Gas Temperature Sensor 1 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1455": {
+    "Meaning": "Exhaust Gas Temperature Sensor 1 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1456": {
+    "Meaning": "Exhaust Gas Temperature Control Bank 1 Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1457": {
+    "Meaning": "Exhaust Gas Temperature Sensor 2 Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1458": {
+    "Meaning": "Exhaust Gas Temperature Sensor 2 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1459": {
+    "Meaning": "Exhaust Gas Temperature Sensor 2 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1460": {
+    "Meaning": "Exhaust Gas Temperature Control Bank 2 Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1461": {
+    "Meaning": "Exhaust Gas Temperature Control Bank 1 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1462": {
+    "Meaning": "Exhaust Gas Temperature Control Bank 2 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1465": {
+    "Meaning": "Additive Pump Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1466": {
+    "Meaning": "Additive Pump Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1467": {
+    "Meaning": "EVAP Canister Purge Solenoid Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1468": {
+    "Meaning": "EVAP Canister Purge Solenoid Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1469": {
+    "Meaning": "EVAP Canister Purge Solenoid Valve Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1470": {
+    "Meaning": "EVAP Emission Control System LDP Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1471": {
+    "Meaning": "EVAP Emission Control System LDP Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1472": {
+    "Meaning": "EVAP Emission Control System LDP Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1473": {
+    "Meaning": "EVAP Emission Control System LDP Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1475": {
+    "Meaning": "EVAP Emission Control System LDP Malfunction Signal Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1476": {
+    "Meaning": "EVAP Emission Control System LDP Malfunction Insufficient Vacuum",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1477": {
+    "Meaning": "EVAP Emission Control System LDP Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1478": {
+    "Meaning": "EVAP Emission Control System LDP Clamped Tube Detected",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1500": {
+    "Meaning": "Fuel Pump Relay Electrical Circuit Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1501": {
+    "Meaning": "Fuel Pump Relay Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1502": {
+    "Meaning": "Fuel Pump Relay Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1503": {
+    "Meaning": "Load Signal From Generator Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1504": {
+    "Meaning": "Intake Air System Bypass Leak Detected",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1505": {
+    "Meaning": "Closed Throttle Position Does Not Close Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1506": {
+    "Meaning": "Closed Throttle Position Switch Does Not Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1507": {
+    "Meaning": "Idle System Learned Value Lower Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1508": {
+    "Meaning": "Idle System Learned Value Upper Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1509": {
+    "Meaning": "Idle Air Control Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1510": {
+    "Meaning": "Idle Air Control Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1511": {
+    "Meaning": "Intake Manifold Changeover Valve Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1512": {
+    "Meaning": "Intake Manifold Changeover Valve Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1513": {
+    "Meaning": "Intake Manifold Changeover Valve 2 Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1514": {
+    "Meaning": "Intake Manifold Changeover Valve 2 Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1515": {
+    "Meaning": "Intake Manifold Changeover Valve Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1516": {
+    "Meaning": "Intake Manifold Changeover Valve Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1517": {
+    "Meaning": "Main Relay Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1518": {
+    "Meaning": "Main Relay Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1519": {
+    "Meaning": "Intake Camshaft Control Bank 1 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1520": {
+    "Meaning": "Intake Manifold Changeover Valve 2 Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1521": {
+    "Meaning": "Intake Manifold Changeover Valve 2 Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1522": {
+    "Meaning": "Intake Camshaft Control Bank 2 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1523": {
+    "Meaning": "Crash Signal From Airbag Control Unit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1525": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 1 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1526": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1527": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 1 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1528": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 1 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1529": {
+    "Meaning": "Intake Camshaft Control Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1530": {
+    "Meaning": "Intake Camshaft Control Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1531": {
+    "Meaning": "Intake Camshaft Control Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1533": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 2 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1534": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 2 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1535": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 2 Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1536": {
+    "Meaning": "Intake Camshaft Control Circuit Bank 2 Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1537": {
+    "Meaning": "Engine Shutoff Solenoid Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1538": {
+    "Meaning": "Engine Shutoff Solenoid Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1539": {
+    "Meaning": "Clutch Pedal Switch Signal Fault",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1540": {
+    "Meaning": "Vehicle Speed Sensor High Input",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1541": {
+    "Meaning": "Fuel Pump Relay Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1542": {
+    "Meaning": "Throttle Actuation Potentiometer Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1543": {
+    "Meaning": "Throttle Actuation Potentiometer Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1544": {
+    "Meaning": "Throttle Actuation Potentiometer Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1545": {
+    "Meaning": "Throttle Position Control Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1546": {
+    "Meaning": "Boost Pressure Control Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1547": {
+    "Meaning": "Boost Pressure Control Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1548": {
+    "Meaning": "Boost Pressure Control Valve Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1549": {
+    "Meaning": "Boost Pressure Control Valve Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1550": {
+    "Meaning": "Charge Pressure Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1551": {
+    "Meaning": "Barometric Pressure Sensor Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1552": {
+    "Meaning": "Barometric Pressure Sensor Circuit Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1553": {
+    "Meaning": "Barometric Manifold Pressure Signal Ratio Out Of Range",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1554": {
+    "Meaning": "Idle Speed Control Throttle Position Missing Adaptation Conditions",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1555": {
+    "Meaning": "Charge Pressure Upper Limit Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1556": {
+    "Meaning": "Charge Pressure Negative Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1557": {
+    "Meaning": "Charge Pressure Positive Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1558": {
+    "Meaning": "Throttle Actuator Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1559": {
+    "Meaning": "Idle Speed Control Throttle Position Adaptation Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1560": {
+    "Meaning": "Maximum Engine Speed Exceeded",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1561": {
+    "Meaning": "Quantity Adjuster Deviation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1562": {
+    "Meaning": "Quantity Adjuster Upper Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1563": {
+    "Meaning": "Quantity Adjuster Lower Limit Attained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1564": {
+    "Meaning": "Idle Speed Control Throttle Position Low Voltage During Adaptation",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1565": {
+    "Meaning": "Idle Speed Control Throttle Position Lower Limit Not Obtained",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1566": {
+    "Meaning": "Load Signal From A/C Compressor Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1567": {
+    "Meaning": "Load Signal From A/C Compressor No Signal",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1568": {
+    "Meaning": "Idle Speed Control Throttle Position Mechanical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1569": {
+    "Meaning": "Switch For CCS Signal Faulty",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1570": {
+    "Meaning": "Control Unit Locked",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1571": {
+    "Meaning": "Left Engine Mount Solenoid Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1572": {
+    "Meaning": "Left Engine Mount Solenoid Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1573": {
+    "Meaning": "Left Engine Mount Solenoid Valve Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1574": {
+    "Meaning": "Left Engine Mount Solenoid Valve Electrical Fault In Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1575": {
+    "Meaning": "Right Engine Mount Solenoid Valve Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1576": {
+    "Meaning": "Right Engine Mount Solenoid Valve Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1577": {
+    "Meaning": "Right Engine Mount Solenoid Valve Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1578": {
+    "Meaning": "Right Engine Mount Solenoid Valve Electrical Fault In Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1579": {
+    "Meaning": "Idle Speed Control Throttle Position Adaptation Not Started",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1580": {
+    "Meaning": "Throttle Actuator Bank 1 Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1581": {
+    "Meaning": "Idle Speed Control Throttle Position Adaptation Not Carried Out",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1582": {
+    "Meaning": "Idle Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1583": {
+    "Meaning": "Transmission Mount Valves Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1584": {
+    "Meaning": "Transmission Mount Valves Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1585": {
+    "Meaning": "Transmission Mount Valves Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1586": {
+    "Meaning": "Engine Mount Solenoid Valves Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1587": {
+    "Meaning": "Engine Mount Solenoid Valves Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1588": {
+    "Meaning": "Engine Mount Solenoid Valves Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1600": {
+    "Meaning": "Power Supply Terminal No 15 Low Voltage",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1602": {
+    "Meaning": "Power Supply Terminal No 30 Low Voltage",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1603": {
+    "Meaning": "Internal Control Module Self Check",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1604": {
+    "Meaning": "Internal Control Module Driver Error",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1605": {
+    "Meaning": "Rough Road Acceleration Sensor Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1606": {
+    "Meaning": "Rough Road Spec Engine Torque ABS ECU Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1607": {
+    "Meaning": "Vehicle Speed Signal Error Message From Instrument Cluster",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1608": {
+    "Meaning": "Steering Angle Signal Error Message From Steering Angle Sensor",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1609": {
+    "Meaning": "Crash Shut Down Activated",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1611": {
+    "Meaning": "MIL Call-Up Circuit TCM Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1612": {
+    "Meaning": "Engine Control Module Incorrect Coding",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1613": {
+    "Meaning": "MIL Call-Up Circuit Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1614": {
+    "Meaning": "MIL Call-Up Circuit Transmission Control Module Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1615": {
+    "Meaning": "Engine Oil Temperature Sensor Circuit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1616": {
+    "Meaning": "Glow Plug Heater Indicator Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1617": {
+    "Meaning": "Glow Plug Heater Indicator Circuit Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1618": {
+    "Meaning": "Glow Plug Heater Relay Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1619": {
+    "Meaning": "Glow Plug Heater Relay Circuit Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1620": {
+    "Meaning": "Engine Coolant Temperature Signal Open Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1621": {
+    "Meaning": "Engine Coolant Temperature Signal Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1622": {
+    "Meaning": "Engine Coolant Temperature Signal Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1623": {
+    "Meaning": "Data Bus Powertrain No Communication",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1624": {
+    "Meaning": "MIL Request Signal Active",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1625": {
+    "Meaning": "CAN Bus Unplausible Message From Transmission Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1626": {
+    "Meaning": "Data Bus Drive Missing Command From M/T",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1627": {
+    "Meaning": "Data Bus Powertrain Missing Message From Fuel Injection Pump",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1628": {
+    "Meaning": "Data Bus Powertrain Missing Message From Distance Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1629": {
+    "Meaning": "Data Bus Powertrain Missing Message From Distance Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1630": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1631": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1632": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Power Supply Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1633": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Signal Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1634": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1635": {
+    "Meaning": "Data Bus Powertrain Missing Message From Air Condition Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1636": {
+    "Meaning": "Data Bus Powertrain Missing Message From Airbag Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1637": {
+    "Meaning": "Data Bus Powertrain Missing Message From Central Electronic Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1638": {
+    "Meaning": "Data Bus Powertrain Missing Message From Clutch Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1639": {
+    "Meaning": "Accelerator Pedal Position Sensor 1/2 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1640": {
+    "Meaning": "Internal Control Module EEPROM Error",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1641": {
+    "Meaning": "Check DTC Memory Of Air Condition ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1642": {
+    "Meaning": "Check DTC Memory Of Airbag ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1643": {
+    "Meaning": "Check DTC Memory Of Central ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1644": {
+    "Meaning": "Check DTC Memory Of Clutch ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1645": {
+    "Meaning": "Data Bus Powertrain Defect",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1646": {
+    "Meaning": "Check DTC Memory Of All Wheel Drive ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1647": {
+    "Meaning": "Check Coding Of ECUs In Data Bus Powertrain",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1648": {
+    "Meaning": "Data Bus Powertrain Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1649": {
+    "Meaning": "Data Bus Powertrain Missing Message From Brake Controller",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1650": {
+    "Meaning": "Data Bus Powertrain Missing Message From Instrument Panel ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1651": {
+    "Meaning": "Data Bus Powertrain Missing Messages",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1652": {
+    "Meaning": "Check DTC Memory Of Transmissions ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1653": {
+    "Meaning": "Check DTC Memory Of Brake ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1654": {
+    "Meaning": "Check DTC Memory Of Control Panel ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1655": {
+    "Meaning": "Check DTC Memory Of Distance Control ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1656": {
+    "Meaning": "A/C Clutch Relays Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1657": {
+    "Meaning": "A/C Clutch Relays Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1658": {
+    "Meaning": "Data Bus Powertrain Range Performance From Distance Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1676": {
+    "Meaning": "Drive By Wire MIL Circuit Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1677": {
+    "Meaning": "Drive By Wire MIL Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1678": {
+    "Meaning": "Drive By Wire MIL Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1679": {
+    "Meaning": "Drive By Wire MIL Circuit Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1681": {
+    "Meaning": "Control Module Programming Not Finished",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1684": {
+    "Meaning": "Control Unit Programming Communication Error",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1686": {
+    "Meaning": "Control Unit Error Programming",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1690": {
+    "Meaning": "MIL Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1691": {
+    "Meaning": "MIL Open Circuit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1692": {
+    "Meaning": "MIL Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1693": {
+    "Meaning": "MIL Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1694": {
+    "Meaning": "MIL Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1704": {
+    "Meaning": "Kick Down Switch Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1711": {
+    "Meaning": "Wheel Speed Signal 1 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1716": {
+    "Meaning": "Wheel Speed Signal 2 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1721": {
+    "Meaning": "Wheel Speed Signal 3 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1723": {
+    "Meaning": "Starter Interlock Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1724": {
+    "Meaning": "Starter Interlock Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1726": {
+    "Meaning": "Wheel Speed Signal 4 Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1728": {
+    "Meaning": "Different Wheel Speed Signals Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1729": {
+    "Meaning": "Starter Interlock Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1733": {
+    "Meaning": "Tiptronic Switch Down Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1739": {
+    "Meaning": "Tiptronic Switch Up Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1741": {
+    "Meaning": "Clutch Pressure Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1742": {
+    "Meaning": "Clutch Torque Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1743": {
+    "Meaning": "Clutch Slip Control Signal Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1744": {
+    "Meaning": "Tiptronic Switch Recognition Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1745": {
+    "Meaning": "Transmission Control Unit Relay Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1746": {
+    "Meaning": "Transmission Control Unit Relay Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1747": {
+    "Meaning": "Transmission Control Unit Relay Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1748": {
+    "Meaning": "Transmission Control Unit Self-Check",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1749": {
+    "Meaning": "Transmission Control Unit Incorrect Coding",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1750": {
+    "Meaning": "Power Supply Voltage Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1751": {
+    "Meaning": "Power Supply Voltage High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1752": {
+    "Meaning": "Power Supply Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1760": {
+    "Meaning": "Shift Lock Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1761": {
+    "Meaning": "Shift Lock Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1762": {
+    "Meaning": "Shift Lock Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1763": {
+    "Meaning": "Shift Lock Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1765": {
+    "Meaning": "Hydraulic Pressure Sensor 2 Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1766": {
+    "Meaning": "Throttle Angle Signal Stuck Off",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1767": {
+    "Meaning": "Throttle Angle Signal Stuck On",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1768": {
+    "Meaning": "Hydraulic Pressure Sensor 2 Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1769": {
+    "Meaning": "Hydraulic Pressure Sensor 2 Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1770": {
+    "Meaning": "Load Signal Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1771": {
+    "Meaning": "Load Signal Stuck Off",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1772": {
+    "Meaning": "Load Signal Stuck On",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1773": {
+    "Meaning": "Hydraulic Pressure Sensor 1 Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1774": {
+    "Meaning": "Hydraulic Pressure Sensor 1 Too Low",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1775": {
+    "Meaning": "Hydraulic Pressure Sensor 1 Adaptation At Limit",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1778": {
+    "Meaning": "Solenoid EV7 Electrical Malfunction",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1780": {
+    "Meaning": "Engine Intervention Readable",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1781": {
+    "Meaning": "Engine Torque Reduction Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1782": {
+    "Meaning": "Engine Torque Reduction Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1784": {
+    "Meaning": "Shift Up Down Wire Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1785": {
+    "Meaning": "Shift Up Down Wire Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1786": {
+    "Meaning": "Reversing Light Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1787": {
+    "Meaning": "Reversing Light Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1788": {
+    "Meaning": "Reversing Light Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1789": {
+    "Meaning": "Idle Speed Intervention Circuit Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1790": {
+    "Meaning": "Transmission Range Display Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1791": {
+    "Meaning": "Transmission Range Display Circuit Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1792": {
+    "Meaning": "Transmission Range Display Circuit Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1793": {
+    "Meaning": "Output Speed Sensor 2 Circuit No Signal",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1795": {
+    "Meaning": "Vehicle Speed Signal Circuit Open",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1796": {
+    "Meaning": "Vehicle Speed Signal Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1797": {
+    "Meaning": "Vehicle Speed Signal Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1798": {
+    "Meaning": "Output Speed Sensor 2 Circuit Range Performance",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1799": {
+    "Meaning": "Output Speed Sensor 2 Circuit RPM Too High",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1813": {
+    "Meaning": "Pressure Control Solenoid 1 Electrical",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1814": {
+    "Meaning": "Pressure Control Solenoid 1 Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1815": {
+    "Meaning": "Pressure Control Solenoid 1 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1818": {
+    "Meaning": "Pressure Control Solenoid 2 Electrical",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1819": {
+    "Meaning": "Pressure Control Solenoid 2 Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1820": {
+    "Meaning": "Pressure Control Solenoid 2 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1823": {
+    "Meaning": "Pressure Control Solenoid 3 Electrical",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1824": {
+    "Meaning": "Pressure Control Solenoid 3 Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1825": {
+    "Meaning": "Pressure Control Solenoid 3 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1828": {
+    "Meaning": "Pressure Control Solenoid 4 Electrical",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1829": {
+    "Meaning": "Pressure Control Solenoid 4 Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1830": {
+    "Meaning": "Pressure Control Solenoid 4 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1834": {
+    "Meaning": "Pressure Control Solenoid 5 Open Short To Ground",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1835": {
+    "Meaning": "Pressure Control Solenoid 5 Short To B+",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1841": {
+    "Meaning": "Engine Transmission Control Do Not Match",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1842": {
+    "Meaning": "Check DTC Memory Of Instrument Panel ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1843": {
+    "Meaning": "Check DTC Memory Of Distance Control ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1844": {
+    "Meaning": "Check DTC Memory Of Central Electronic Control ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1847": {
+    "Meaning": "Check DTC Memory Of Brake System ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1848": {
+    "Meaning": "Check DTC Memory Of Engine ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1849": {
+    "Meaning": "Check DTC Memory Of Transmission ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1850": {
+    "Meaning": "CAN Bus Missing Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1851": {
+    "Meaning": "CAN Bus Missing Message From Brake Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1852": {
+    "Meaning": "CAN Bus Unplausible Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1853": {
+    "Meaning": "CAN Bus Unplausible Message From Brake Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1854": {
+    "Meaning": "CAN Bus Hardware Defective",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1855": {
+    "Meaning": "CAN Bus Software Version Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1856": {
+    "Meaning": "Throttle Pedal Position Sensor A Circuit Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1857": {
+    "Meaning": "Load Signal Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1858": {
+    "Meaning": "Engine Speed Input Circuit Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1859": {
+    "Meaning": "Brake Switch Circuit Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1860": {
+    "Meaning": "Kick Down Switch Error Message From Engine Control",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1861": {
+    "Meaning": "Throttle Position Sensor Error Message From ECM",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1862": {
+    "Meaning": "Data Bus Powertrain Missing Message From Instrument Panel ECU",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1863": {
+    "Meaning": "Data Bus Powertrain Missing Message From Steering Angle Sensor",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1864": {
+    "Meaning": "Data Bus Powertrain Missing Message From ADR Control Module",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1865": {
+    "Meaning": "Data Bus Powertrain Missing Message From Central Electronics",
+    "Brand": "VOLKSWAGEN"
+  },
+  "P1866": {
+    "Meaning": "Data Bus Powertrain Missing Messages",
+    "Brand": "VOLKSWAGEN"
+  }
+}

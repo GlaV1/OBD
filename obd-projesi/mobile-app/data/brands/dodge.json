@@ -1,0 +1,406 @@
+{
+  "P0138": {
+    "Meaning": "HO2S12 High Voltage",
+    "Brand": "DODGE"
+  },
+  "P0442": {
+    "Meaning": "Medium EVAP Leak",
+    "Brand": "DODGE"
+  },
+  "P0455": {
+    "Meaning": "Large EVAP Leak",
+    "Brand": "DODGE"
+  },
+  "P0601": {
+    "Meaning": "Internal PCM Controller Failure",
+    "Brand": "DODGE"
+  },
+  "P1105": {
+    "Meaning": "Open Or Shorted Condition Detected In The Baro Read Solenoid Control Circuit",
+    "Brand": "DODGE"
+  },
+  "P1192": {
+    "Meaning": "Inlet Air Temp Circuit Low",
+    "Brand": "DODGE"
+  },
+  "P1193": {
+    "Meaning": "Inlet Air Temp Circuit High",
+    "Brand": "DODGE"
+  },
+  "P1194": {
+    "Meaning": "Incorrect Or Irrational Performance Has Been Detected For The PWM",
+    "Brand": "DODGE"
+  },
+  "P1195": {
+    "Meaning": "O2 Sensor 1/1 Bank 1 Sensor 1 Slow During Catalyst Monitor",
+    "Brand": "DODGE"
+  },
+  "P1196": {
+    "Meaning": "O2 Sensor 2/1 Bank 2 Sensor 1 Slow During Catalyst Monitor",
+    "Brand": "DODGE"
+  },
+  "P1197": {
+    "Meaning": "O2 Sensor 1/2 Bank 1 Sensor 2 Slow During Catalyst Monitor",
+    "Brand": "DODGE"
+  },
+  "P1198": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1199": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1243": {
+    "Meaning": "Open Or Shorted Condition Detected In The Turbocharger Surge Valve Solenoid Control",
+    "Brand": "DODGE"
+  },
+  "P1280": {
+    "Meaning": "Open Or Shorted Condition Detected In The Fuel System Relay Control Circuit",
+    "Brand": "DODGE"
+  },
+  "P1281": {
+    "Meaning": "Engine Operating Temp Below Acceptable Range",
+    "Brand": "DODGE"
+  },
+  "P1282": {
+    "Meaning": "Fuel Pump Relay Control Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1283": {
+    "Meaning": "Idle Select Signal Invalid",
+    "Brand": "DODGE"
+  },
+  "P1284": {
+    "Meaning": "Fuel Injection Pump Battery Voltage Out Of Range",
+    "Brand": "DODGE"
+  },
+  "P1285": {
+    "Meaning": "Fuel Injection Pump Controller Always On",
+    "Brand": "DODGE"
+  },
+  "P1286": {
+    "Meaning": "Accelerator Pedal Position Sensor Supply Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1287": {
+    "Meaning": "Fuel Injection Pump Controller Supply Voltage Low",
+    "Brand": "DODGE"
+  },
+  "P1288": {
+    "Meaning": "Intake Manifold Short Runner Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1289": {
+    "Meaning": "Manifold Tune Valve Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1290": {
+    "Meaning": "CNG Fuel Pressure Too High",
+    "Brand": "DODGE"
+  },
+  "P1291": {
+    "Meaning": "No Temp Rise Seen From Fuel Heaters",
+    "Brand": "DODGE"
+  },
+  "P1292": {
+    "Meaning": "CNG Pressure Sensor Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1293": {
+    "Meaning": "CNG Pressure Sensor Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1294": {
+    "Meaning": "Target Idle Not Reached",
+    "Brand": "DODGE"
+  },
+  "P1295": {
+    "Meaning": "Loss Of 5 Volts To TP Sensor",
+    "Brand": "DODGE"
+  },
+  "P1296": {
+    "Meaning": "Loss Of 5 Volts To MAP Sensor",
+    "Brand": "DODGE"
+  },
+  "P1297": {
+    "Meaning": "No Change In MAP From Start To Run",
+    "Brand": "DODGE"
+  },
+  "P1298": {
+    "Meaning": "Lean Operation At Wide Open Throttle",
+    "Brand": "DODGE"
+  },
+  "P1299": {
+    "Meaning": "Vacuum Leak Found (IAC Fully Seated)",
+    "Brand": "DODGE"
+  },
+  "P1388": {
+    "Meaning": "Auto Shutdown (ASD) Relay Control Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1389": {
+    "Meaning": "No Auto Shutdown (ASD) Relay Output Voltage At PCM",
+    "Brand": "DODGE"
+  },
+  "P1390": {
+    "Meaning": "Timing Belt Skipped One Tooth Or More",
+    "Brand": "DODGE"
+  },
+  "P1391": {
+    "Meaning": "Intermittent Loss of CMP Or CKP",
+    "Brand": "DODGE"
+  },
+  "P1398": {
+    "Meaning": "PCM Is Unable To Learn The Crankshaft Position Sensor's Signal",
+    "Brand": "DODGE"
+  },
+  "P1399": {
+    "Meaning": "Wait To Start Lamp Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1403": {
+    "Meaning": "Loss Of 5 Volts To EGR Sensor",
+    "Brand": "DODGE"
+  },
+  "P1475": {
+    "Meaning": "Auxiliary 5 Volt Output Too High",
+    "Brand": "DODGE"
+  },
+  "P1476": {
+    "Meaning": "Too Little Secondary Air",
+    "Brand": "DODGE"
+  },
+  "P1477": {
+    "Meaning": "Too Much Secondary Air",
+    "Brand": "DODGE"
+  },
+  "P1478": {
+    "Meaning": "Battery Temp Sensor Voltage Out Of Limit",
+    "Brand": "DODGE"
+  },
+  "P1479": {
+    "Meaning": "Transmission Fan Relay Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1480": {
+    "Meaning": "Open Or Shorted Condition Detected In The Positive Crankcase Ventilation (PCV)",
+    "Brand": "DODGE"
+  },
+  "P1481": {
+    "Meaning": "EATX RPM Pulse Generator Signal For Misfire Detection",
+    "Brand": "DODGE"
+  },
+  "P1482": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted Low",
+    "Brand": "DODGE"
+  },
+  "P1483": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted High",
+    "Brand": "DODGE"
+  },
+  "P1484": {
+    "Meaning": "Catalytic Converter Overheat Detected",
+    "Brand": "DODGE"
+  },
+  "P1485": {
+    "Meaning": "Air Injection Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1486": {
+    "Meaning": "Evap Leak Monitor Pinched Hose",
+    "Brand": "DODGE"
+  },
+  "P1487": {
+    "Meaning": "Hi Speed Rad Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1488": {
+    "Meaning": "Auxiliary 5 Volt Supply Output Too Low",
+    "Brand": "DODGE"
+  },
+  "P1489": {
+    "Meaning": "High Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1490": {
+    "Meaning": "Low Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1491": {
+    "Meaning": "Radiator Fan Control Relay Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1492": {
+    "Meaning": "Battery Temperature Sensor Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1493": {
+    "Meaning": "Battery Temperature Sensor Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1494": {
+    "Meaning": "Leak Detection Pump Switch Or Mechanical Fault",
+    "Brand": "DODGE"
+  },
+  "P1495": {
+    "Meaning": "Leak Detection Pump Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1496": {
+    "Meaning": "5 Volt Supply Output Too Low",
+    "Brand": "DODGE"
+  },
+  "P1498": {
+    "Meaning": "High Speed Rad Fan Ground CTRL Rly Circuit",
+    "Brand": "DODGE"
+  },
+  "P1499": {
+    "Meaning": "Open Or Shorted Condition Detected In The Hydraulic Cooling Fan Solenoid Control",
+    "Brand": "DODGE"
+  },
+  "P1594": {
+    "Meaning": "Charging System Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1595": {
+    "Meaning": "Speed Control Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1596": {
+    "Meaning": "Speed Control Switch Always High",
+    "Brand": "DODGE"
+  },
+  "P1597": {
+    "Meaning": "Speed Control Switch Always Low",
+    "Brand": "DODGE"
+  },
+  "P1598": {
+    "Meaning": "A/C Pressure Sensor Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1599": {
+    "Meaning": "A/C Pressure Sensor Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1602": {
+    "Meaning": "PCM Not Programmed",
+    "Brand": "DODGE"
+  },
+  "P1680": {
+    "Meaning": "Clutch Released Switch Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1681": {
+    "Meaning": "No Instrument Panel Cluster CCD/J1850 Messages Received",
+    "Brand": "DODGE"
+  },
+  "P1682": {
+    "Meaning": "Charging System Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1683": {
+    "Meaning": "Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1684": {
+    "Meaning": "Battery Disconnected Within Last 50 Starts",
+    "Brand": "DODGE"
+  },
+  "P1685": {
+    "Meaning": "Skim Invalid Key",
+    "Brand": "DODGE"
+  },
+  "P1686": {
+    "Meaning": "No SKIM Bus Message Received",
+    "Brand": "DODGE"
+  },
+  "P1687": {
+    "Meaning": "No Cluster Bus Message",
+    "Brand": "DODGE"
+  },
+  "P1688": {
+    "Meaning": "Internal Fuel Injection Pump Controller Failure",
+    "Brand": "DODGE"
+  },
+  "P1689": {
+    "Meaning": "No Communication Between ECM & Injection Pump Module",
+    "Brand": "DODGE"
+  },
+  "P1690": {
+    "Meaning": "Fuel Injection Pump CKP Sensor Does Not Agree With ECM CKP Sensor",
+    "Brand": "DODGE"
+  },
+  "P1691": {
+    "Meaning": "Fuel Injection Pump Controller Calibration Failure",
+    "Brand": "DODGE"
+  },
+  "P1693": {
+    "Meaning": "DTC Detected In ECM Or PCM",
+    "Brand": "DODGE"
+  },
+  "P1694": {
+    "Meaning": "No CCD Messages Received From ECM",
+    "Brand": "DODGE"
+  },
+  "P1695": {
+    "Meaning": "No CCD/J1850 Message From BCM",
+    "Brand": "DODGE"
+  },
+  "P1696": {
+    "Meaning": "PCM Failure EEPROM Write Denied",
+    "Brand": "DODGE"
+  },
+  "P1697": {
+    "Meaning": "PCM Failure SRI Mile Not Stored",
+    "Brand": "DODGE"
+  },
+  "P1698": {
+    "Meaning": "No CCD Messages Received From PCM",
+    "Brand": "DODGE"
+  },
+  "P1699": {
+    "Meaning": "No CCD/J1850 Messages Received From The Climate Control Module (CCM)",
+    "Brand": "DODGE"
+  },
+  "P1719": {
+    "Meaning": "Skip Shift Solenoid Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1740": {
+    "Meaning": "TCC Or OD Solenoid Performance",
+    "Brand": "DODGE"
+  },
+  "P1756": {
+    "Meaning": "Governor Pressure Not Equal To Target At 15-20 PSI",
+    "Brand": "DODGE"
+  },
+  "P1757": {
+    "Meaning": "Governor Pressure Above 3 PSI When Request Is 0 PSI",
+    "Brand": "DODGE"
+  },
+  "P1762": {
+    "Meaning": "Governor Pressure Sensor Offset Improper Voltage",
+    "Brand": "DODGE"
+  },
+  "P1763": {
+    "Meaning": "Governor Pressure Sensor Voltage Too High",
+    "Brand": "DODGE"
+  },
+  "P1764": {
+    "Meaning": "Governor Pressure Sensor Voltage Too Low",
+    "Brand": "DODGE"
+  },
+  "P1765": {
+    "Meaning": "Trans 12 Volt Supply Relay Control Circuit Open Or Shorted",
+    "Brand": "DODGE"
+  },
+  "P1830": {
+    "Meaning": "Open Or Shorted Condition Detected In The Clutch Pedal Switch Override Relay Control",
+    "Brand": "DODGE"
+  },
+  "P1899": {
+    "Meaning": "Park Neutral Position Switch Stuck In Park Or In Gear",
+    "Brand": "DODGE"
+  }
+}

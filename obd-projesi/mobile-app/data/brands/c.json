@@ -1,0 +1,1062 @@
+{
+  "C0001": {
+    "Meaning": "TCS Control Channel A Valve 1",
+    "Brand": "C"
+  },
+  "C0002": {
+    "Meaning": "TCS Control Channel A Valve 2",
+    "Brand": "C"
+  },
+  "C0003": {
+    "Meaning": "TCS Control Channel B Valve 1",
+    "Brand": "C"
+  },
+  "C0004": {
+    "Meaning": "TCS Control Channel B Valve 2",
+    "Brand": "C"
+  },
+  "C0010": {
+    "Meaning": "Left Front Inlet Control",
+    "Brand": "C"
+  },
+  "C0011": {
+    "Meaning": "Left Front Outlet Control",
+    "Brand": "C"
+  },
+  "C0012": {
+    "Meaning": "Left Front Hydraulic Release Too Long",
+    "Brand": "C"
+  },
+  "C0014": {
+    "Meaning": "Right Front Inlet Control",
+    "Brand": "C"
+  },
+  "C0015": {
+    "Meaning": "Right Front Outlet Control",
+    "Brand": "C"
+  },
+  "C0016": {
+    "Meaning": "Right Front Hydraulic Release Too Long",
+    "Brand": "C"
+  },
+  "C0018": {
+    "Meaning": "Left Rear Inlet Control",
+    "Brand": "C"
+  },
+  "C0019": {
+    "Meaning": "Left Rear Outlet Control",
+    "Brand": "C"
+  },
+  "C0020": {
+    "Meaning": "ABS Pump Motor Control",
+    "Brand": "C"
+  },
+  "C0021": {
+    "Meaning": "Brake Booster Performance",
+    "Brand": "C"
+  },
+  "C0022": {
+    "Meaning": "Brake Booster Solenoid",
+    "Brand": "C"
+  },
+  "C0023": {
+    "Meaning": "Stop Lamp Control",
+    "Brand": "C"
+  },
+  "C0024": {
+    "Meaning": "Brake Pedal Feedback Pressure Solenoid Circuit",
+    "Brand": "C"
+  },
+  "C0025": {
+    "Meaning": "Brake Pedal Feedback Pressure Sensor Circuit",
+    "Brand": "C"
+  },
+  "C0030": {
+    "Meaning": "Left Front Tone Wheel",
+    "Brand": "C"
+  },
+  "C0031": {
+    "Meaning": "Left Front Wheel Speed Sensor",
+    "Brand": "C"
+  },
+  "C0032": {
+    "Meaning": "Left Front Wheel Speed Sensor Supply",
+    "Brand": "C"
+  },
+  "C0033": {
+    "Meaning": "Right Front Tone Wheel",
+    "Brand": "C"
+  },
+  "C0034": {
+    "Meaning": "Right Front Wheel Speed Sensor",
+    "Brand": "C"
+  },
+  "C0035": {
+    "Meaning": "Right Front Wheel Speed Sensor Supply",
+    "Brand": "C"
+  },
+  "C0036": {
+    "Meaning": "Left Rear Tone Wheel",
+    "Brand": "C"
+  },
+  "C0037": {
+    "Meaning": "Left Rear Wheel Speed Sensor",
+    "Brand": "C"
+  },
+  "C0038": {
+    "Meaning": "Left Rear Wheel Speed Sensor Supply",
+    "Brand": "C"
+  },
+  "C0039": {
+    "Meaning": "Right Rear Tone Wheel",
+    "Brand": "C"
+  },
+  "C0040": {
+    "Meaning": "Brake Pedal Switch A",
+    "Brand": "C"
+  },
+  "C0041": {
+    "Meaning": "Brake Pedal Switch B",
+    "Brand": "C"
+  },
+  "C0042": {
+    "Meaning": "Brake Pedal Position Sensor Circuit A",
+    "Brand": "C"
+  },
+  "C0043": {
+    "Meaning": "Brake Pedal Position Sensor Circuit B",
+    "Brand": "C"
+  },
+  "C0044": {
+    "Meaning": "Brake Pressure Sensor A",
+    "Brand": "C"
+  },
+  "C0045": {
+    "Meaning": "Brake Pressure Sensor B",
+    "Brand": "C"
+  },
+  "C0046": {
+    "Meaning": "Brake Pressure Sensor A/B",
+    "Brand": "C"
+  },
+  "C0047": {
+    "Meaning": "Brake Booster Pressure Sensor",
+    "Brand": "C"
+  },
+  "C0048": {
+    "Meaning": "Brake Booster Travel Sensor",
+    "Brand": "C"
+  },
+  "C0049": {
+    "Meaning": "Brake Fluid Level",
+    "Brand": "C"
+  },
+  "C0051": {
+    "Meaning": "Steering Wheel Position Sensor",
+    "Brand": "C"
+  },
+  "C0052": {
+    "Meaning": "Steering Wheel Position Sensor Signal A",
+    "Brand": "C"
+  },
+  "C0053": {
+    "Meaning": "Steering Wheel Position Sensor Signal B",
+    "Brand": "C"
+  },
+  "C0054": {
+    "Meaning": "Steering Wheel Position Sensor Signal C",
+    "Brand": "C"
+  },
+  "C0055": {
+    "Meaning": "Steering Wheel Position Sensor Signal D",
+    "Brand": "C"
+  },
+  "C0061": {
+    "Meaning": "Lateral Acceleration Sensor",
+    "Brand": "C"
+  },
+  "C0062": {
+    "Meaning": "Longitudinal Acceleration Sensor",
+    "Brand": "C"
+  },
+  "C0063": {
+    "Meaning": "Yaw Rate Sensor",
+    "Brand": "C"
+  },
+  "C0064": {
+    "Meaning": "Roll Rate Sensor",
+    "Brand": "C"
+  },
+  "C0065": {
+    "Meaning": "Vertical Acceleration Sensor",
+    "Brand": "C"
+  },
+  "C0069": {
+    "Meaning": "Yaw Rate/Longitude Sensors",
+    "Brand": "C"
+  },
+  "C0071": {
+    "Meaning": "2/4 Wheel Drive Status Input",
+    "Brand": "C"
+  },
+  "C0072": {
+    "Meaning": "Brake Temperature Too High",
+    "Brand": "C"
+  },
+  "C0073": {
+    "Meaning": "Delivered Driving Torque",
+    "Brand": "C"
+  },
+  "C0074": {
+    "Meaning": "Requested Driving Torque",
+    "Brand": "C"
+  },
+  "C0075": {
+    "Meaning": "Brake Pedal Position Performance",
+    "Brand": "C"
+  },
+  "C0076": {
+    "Meaning": "PWM for Traction Control",
+    "Brand": "C"
+  },
+  "C0077": {
+    "Meaning": "Low Tire Pressure",
+    "Brand": "C"
+  },
+  "C0078": {
+    "Meaning": "Tire Diameter",
+    "Brand": "C"
+  },
+  "C0079": {
+    "Meaning": "Variable Effort Steering",
+    "Brand": "C"
+  },
+  "C0081": {
+    "Meaning": "ABS Malfunction Indicator",
+    "Brand": "C"
+  },
+  "C0082": {
+    "Meaning": "Brake System Malfunction Indicator",
+    "Brand": "C"
+  },
+  "C0083": {
+    "Meaning": "Tire Pressure Monitor Malfunction Indicator",
+    "Brand": "C"
+  },
+  "C0084": {
+    "Meaning": "Traction Active Indicator",
+    "Brand": "C"
+  },
+  "C0085": {
+    "Meaning": "Traction Disable Indicator",
+    "Brand": "C"
+  },
+  "C0086": {
+    "Meaning": "Vehicle Dynamics Indicator",
+    "Brand": "C"
+  },
+  "C0089": {
+    "Meaning": "TCS Disable Switch",
+    "Brand": "C"
+  },
+  "C0090": {
+    "Meaning": "4WD/AWD Power Transfer Unit Actuator",
+    "Brand": "C"
+  },
+  "C0091": {
+    "Meaning": "4WD/AWD Power Transfer Unit Position Sensor A",
+    "Brand": "C"
+  },
+  "C0092": {
+    "Meaning": "4WD/AWD Power Transfer Unit Position Sensor B",
+    "Brand": "C"
+  },
+  "C0093": {
+    "Meaning": "4WD/AWD Power Transfer Unit Temperature Sensor",
+    "Brand": "C"
+  },
+  "C0094": {
+    "Meaning": "4WD/AWD Rear Differential Unit Temperature Sensor",
+    "Brand": "C"
+  },
+  "C0095": {
+    "Meaning": "4WD/AWD Rear Differential Unit Actuator A",
+    "Brand": "C"
+  },
+  "C0096": {
+    "Meaning": "4WD/AWD Rear Differential Unit Actuator A Data",
+    "Brand": "C"
+  },
+  "C0097": {
+    "Meaning": "4WD/AWD Rear Differential Unit Actuator B",
+    "Brand": "C"
+  },
+  "C0098": {
+    "Meaning": "4WD/AWD Rear Differential Unit Actuator B Data",
+    "Brand": "C"
+  },
+  "C0099": {
+    "Meaning": "4WD/AWD Rear Differential Unit Actuator A Position Sensor A",
+    "Brand": "C"
+  },
+  "C0500": {
+    "Meaning": "Left Front Wheel Speed Sensor A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0501": {
+    "Meaning": "Left Front Wheel Speed Sensor A Range/Performance",
+    "Brand": "C"
+  },
+  "C0502": {
+    "Meaning": "Left Front Wheel Speed Sensor A Circuit Low",
+    "Brand": "C"
+  },
+  "C0503": {
+    "Meaning": "Left Front Wheel Speed Sensor A Circuit High",
+    "Brand": "C"
+  },
+  "C0504": {
+    "Meaning": "Left Front Wheel Speed Sensor A Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0505": {
+    "Meaning": "Left Front Wheel Speed Sensor A Correlation",
+    "Brand": "C"
+  },
+  "C0506": {
+    "Meaning": "Right Front Wheel Speed Sensor A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0507": {
+    "Meaning": "Right Front Wheel Speed Sensor A Range/Performance",
+    "Brand": "C"
+  },
+  "C0508": {
+    "Meaning": "Right Front Wheel Speed Sensor A Circuit Low",
+    "Brand": "C"
+  },
+  "C0509": {
+    "Meaning": "Right Front Wheel Speed Sensor A Circuit High",
+    "Brand": "C"
+  },
+  "C0510": {
+    "Meaning": "Left Rear Wheel Speed Sensor A Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0511": {
+    "Meaning": "Left Rear Wheel Speed Sensor A Correlation",
+    "Brand": "C"
+  },
+  "C0512": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0513": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Range/Performance",
+    "Brand": "C"
+  },
+  "C0514": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Circuit Low",
+    "Brand": "C"
+  },
+  "C0515": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Circuit High",
+    "Brand": "C"
+  },
+  "C0516": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0517": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Correlation",
+    "Brand": "C"
+  },
+  "C0518": {
+    "Meaning": "Left Front Wheel Speed Sensor - Mechanical",
+    "Brand": "C"
+  },
+  "C0519": {
+    "Meaning": "Right Front Wheel Speed Sensor - Mechanical",
+    "Brand": "C"
+  },
+  "C0520": {
+    "Meaning": "Multi-axis Acceleration Sensor Module A",
+    "Brand": "C"
+  },
+  "C0521": {
+    "Meaning": "Multi-axis Acceleration Sensor Module B Range/Performance",
+    "Brand": "C"
+  },
+  "C0522": {
+    "Meaning": "Multi-axis Acceleration Sensor Module B Missing Calibration",
+    "Brand": "C"
+  },
+  "C0523": {
+    "Meaning": "Multi-axis Acceleration Sensor Module B Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0524": {
+    "Meaning": "Multi-axis Acceleration Sensor Module B Correlation",
+    "Brand": "C"
+  },
+  "C0525": {
+    "Meaning": "Multi-axis Acceleration Sensor Module B",
+    "Brand": "C"
+  },
+  "C0526": {
+    "Meaning": "Steering Angle Sensor Module",
+    "Brand": "C"
+  },
+  "C0527": {
+    "Meaning": "Steering Angle Sensor Module Mechanical",
+    "Brand": "C"
+  },
+  "C0528": {
+    "Meaning": "Steering Angle Sensor Module Range/Performance",
+    "Brand": "C"
+  },
+  "C0529": {
+    "Meaning": "Steering Angle Sensor Module Missing Calibration",
+    "Brand": "C"
+  },
+  "C0530": {
+    "Meaning": "Motor Control A Range/Performance",
+    "Brand": "C"
+  },
+  "C0531": {
+    "Meaning": "Motor Control A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0532": {
+    "Meaning": "Motor Control A Circuit High",
+    "Brand": "C"
+  },
+  "C0533": {
+    "Meaning": "Motor Control A Circuit Low",
+    "Brand": "C"
+  },
+  "C0534": {
+    "Meaning": "Motor Control A Supply Voltage Circuit/Open",
+    "Brand": "C"
+  },
+  "C0535": {
+    "Meaning": "Motor Control B Range/Performance",
+    "Brand": "C"
+  },
+  "C0536": {
+    "Meaning": "Motor Control B Circuit/Open",
+    "Brand": "C"
+  },
+  "C0537": {
+    "Meaning": "Motor Control B Circuit High",
+    "Brand": "C"
+  },
+  "C0538": {
+    "Meaning": "Motor Control B Circuit Low",
+    "Brand": "C"
+  },
+  "C0539": {
+    "Meaning": "Motor Control B Supply Voltage Circuit/Open",
+    "Brand": "C"
+  },
+  "C0540": {
+    "Meaning": "Brake Pressure Sensor A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0541": {
+    "Meaning": "Brake Pressure Sensor B Range/Performance",
+    "Brand": "C"
+  },
+  "C0542": {
+    "Meaning": "Brake Pressure Sensor B Circuit Low",
+    "Brand": "C"
+  },
+  "C0543": {
+    "Meaning": "Brake Pressure Sensor B Circuit High",
+    "Brand": "C"
+  },
+  "C0544": {
+    "Meaning": "Brake Pressure Sensor B Circuit/Open",
+    "Brand": "C"
+  },
+  "C0545": {
+    "Meaning": "VIN Not Programmed or Incompatible - BSCM",
+    "Brand": "C"
+  },
+  "C0546": {
+    "Meaning": "VIN Not Programmed or Incompatible",
+    "Brand": "C"
+  },
+  "C0547": {
+    "Meaning": "Vacuum Sensor Supply Voltage Circuit/Open",
+    "Brand": "C"
+  },
+  "C0548": {
+    "Meaning": "Vacuum Sensor Supply Voltage Low",
+    "Brand": "C"
+  },
+  "C0549": {
+    "Meaning": "Vacuum Sensor A Circuit/Open",
+    "Brand": "C"
+  },
+  "C0550": {
+    "Meaning": "Vacuum Sensor B Circuit High",
+    "Brand": "C"
+  },
+  "C0551": {
+    "Meaning": "Longitudinal Acceleration Sensor Circuit/Open",
+    "Brand": "C"
+  },
+  "C0552": {
+    "Meaning": "Longitudinal Acceleration Sensor Range/Performance",
+    "Brand": "C"
+  },
+  "C0553": {
+    "Meaning": "Longitudinal Acceleration Sensor Circuit Low",
+    "Brand": "C"
+  },
+  "C0554": {
+    "Meaning": "Longitudinal Acceleration Sensor Circuit High",
+    "Brand": "C"
+  },
+  "C0555": {
+    "Meaning": "Left Front Wheel Speed Sensor A Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0556": {
+    "Meaning": "Right Front Wheel Speed Sensor A Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0557": {
+    "Meaning": "Left Rear Wheel Speed Sensor A Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0558": {
+    "Meaning": "Right Rear Wheel Speed Sensor A Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0559": {
+    "Meaning": "Power Steering Control Module Range/Performance – Rear",
+    "Brand": "C"
+  },
+  "C0560": {
+    "Meaning": "Brake Pressure Sensor A Missing Calibration",
+    "Brand": "C"
+  },
+  "C0561": {
+    "Meaning": "Vacuum Sensor A/B Correlation",
+    "Brand": "C"
+  },
+  "C0562": {
+    "Meaning": "Brake Pedal Position Sensor Supply Voltage Circuit/Open",
+    "Brand": "C"
+  },
+  "C0563": {
+    "Meaning": "ABS Control Module Performance",
+    "Brand": "C"
+  },
+  "C0564": {
+    "Meaning": "ABS Control Module System Voltage Low",
+    "Brand": "C"
+  },
+  "C0565": {
+    "Meaning": "ABS Control Module System Voltage High",
+    "Brand": "C"
+  },
+  "C0566": {
+    "Meaning": "Brake Booster Solenoid Circuit/Open",
+    "Brand": "C"
+  },
+  "C0567": {
+    "Meaning": "Brake Booster Solenoid Circuit Low",
+    "Brand": "C"
+  },
+  "C0568": {
+    "Meaning": "Brake Booster Solenoid Circuit High",
+    "Brand": "C"
+  },
+  "C0569": {
+    "Meaning": "Brake Booster Solenoid Circuit Performance",
+    "Brand": "C"
+  },
+  "C0570": {
+    "Meaning": "Brake Booster Travel Sensor Circuit High",
+    "Brand": "C"
+  },
+  "C0571": {
+    "Meaning": "Brake Pressure Sensor C Circuit Low",
+    "Brand": "C"
+  },
+  "C0572": {
+    "Meaning": "Brake Pressure Sensor C Circuit High",
+    "Brand": "C"
+  },
+  "C0573": {
+    "Meaning": "Brake Pressure Sensor C Circuit/Open",
+    "Brand": "C"
+  },
+  "C0574": {
+    "Meaning": "Brake Pressure Sensor C Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0575": {
+    "Meaning": "Brake Pressure Sensor D Circuit Low",
+    "Brand": "C"
+  },
+  "C0576": {
+    "Meaning": "Brake Pressure Sensor D Circuit High",
+    "Brand": "C"
+  },
+  "C0577": {
+    "Meaning": "Brake Pressure Sensor D Circuit/Open",
+    "Brand": "C"
+  },
+  "C0578": {
+    "Meaning": "Brake Pressure Sensor D Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0579": {
+    "Meaning": "Brake Booster Temperature Sensor B Circuit Low",
+    "Brand": "C"
+  },
+  "C0580": {
+    "Meaning": "Brake Booster Motor A Phase U-V-W Circuit Low",
+    "Brand": "C"
+  },
+  "C0581": {
+    "Meaning": "Brake Booster Motor A Phase U-V-W Circuit High",
+    "Brand": "C"
+  },
+  "C0582": {
+    "Meaning": "Brake Booster Motor A Phase U-V-W Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0583": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Circuit/Open",
+    "Brand": "C"
+  },
+  "C0584": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Circuit Low",
+    "Brand": "C"
+  },
+  "C0585": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Circuit High",
+    "Brand": "C"
+  },
+  "C0586": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0587": {
+    "Meaning": "Brake Booster Motor A Position Sensor Circuit/Open",
+    "Brand": "C"
+  },
+  "C0588": {
+    "Meaning": "Brake Booster Motor A Position Sensor Circuit Low",
+    "Brand": "C"
+  },
+  "C0589": {
+    "Meaning": "Brake Booster Motor A Position Sensor Circuit High",
+    "Brand": "C"
+  },
+  "C0590": {
+    "Meaning": "Brake Booster Motor A Phase U-V-W Current High",
+    "Brand": "C"
+  },
+  "C0591": {
+    "Meaning": "Brake Booster Motor A Phase U-V-W Current Low",
+    "Brand": "C"
+  },
+  "C0592": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Current High",
+    "Brand": "C"
+  },
+  "C0593": {
+    "Meaning": "Brake Booster Motor B Phase U-V-W Current Low",
+    "Brand": "C"
+  },
+  "C0594": {
+    "Meaning": "Brake Booster Motor A Performance",
+    "Brand": "C"
+  },
+  "C0595": {
+    "Meaning": "Brake Booster Internal Power Driver Range/Performance",
+    "Brand": "C"
+  },
+  "C0596": {
+    "Meaning": "Brake Booster Motor A Current Sensor Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0597": {
+    "Meaning": "Brake System Control Module A Performance",
+    "Brand": "C"
+  },
+  "C0598": {
+    "Meaning": "Brake System Control Module B Performance",
+    "Brand": "C"
+  },
+  "C0599": {
+    "Meaning": "Brake Booster Control Module Missing Calibration",
+    "Brand": "C"
+  },
+  "C0600": {
+    "Meaning": "4WD/AWD Range Actuator Position Control Error",
+    "Brand": "C"
+  },
+  "C0601": {
+    "Meaning": "Active Air Dam Control Circuit/Open",
+    "Brand": "C"
+  },
+  "C0602": {
+    "Meaning": "Active Air Dam Control Circuit Low",
+    "Brand": "C"
+  },
+  "C0603": {
+    "Meaning": "Active Air Dam Control Circuit High",
+    "Brand": "C"
+  },
+  "C0604": {
+    "Meaning": "Active Air Dam Control Circuit Performance",
+    "Brand": "C"
+  },
+  "C0605": {
+    "Meaning": "Steering Wheel Angle Sensor Circuit/Open",
+    "Brand": "C"
+  },
+  "C0606": {
+    "Meaning": "Steering Wheel Angle Sensor Circuit Low",
+    "Brand": "C"
+  },
+  "C0607": {
+    "Meaning": "Steering Wheel Angle Sensor Circuit High",
+    "Brand": "C"
+  },
+  "C0608": {
+    "Meaning": "Steering Wheel Angle Sensor Circuit Performance",
+    "Brand": "C"
+  },
+  "C0609": {
+    "Meaning": "Park Brake Switch Circuit",
+    "Brand": "C"
+  },
+  "C0610": {
+    "Meaning": "Right Park Brake Actuator Control Circuit/Open",
+    "Brand": "C"
+  },
+  "C0611": {
+    "Meaning": "Right Park Brake Actuator Control Circuit Low",
+    "Brand": "C"
+  },
+  "C0612": {
+    "Meaning": "Right Park Brake Actuator Control Circuit High",
+    "Brand": "C"
+  },
+  "C0613": {
+    "Meaning": "Right Park Brake Actuator Performance/Stuck Off",
+    "Brand": "C"
+  },
+  "C0614": {
+    "Meaning": "Right Park Brake Actuator Stuck On",
+    "Brand": "C"
+  },
+  "C0615": {
+    "Meaning": "Park Brake Control Module Control Circuit/Open",
+    "Brand": "C"
+  },
+  "C0616": {
+    "Meaning": "Park Brake Control Module Control Circuit Performance",
+    "Brand": "C"
+  },
+  "C0617": {
+    "Meaning": "Park Brake Control Module Control Circuit Low",
+    "Brand": "C"
+  },
+  "C0618": {
+    "Meaning": "Park Brake Control Module Control Circuit High",
+    "Brand": "C"
+  },
+  "C0619": {
+    "Meaning": "Brake Pedal Position Sensor “A” Offset Exceeded Learning Limit",
+    "Brand": "C"
+  },
+  "C0620": {
+    "Meaning": "Variable Effort Steering Lock/Safety Actuator Control Circuit/Open",
+    "Brand": "C"
+  },
+  "C0621": {
+    "Meaning": "Variable Effort Steering Lock/Safety Actuator Control Circuit Low",
+    "Brand": "C"
+  },
+  "C0622": {
+    "Meaning": "Variable Effort Steering Lock/Safety Actuator Control Circuit High",
+    "Brand": "C"
+  },
+  "C0623": {
+    "Meaning": "Variable Effort Steering Lock/Safety Actuator Control Circuit Performance",
+    "Brand": "C"
+  },
+  "C0624": {
+    "Meaning": "Variable Effort Steering Sensor Circuit",
+    "Brand": "C"
+  },
+  "C0625": {
+    "Meaning": "Variable Effort Steering Sensor Circuit Range/Performance",
+    "Brand": "C"
+  },
+  "C0626": {
+    "Meaning": "Variable Effort Steering Sensor Circuit Low",
+    "Brand": "C"
+  },
+  "C0627": {
+    "Meaning": "Variable Effort Steering Sensor Circuit High",
+    "Brand": "C"
+  },
+  "C0628": {
+    "Meaning": "Variable Effort Steering Module Performance",
+    "Brand": "C"
+  },
+  "C0629": {
+    "Meaning": "Variable Effort Steering Control Module Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0630": {
+    "Meaning": "Active Air Dam Stuck",
+    "Brand": "C"
+  },
+  "C0631": {
+    "Meaning": "Front Axle Disconnect Actuator",
+    "Brand": "C"
+  },
+  "C0632": {
+    "Meaning": "Front Axle Disconnect Control Circuit",
+    "Brand": "C"
+  },
+  "C0633": {
+    "Meaning": "Front Half Shaft Speed Sensor",
+    "Brand": "C"
+  },
+  "C0634": {
+    "Meaning": "Brake Pressure Sensor A/B Correlation",
+    "Brand": "C"
+  },
+  "C0635": {
+    "Meaning": "Brake Pressure Sensor G Circuit/Open",
+    "Brand": "C"
+  },
+  "C0636": {
+    "Meaning": "Brake Pressure Sensor G Circuit High",
+    "Brand": "C"
+  },
+  "C0637": {
+    "Meaning": "Brake Pressure Sensor G Circuit Low",
+    "Brand": "C"
+  },
+  "C0638": {
+    "Meaning": "Brake Pressure Sensor G Range/Performance",
+    "Brand": "C"
+  },
+  "C0639": {
+    "Meaning": "Brake Pressure Sensor H Circuit/Open",
+    "Brand": "C"
+  },
+  "C0640": {
+    "Meaning": "Brake Pressure Sensor J Range/Performance",
+    "Brand": "C"
+  },
+  "C0641": {
+    "Meaning": "Brake Pressure Sensor K Circuit/Open",
+    "Brand": "C"
+  },
+  "C0642": {
+    "Meaning": "Brake Pressure Sensor K Circuit High",
+    "Brand": "C"
+  },
+  "C0643": {
+    "Meaning": "Brake Pressure Sensor K Circuit Low",
+    "Brand": "C"
+  },
+  "C0644": {
+    "Meaning": "Brake Pressure Sensor K Range/Performance",
+    "Brand": "C"
+  },
+  "C0645": {
+    "Meaning": "Brake Pressure Sensor L Circuit/Open",
+    "Brand": "C"
+  },
+  "C0646": {
+    "Meaning": "Brake Pressure Sensor L Circuit High",
+    "Brand": "C"
+  },
+  "C0647": {
+    "Meaning": "Brake Pressure Sensor L Circuit Low",
+    "Brand": "C"
+  },
+  "C0648": {
+    "Meaning": "Brake Pressure Sensor L Range/Performance",
+    "Brand": "C"
+  },
+  "C0649": {
+    "Meaning": "Brake Pressure Sensor M Circuit/Open",
+    "Brand": "C"
+  },
+  "C0650": {
+    "Meaning": "Brake Pressure Sensor N Range/Performance",
+    "Brand": "C"
+  },
+  "C0651": {
+    "Meaning": "Left Front Wheel Speed Sensor B Circuit/Open",
+    "Brand": "C"
+  },
+  "C0652": {
+    "Meaning": "Left Front Wheel Speed Sensor B Range/Performance",
+    "Brand": "C"
+  },
+  "C0653": {
+    "Meaning": "Left Front Wheel Speed Sensor B Circuit Low",
+    "Brand": "C"
+  },
+  "C0654": {
+    "Meaning": "Left Front Wheel Speed Sensor B Circuit High",
+    "Brand": "C"
+  },
+  "C0655": {
+    "Meaning": "Left Front Wheel Speed Sensor B Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0656": {
+    "Meaning": "Left Front Wheel Speed Sensor B Correlation",
+    "Brand": "C"
+  },
+  "C0657": {
+    "Meaning": "Left Front Wheel Speed Sensor B Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0658": {
+    "Meaning": "Right Front Wheel Speed Sensor B Circuit/Open",
+    "Brand": "C"
+  },
+  "C0659": {
+    "Meaning": "Right Front Wheel Speed Sensor B Range/Performance",
+    "Brand": "C"
+  },
+  "C0660": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Range/Performance",
+    "Brand": "C"
+  },
+  "C0661": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Circuit Low",
+    "Brand": "C"
+  },
+  "C0662": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Circuit High",
+    "Brand": "C"
+  },
+  "C0663": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Intermittent/Erratic",
+    "Brand": "C"
+  },
+  "C0664": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Correlation",
+    "Brand": "C"
+  },
+  "C0665": {
+    "Meaning": "Left Rear Wheel Speed Sensor B Incorrect Component Installed",
+    "Brand": "C"
+  },
+  "C0666": {
+    "Meaning": "Right Rear Wheel Speed Sensor B Circuit/Open",
+    "Brand": "C"
+  },
+  "C0667": {
+    "Meaning": "Right Rear Wheel Speed Sensor B Range/Performance",
+    "Brand": "C"
+  },
+  "C0668": {
+    "Meaning": "Right Rear Wheel Speed Sensor B Circuit Low",
+    "Brand": "C"
+  },
+  "C0669": {
+    "Meaning": "Right Rear Wheel Speed Sensor B Circuit High",
+    "Brand": "C"
+  },
+  "C1000": {
+    "Meaning": "Manufacturer Controlled DTC",
+    "Brand": "C"
+  },
+  "C1095": {
+    "Meaning": "ABS Hydraulic Pump Motor Circuit Failure",
+    "Brand": "C"
+  },
+  "C1096": {
+    "Meaning": "ABS Hydraulic Pump Motor Circuit Open",
+    "Brand": "C"
+  },
+  "C1097": {
+    "Meaning": "ABS Hydraulic Pump Motor Circuit Short To Ground",
+    "Brand": "C"
+  },
+  "C1098": {
+    "Meaning": "ABS Hydraulic Pump Motor Circuit Short To Battery",
+    "Brand": "C"
+  },
+  "C1100": {
+    "Meaning": "ABS Pump Switch Circuit Failure - Generic",
+    "Brand": "C"
+  },
+  "C1198": {
+    "Meaning": "ABS Inlet Valve Coil LF Circuit Failure",
+    "Brand": "C"
+  },
+  "C1199": {
+    "Meaning": "ABS Inlet Valve Coil LF Circuit Open",
+    "Brand": "C"
+  },
+  "C1200": {
+    "Meaning": "ABS Inlet Valve Coil LF Circuit Short To Battery",
+    "Brand": "C"
+  },
+  "C1201": {
+    "Meaning": "ABS Inlet Valve Coil LF Circuit Short To Ground",
+    "Brand": "C"
+  },
+  "C1223": {
+    "Meaning": "Lamp Brake Warning Output Circuit Failure",
+    "Brand": "C"
+  },
+  "C1224": {
+    "Meaning": "Lamp Brake Warning Output Circuit Open",
+    "Brand": "C"
+  },
+  "C1225": {
+    "Meaning": "Lamp Brake Warning Output Circuit Short To Battery",
+    "Brand": "C"
+  },
+  "C1226": {
+    "Meaning": "Lamp Brake Warning Output Circuit Short To Ground",
+    "Brand": "C"
+  },
+  "C1238": {
+    "Meaning": "ABS Hydraulic Pressure Differential Switch Input Circuit Failure",
+    "Brand": "C"
+  },
+  "C1239": {
+    "Meaning": "ABS Hydraulic Pressure Differential Switch Input Open Circuit",
+    "Brand": "C"
+  },
+  "C1240": {
+    "Meaning": "ABS Hydraulic Pressure Differential Switch Input Short Circuit To Battery",
+    "Brand": "C"
+  },
+  "C1241": {
+    "Meaning": "ABS Hydraulic Pressure Differential Switch Input Short Circuit To Ground",
+    "Brand": "C"
+  },
+  "C1500": {
+    "Meaning": "Transfer Case Contact Plate \"B\" Encoder Circuit Failure",
+    "Brand": "C"
+  },
+  "C2000": {
+    "Meaning": "Manufacturer Controlled DTC",
+    "Brand": "C"
+  }
+}

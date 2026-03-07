@@ -1,0 +1,70 @@
+{
+  "P1250": {
+    "Meaning": "EFE Heater Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1408": {
+    "Meaning": "Maniforld Differential Pressure Sensor Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1410": {
+    "Meaning": "Fuel Tank Pressure Control Solenoid Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1450": {
+    "Meaning": "Barometric Pressure Sensor Too Low Or Too High",
+    "Brand": "SUZUKI"
+  },
+  "P1451": {
+    "Meaning": "Barometric Pressure Sensor Performance",
+    "Brand": "SUZUKI"
+  },
+  "P1460": {
+    "Meaning": "Radiator Fan Control System Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1500": {
+    "Meaning": "Engine Starter Signal Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1510": {
+    "Meaning": "PCM Backup Power Supply Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1530": {
+    "Meaning": "Ignition Timing Adjustment Switch Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1600": {
+    "Meaning": "PCM TCM Serial Communication Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1700": {
+    "Meaning": "TCM Throttle Position Sensor Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1705": {
+    "Meaning": "TCM ECT Sensor Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1710": {
+    "Meaning": "Back-Up Signal For Speed Sensor Circuit Malfunction",
+    "Brand": "SUZUKI"
+  },
+  "P1715": {
+    "Meaning": "PNP Switch Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1717": {
+    "Meaning": "AT Drive Range Signal Circuit Fault",
+    "Brand": "SUZUKI"
+  },
+  "P1875": {
+    "Meaning": "4WD Low Switch Circuit Malfunction",
+    "Brand": "SUZUKI"
+  },
+  "P1895": {
+    "Meaning": "TCM To ECM Torque Reduction Circuit Malfunction",
+    "Brand": "SUZUKI"
+  }
+}

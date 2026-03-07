@@ -1,0 +1,1614 @@
+{
+  "P0171": {
+    "Meaning": "System Lean Bank 1",
+    "Brand": "BUICK"
+  },
+  "P1031": {
+    "Meaning": "HO2S Heater Current Monitor Control Circuit Sensors 1",
+    "Brand": "BUICK"
+  },
+  "P1032": {
+    "Meaning": "HO2S Heater Warm Up Control Circuit Sensors 1",
+    "Brand": "BUICK"
+  },
+  "P1105": {
+    "Meaning": "Secondary Vacuum Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1106": {
+    "Meaning": "MAP Sensor Circuit Intermittent High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1107": {
+    "Meaning": "MAP Sensor Circuit Intermittent Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1108": {
+    "Meaning": "BARO To MAP Sensor Circuit Comparison Too High",
+    "Brand": "BUICK"
+  },
+  "P1109": {
+    "Meaning": "Secondary Port Throttle System",
+    "Brand": "BUICK"
+  },
+  "P1111": {
+    "Meaning": "Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1112": {
+    "Meaning": "Intake Air Temperature (IAT) Sensor Circuit Intermittent Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1113": {
+    "Meaning": "Intake Resonance Switchover Valve Circuit",
+    "Brand": "BUICK"
+  },
+  "P1114": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1115": {
+    "Meaning": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1116": {
+    "Meaning": "ECT Signal Unstable Or Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1117": {
+    "Meaning": "Engine Coolant Temp Signal Out-Of-Range Low",
+    "Brand": "BUICK"
+  },
+  "P1118": {
+    "Meaning": "Engine Coolant Temp Signal Out-Of Range High",
+    "Brand": "BUICK"
+  },
+  "P1119": {
+    "Meaning": "ECT Signal Out Of Rage With TFT Sensor",
+    "Brand": "BUICK"
+  },
+  "P1120": {
+    "Meaning": "Throttle Position (TP) Sensor 1 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1121": {
+    "Meaning": "TP Sensor Circuit Intermittent High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1122": {
+    "Meaning": "TP Sensor Circuit Intermittent Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1125": {
+    "Meaning": "Accelerator Pedal Position (APP) System",
+    "Brand": "BUICK"
+  },
+  "P1130": {
+    "Meaning": "HO2S Circuit Low Variance Bank 1 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1131": {
+    "Meaning": "HO2S Circuit Low Variance Bank 1 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1132": {
+    "Meaning": "H02S Circuit Low Variance Bank 2 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1133": {
+    "Meaning": "HO2S Insufficient Switching",
+    "Brand": "BUICK"
+  },
+  "P1134": {
+    "Meaning": "HO2S Transition Time Ratio",
+    "Brand": "BUICK"
+  },
+  "P1135": {
+    "Meaning": "HO2S Lean Average Bank 1 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1136": {
+    "Meaning": "HO2S Rich Average Bank 1 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1137": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Lean Or Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1138": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Rich Or High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1139": {
+    "Meaning": "HO2S Insufficient Switching Bank 1 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1140": {
+    "Meaning": "HO2S Transition Time Ratio Bank 1 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1141": {
+    "Meaning": "HO2S Bank 1 Sensor 2 Average Voltage Level",
+    "Brand": "BUICK"
+  },
+  "P1143": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Lean Or Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1144": {
+    "Meaning": "HO2S Bank 1 Sensor 3 Rich Or High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1145": {
+    "Meaning": "HO2S Cross Counts Bank 1 Sensor 3",
+    "Brand": "BUICK"
+  },
+  "P1153": {
+    "Meaning": "HO2S Insufficient Switching",
+    "Brand": "BUICK"
+  },
+  "P1154": {
+    "Meaning": "HO2S Transition Time Ratio",
+    "Brand": "BUICK"
+  },
+  "P1155": {
+    "Meaning": "HO2S Lean Average Bank 2 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1156": {
+    "Meaning": "HO2S Rich Average Bank 2 Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1157": {
+    "Meaning": "HO2S Bank 2 Sensor 2 Lean System Or Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1158": {
+    "Meaning": "HO2S Bank 2 Sensor 2 Rich Or High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1159": {
+    "Meaning": "HO2S Cross Counts Bank 2 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1161": {
+    "Meaning": "HO2S Heater Power Stage Circuit Bank 2 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1163": {
+    "Meaning": "HO2S Bank 2 Sensor 3 Lean System Or Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1164": {
+    "Meaning": "HO2S Bank 2 Sensor 3 Rich Or High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1165": {
+    "Meaning": "HO2S Cross Counts Bank 2 Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1170": {
+    "Meaning": "Bank To Bank Fuel Trim Offset",
+    "Brand": "BUICK"
+  },
+  "P1171": {
+    "Meaning": "Fuel System Lean During Acceleration",
+    "Brand": "BUICK"
+  },
+  "P1185": {
+    "Meaning": "Engine Oil Temperature Circuit",
+    "Brand": "BUICK"
+  },
+  "P1186": {
+    "Meaning": "EOT Circuit Performance",
+    "Brand": "BUICK"
+  },
+  "P1187": {
+    "Meaning": "EOT Sensor Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1188": {
+    "Meaning": "EOT Sensor Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1189": {
+    "Meaning": "Engine Oil Pressure Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1190": {
+    "Meaning": "Engine Vacuum Leak",
+    "Brand": "BUICK"
+  },
+  "P1191": {
+    "Meaning": "Intake Air Duct Air Leak",
+    "Brand": "BUICK"
+  },
+  "P1200": {
+    "Meaning": "Injector Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1201": {
+    "Meaning": "(Alternative Fuel) Gas Mass Sensor Circuit Range/Performance",
+    "Brand": "BUICK"
+  },
+  "P1202": {
+    "Meaning": "(AlternativeFuel) Gas Mass Sensor Circuit Low Frequency",
+    "Brand": "BUICK"
+  },
+  "P1203": {
+    "Meaning": "(Alternative Fuel) Gas Mass Sensor Circuit High Frequency",
+    "Brand": "BUICK"
+  },
+  "P1211": {
+    "Meaning": "Mass Air Flow Circuit Intermittent High",
+    "Brand": "BUICK"
+  },
+  "P1212": {
+    "Meaning": "Mass Air Flow Circuit Intermittent Low",
+    "Brand": "BUICK"
+  },
+  "P1214": {
+    "Meaning": "Injection Pump Timing Offset",
+    "Brand": "BUICK"
+  },
+  "P1215": {
+    "Meaning": "Ground Fault Detection Indicated",
+    "Brand": "BUICK"
+  },
+  "P1216": {
+    "Meaning": "Fuel Solenoid Response Time Too Short",
+    "Brand": "BUICK"
+  },
+  "P1217": {
+    "Meaning": "Fuel Solenoid Response Time Too Long",
+    "Brand": "BUICK"
+  },
+  "P1218": {
+    "Meaning": "Injection Pump Calibration Circuit",
+    "Brand": "BUICK"
+  },
+  "P1219": {
+    "Meaning": "Throttle Position Sensor Refernce Voltage",
+    "Brand": "BUICK"
+  },
+  "P1220": {
+    "Meaning": "Throttle Position (TP) Sensor 2 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1221": {
+    "Meaning": "Throttle Position (TP) Sensor 1- 2 Correlation",
+    "Brand": "BUICK"
+  },
+  "P1222": {
+    "Meaning": "Injector Control Circuit Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1225": {
+    "Meaning": "Injector Circuit Cylinder 2 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1228": {
+    "Meaning": "Injector Circuit Cylinder 3 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1231": {
+    "Meaning": "Injector Circuit Cylinder 4 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1234": {
+    "Meaning": "Injector Circuit Cylinder 5 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1237": {
+    "Meaning": "Injector Circuit Cylinder 6 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1240": {
+    "Meaning": "Injector Circuit Cyllinder 7 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1243": {
+    "Meaning": "Injector Circuit Cylinder 8 Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1245": {
+    "Meaning": "Intake Plenum Switchover Valve",
+    "Brand": "BUICK"
+  },
+  "P1250": {
+    "Meaning": "Early Fuel Evaporation Heater Circuit",
+    "Brand": "BUICK"
+  },
+  "P1257": {
+    "Meaning": "Supercharger System Overboost",
+    "Brand": "BUICK"
+  },
+  "P1258": {
+    "Meaning": "Engine Coolant Overtemperature Protection Mode Active",
+    "Brand": "BUICK"
+  },
+  "P1260": {
+    "Meaning": "Last Test Failed SCC Or Theft Detected, Vehicle Immobilized",
+    "Brand": "BUICK"
+  },
+  "P1270": {
+    "Meaning": "Accelerator Pedal Position Sensor A/D Converter Error",
+    "Brand": "BUICK"
+  },
+  "P1271": {
+    "Meaning": "APP Sensor 1-2 Performance",
+    "Brand": "BUICK"
+  },
+  "P1272": {
+    "Meaning": "Accelerator Pedal Position Sensor 2",
+    "Brand": "BUICK"
+  },
+  "P1273": {
+    "Meaning": "Accelerator Pedal Position Sensor 1",
+    "Brand": "BUICK"
+  },
+  "P1274": {
+    "Meaning": "Injectors Wired Incorrectly",
+    "Brand": "BUICK"
+  },
+  "P1275": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 1 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1276": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 1 Performance",
+    "Brand": "BUICK"
+  },
+  "P1277": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1278": {
+    "Meaning": "Accelerator Pedal Position Sensor 1 Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1280": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 2 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1281": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 2 Performance",
+    "Brand": "BUICK"
+  },
+  "P1282": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1283": {
+    "Meaning": "Accelerator Pedal Position Sensor 2 Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1285": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 3 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1286": {
+    "Meaning": "Accelerator Pedal Position (APP) Sensor 3 Performance",
+    "Brand": "BUICK"
+  },
+  "P1287": {
+    "Meaning": "Accelerator Pedal Position Sensor 3 Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1288": {
+    "Meaning": "Accelerator Pedal Position Sensor 3 Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1300": {
+    "Meaning": "Ignitor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1305": {
+    "Meaning": "Ignition Coil 2 Primary Feedback Circuit",
+    "Brand": "BUICK"
+  },
+  "P1310": {
+    "Meaning": "Ignition Coil 3 Primary Feedback Circuit",
+    "Brand": "BUICK"
+  },
+  "P1315": {
+    "Meaning": "Ignition Coil 4 Primary Feedback Circuit",
+    "Brand": "BUICK"
+  },
+  "P1320": {
+    "Meaning": "IC Module 4X Ref Circuit Intermittent, No Pulses",
+    "Brand": "BUICK"
+  },
+  "P1321": {
+    "Meaning": "Electronic Ignition System Fault Line",
+    "Brand": "BUICK"
+  },
+  "P1322": {
+    "Meaning": "EI System Or Ignition Control Missing",
+    "Brand": "BUICK"
+  },
+  "P1323": {
+    "Meaning": "24X Reference Circuit Low Frequency",
+    "Brand": "BUICK"
+  },
+  "P1324": {
+    "Meaning": "Crank RPM Too Low",
+    "Brand": "BUICK"
+  },
+  "P1335": {
+    "Meaning": "CKP Circuit",
+    "Brand": "BUICK"
+  },
+  "P1336": {
+    "Meaning": "Crankshaft Position (CKP) System Variation Not Learned",
+    "Brand": "BUICK"
+  },
+  "P1345": {
+    "Meaning": "CKP/CMP Correlation",
+    "Brand": "BUICK"
+  },
+  "P1346": {
+    "Meaning": "Intake Camshaft Position (CMP) Sensor System Performance",
+    "Brand": "BUICK"
+  },
+  "P1350": {
+    "Meaning": "Ignition Contol System",
+    "Brand": "BUICK"
+  },
+  "P1351": {
+    "Meaning": "IC Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1352": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.2",
+    "Brand": "BUICK"
+  },
+  "P1353": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.3",
+    "Brand": "BUICK"
+  },
+  "P1354": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.4",
+    "Brand": "BUICK"
+  },
+  "P1355": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.5",
+    "Brand": "BUICK"
+  },
+  "P1356": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.6",
+    "Brand": "BUICK"
+  },
+  "P1357": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.7",
+    "Brand": "BUICK"
+  },
+  "P1358": {
+    "Meaning": "IC Output High/Pulse Detected When Grounded Cyl.8",
+    "Brand": "BUICK"
+  },
+  "P1359": {
+    "Meaning": "Ignition Control Circuit Group A",
+    "Brand": "BUICK"
+  },
+  "P1360": {
+    "Meaning": "Ignition Control Circuit Group B",
+    "Brand": "BUICK"
+  },
+  "P1361": {
+    "Meaning": "IC Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1362": {
+    "Meaning": "IC Cylinder 2 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1363": {
+    "Meaning": "IC Cylinder 3 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1364": {
+    "Meaning": "IC Cylinder 4 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1365": {
+    "Meaning": "IC Cylinder 5 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1366": {
+    "Meaning": "IC Cylinder 6 Not Toggling AFter Enable",
+    "Brand": "BUICK"
+  },
+  "P1367": {
+    "Meaning": "IC Cylinder 7 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1368": {
+    "Meaning": "IC Cylinder 8 Not Toggling After Enable",
+    "Brand": "BUICK"
+  },
+  "P1370": {
+    "Meaning": "IC Module 4X Reference Circuit, Too Many Pulses",
+    "Brand": "BUICK"
+  },
+  "P1371": {
+    "Meaning": "DI Low Resolution Circuit",
+    "Brand": "BUICK"
+  },
+  "P1372": {
+    "Meaning": "Crankshaft Position Sensor Circuit Performance",
+    "Brand": "BUICK"
+  },
+  "P1374": {
+    "Meaning": "3X Reference Circuit",
+    "Brand": "BUICK"
+  },
+  "P1375": {
+    "Meaning": "24X Reference Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1376": {
+    "Meaning": "Ignition Ground Circuit",
+    "Brand": "BUICK"
+  },
+  "P1377": {
+    "Meaning": "IC Module CAM Pulse To 4X Reference Pulse Comparison",
+    "Brand": "BUICK"
+  },
+  "P1380": {
+    "Meaning": "Misfire Detected Rough Road Data Not Available",
+    "Brand": "BUICK"
+  },
+  "P1381": {
+    "Meaning": "Misfire Detected No Communication with Brake Control Module",
+    "Brand": "BUICK"
+  },
+  "P1390": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1391": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Performance",
+    "Brand": "BUICK"
+  },
+  "P1392": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1393": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1394": {
+    "Meaning": "Wheel Speed Sensor 1, G-Sensor Circuit Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1395": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1396": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Performance",
+    "Brand": "BUICK"
+  },
+  "P1397": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1398": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1399": {
+    "Meaning": "Wheel Speed Sensor 2, G-Sensor Circuit Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1403": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 1",
+    "Brand": "BUICK"
+  },
+  "P1404": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 2",
+    "Brand": "BUICK"
+  },
+  "P1405": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 3",
+    "Brand": "BUICK"
+  },
+  "P1406": {
+    "Meaning": "EGR Valve Pintle Position Circuit",
+    "Brand": "BUICK"
+  },
+  "P1407": {
+    "Meaning": "EGR Air Intrusion In Exhaust Supply To EGR Valve",
+    "Brand": "BUICK"
+  },
+  "P1408": {
+    "Meaning": "Intake Manifold Pressure Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1409": {
+    "Meaning": "EGR Vacuum System Leak",
+    "Brand": "BUICK"
+  },
+  "P1410": {
+    "Meaning": "Fuel Tank Pressure System",
+    "Brand": "BUICK"
+  },
+  "P1415": {
+    "Meaning": "Secondary Air Injection (AIR) System",
+    "Brand": "BUICK"
+  },
+  "P1416": {
+    "Meaning": "AIR System Bank 1",
+    "Brand": "BUICK"
+  },
+  "P1418": {
+    "Meaning": "Secondary Air Injection System Relay A Control Circuit High",
+    "Brand": "BUICK"
+  },
+  "P1420": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1421": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1423": {
+    "Meaning": "Intake Air High Pressure Switch Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1431": {
+    "Meaning": "Fuel Level Sensor 2 Performance",
+    "Brand": "BUICK"
+  },
+  "P1432": {
+    "Meaning": "Fuel Level Sensor 2 Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1433": {
+    "Meaning": "Fuel Level Sensor 2 Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1441": {
+    "Meaning": "Evaporative Emission (EVAP) System Flow During Non-Purge",
+    "Brand": "BUICK"
+  },
+  "P1442": {
+    "Meaning": "EVAP Vacuum Switch High Voltage During Ignition On",
+    "Brand": "BUICK"
+  },
+  "P1450": {
+    "Meaning": "Barometric Pressure Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1451": {
+    "Meaning": "Barometric Pressure Sensor Performance",
+    "Brand": "BUICK"
+  },
+  "P1460": {
+    "Meaning": "Cooling Fan Control System",
+    "Brand": "BUICK"
+  },
+  "P1480": {
+    "Meaning": "Cooling Fan 1 Control Circuit High",
+    "Brand": "BUICK"
+  },
+  "P1483": {
+    "Meaning": "Engine Coolilng System Performance",
+    "Brand": "BUICK"
+  },
+  "P1500": {
+    "Meaning": "Starter Signal Circuit",
+    "Brand": "BUICK"
+  },
+  "P1501": {
+    "Meaning": "Vehicle Speed Sensor Circuit Intermittent",
+    "Brand": "BUICK"
+  },
+  "P1502": {
+    "Meaning": "Theft Deterrent System No Password Received",
+    "Brand": "BUICK"
+  },
+  "P1503": {
+    "Meaning": "Theft Deterrent System Password Incorrect",
+    "Brand": "BUICK"
+  },
+  "P1504": {
+    "Meaning": "Vehicle Speed Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1508": {
+    "Meaning": "IAC System Low RPM",
+    "Brand": "BUICK"
+  },
+  "P1509": {
+    "Meaning": "IAC System High RPM",
+    "Brand": "BUICK"
+  },
+  "P1510": {
+    "Meaning": "Back UP Power Supply",
+    "Brand": "BUICK"
+  },
+  "P1511": {
+    "Meaning": "Throttle Control System Backup System Performance",
+    "Brand": "BUICK"
+  },
+  "P1514": {
+    "Meaning": "Throttle Body Performance",
+    "Brand": "BUICK"
+  },
+  "P1515": {
+    "Meaning": "Control Module Throttle Actuator Position Performance",
+    "Brand": "BUICK"
+  },
+  "P1516": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Throttle Actuator Position Performance",
+    "Brand": "BUICK"
+  },
+  "P1517": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Performance",
+    "Brand": "BUICK"
+  },
+  "P1518": {
+    "Meaning": "Throttle Actuator Control (TAC) Module Serial Data Circuit",
+    "Brand": "BUICK"
+  },
+  "P1519": {
+    "Meaning": "Electronic Throttle Module Low Volts Communication Disable",
+    "Brand": "BUICK"
+  },
+  "P1520": {
+    "Meaning": "Gear Indicator System",
+    "Brand": "BUICK"
+  },
+  "P1521": {
+    "Meaning": "Transmission Engaged At High Throttle Angle",
+    "Brand": "BUICK"
+  },
+  "P1522": {
+    "Meaning": "Park/Neutral To Drive/Reverse At High RPM",
+    "Brand": "BUICK"
+  },
+  "P1523": {
+    "Meaning": "Electronic Throttle Control Throttle Return",
+    "Brand": "BUICK"
+  },
+  "P1524": {
+    "Meaning": "TP Sensor Learned CI, Throttle Angle Out Of Range",
+    "Brand": "BUICK"
+  },
+  "P1525": {
+    "Meaning": "Throttle Body Service Required",
+    "Brand": "BUICK"
+  },
+  "P1526": {
+    "Meaning": "TP Sensor Learn Not Complete",
+    "Brand": "BUICK"
+  },
+  "P1527": {
+    "Meaning": "Transmission Range/Pressure Switch Comparison",
+    "Brand": "BUICK"
+  },
+  "P1528": {
+    "Meaning": "Governor",
+    "Brand": "BUICK"
+  },
+  "P1529": {
+    "Meaning": "Heated Windshield Request Problem",
+    "Brand": "BUICK"
+  },
+  "P1530": {
+    "Meaning": "Ignition Timing Adjustment Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1531": {
+    "Meaning": "A/C Low Side Temerature Sensor Fault",
+    "Brand": "BUICK"
+  },
+  "P1532": {
+    "Meaning": "A/C Evaporator Temperature Sensor Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1533": {
+    "Meaning": "A/C Evaporator Temperature Sensor Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1534": {
+    "Meaning": "A/C High Side Temerature Sensor Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1535": {
+    "Meaning": "A/C High Side Temperature Sensor Circuit",
+    "Brand": "BUICK"
+  },
+  "P1536": {
+    "Meaning": "A/C System ECT Overtemperature",
+    "Brand": "BUICK"
+  },
+  "P1537": {
+    "Meaning": "A/C Request Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1538": {
+    "Meaning": "A/C request Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1539": {
+    "Meaning": "Air Conditioning (A/C) Clutch Feedback Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1540": {
+    "Meaning": "A/C System High Pressure",
+    "Brand": "BUICK"
+  },
+  "P1541": {
+    "Meaning": "A/C High Side Over Temperature",
+    "Brand": "BUICK"
+  },
+  "P1542": {
+    "Meaning": "A/C System High Pressure High Temperature",
+    "Brand": "BUICK"
+  },
+  "P1543": {
+    "Meaning": "A/C System Performance",
+    "Brand": "BUICK"
+  },
+  "P1544": {
+    "Meaning": "A/C Refrigerant Condition Very Low",
+    "Brand": "BUICK"
+  },
+  "P1545": {
+    "Meaning": "A/C Clutch Relay Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1546": {
+    "Meaning": "Air Conditioning (A/C) Clutch Feedback Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1547": {
+    "Meaning": "A/C System Performance Degraded",
+    "Brand": "BUICK"
+  },
+  "P1548": {
+    "Meaning": "A/C Recirculation Circuit",
+    "Brand": "BUICK"
+  },
+  "P1554": {
+    "Meaning": "Cruise Engaged Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1555": {
+    "Meaning": "Electronic Variable Orifice Output",
+    "Brand": "BUICK"
+  },
+  "P1558": {
+    "Meaning": "Cruise Control Servo Indicates Low",
+    "Brand": "BUICK"
+  },
+  "P1559": {
+    "Meaning": "Cruise Control Power Mangement Mode",
+    "Brand": "BUICK"
+  },
+  "P1560": {
+    "Meaning": "Cruise Control System Transaxle Not In Drive",
+    "Brand": "BUICK"
+  },
+  "P1561": {
+    "Meaning": "Cruise Vent Solenoid",
+    "Brand": "BUICK"
+  },
+  "P1562": {
+    "Meaning": "Cruise Vacuum Solenoid",
+    "Brand": "BUICK"
+  },
+  "P1563": {
+    "Meaning": "Cruise Vehicle Speed/Set Speed Difference Too High",
+    "Brand": "BUICK"
+  },
+  "P1564": {
+    "Meaning": "Cruise Control System Vehicle Accel Too High",
+    "Brand": "BUICK"
+  },
+  "P1565": {
+    "Meaning": "Cruise Servo Position Sensor",
+    "Brand": "BUICK"
+  },
+  "P1566": {
+    "Meaning": "Cruise Control System Engine RPM Too High",
+    "Brand": "BUICK"
+  },
+  "P1567": {
+    "Meaning": "Cruise Control System Active Braking Control Active",
+    "Brand": "BUICK"
+  },
+  "P1568": {
+    "Meaning": "Cruise Servo Stroke Greater Than Commanded In Cruise",
+    "Brand": "BUICK"
+  },
+  "P1569": {
+    "Meaning": "Cruise Servo Stroke High While Not In Cruise",
+    "Brand": "BUICK"
+  },
+  "P1570": {
+    "Meaning": "Cruise Control System Traction Control Active",
+    "Brand": "BUICK"
+  },
+  "P1571": {
+    "Meaning": "TCS PWM Circuit No Frequency",
+    "Brand": "BUICK"
+  },
+  "P1572": {
+    "Meaning": "ASR Active Circuit Low Too Long",
+    "Brand": "BUICK"
+  },
+  "P1573": {
+    "Meaning": "PCM/EBTCM Serial Data Circuit",
+    "Brand": "BUICK"
+  },
+  "P1574": {
+    "Meaning": "Stoplamp Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1575": {
+    "Meaning": "Extended Travel Brake Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1576": {
+    "Meaning": "BBV Sensor Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1577": {
+    "Meaning": "BBV Sensor Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1578": {
+    "Meaning": "BBV Sensor Circuit Low Vacuum",
+    "Brand": "BUICK"
+  },
+  "P1579": {
+    "Meaning": "P/N To D/R At High Throttle Angle",
+    "Brand": "BUICK"
+  },
+  "P1580": {
+    "Meaning": "Cruise Move Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1581": {
+    "Meaning": "Cruise Move Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1582": {
+    "Meaning": "Cruise Direction Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1583": {
+    "Meaning": "Cruise Direction Circuit High Volume",
+    "Brand": "BUICK"
+  },
+  "P1584": {
+    "Meaning": "Cruise Control Disabled",
+    "Brand": "BUICK"
+  },
+  "P1585": {
+    "Meaning": "Cruise Inhibit Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1586": {
+    "Meaning": "Cruise Control Brake Switch 2 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1587": {
+    "Meaning": "Cruise Control Clutch Control Circuit Low",
+    "Brand": "BUICK"
+  },
+  "P1588": {
+    "Meaning": "Cruise Control Clutch Control Circuit High",
+    "Brand": "BUICK"
+  },
+  "P1599": {
+    "Meaning": "Engine Stall Or Near Stall Detected",
+    "Brand": "BUICK"
+  },
+  "P1600": {
+    "Meaning": "PCM Battery",
+    "Brand": "BUICK"
+  },
+  "P1601": {
+    "Meaning": "Serial Communication Problem With Devise 1",
+    "Brand": "BUICK"
+  },
+  "P1602": {
+    "Meaning": "Loss Of EBTCM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1603": {
+    "Meaning": "Loss Of SDM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1604": {
+    "Meaning": "Loss Of IPC Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1605": {
+    "Meaning": "Loss OF HVAX Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1606": {
+    "Meaning": "Serial Communication Problem With Device 6",
+    "Brand": "BUICK"
+  },
+  "P1607": {
+    "Meaning": "Serial Communication Problem With Devise 7",
+    "Brand": "BUICK"
+  },
+  "P1608": {
+    "Meaning": "Serial Communication Problem With Device 8",
+    "Brand": "BUICK"
+  },
+  "P1609": {
+    "Meaning": "Loss Of TCS Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1610": {
+    "Meaning": "Loss Of PZM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1611": {
+    "Meaning": "Loss Of CVRTD Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1612": {
+    "Meaning": "Loss OF IPM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1613": {
+    "Meaning": "Loss Of DIM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1614": {
+    "Meaning": "Loss Of RIM Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1615": {
+    "Meaning": "Loss Of VTD Serial Data",
+    "Brand": "BUICK"
+  },
+  "P1617": {
+    "Meaning": "Engine Oil Level Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1619": {
+    "Meaning": "Engine Oil Life Monitor Reset Circuit",
+    "Brand": "BUICK"
+  },
+  "P1620": {
+    "Meaning": "Low Coolant Circuit",
+    "Brand": "BUICK"
+  },
+  "P1621": {
+    "Meaning": "PCM Memory Performance",
+    "Brand": "BUICK"
+  },
+  "P1622": {
+    "Meaning": "Cylinder Select",
+    "Brand": "BUICK"
+  },
+  "P1623": {
+    "Meaning": "Transmission Temp Pull-Up Resistor",
+    "Brand": "BUICK"
+  },
+  "P1624": {
+    "Meaning": "Customer Snapshot Data Available",
+    "Brand": "BUICK"
+  },
+  "P1625": {
+    "Meaning": "PCM System Reset",
+    "Brand": "BUICK"
+  },
+  "P1626": {
+    "Meaning": "Theft Deterrent Fuel Enable Signal Lost",
+    "Brand": "BUICK"
+  },
+  "P1627": {
+    "Meaning": "A/D Performance",
+    "Brand": "BUICK"
+  },
+  "P1628": {
+    "Meaning": "ECT Pull-Up Resistor",
+    "Brand": "BUICK"
+  },
+  "P1629": {
+    "Meaning": "Theft Deterrent System Cranking Signal",
+    "Brand": "BUICK"
+  },
+  "P1630": {
+    "Meaning": "Theft Deterrent Learn Mode Active",
+    "Brand": "BUICK"
+  },
+  "P1631": {
+    "Meaning": "Theft Deterrent Start Enable Signal Not Correct",
+    "Brand": "BUICK"
+  },
+  "P1632": {
+    "Meaning": "Theft Deterrent System Fuel Disabled",
+    "Brand": "BUICK"
+  },
+  "P1633": {
+    "Meaning": "Ignition Supply Power Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1634": {
+    "Meaning": "Ignition 1 Power Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1635": {
+    "Meaning": "5 Volt Reference 1 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1636": {
+    "Meaning": "PCM Stack Overrun",
+    "Brand": "BUICK"
+  },
+  "P1637": {
+    "Meaning": "Generator L-Terminal Circuit",
+    "Brand": "BUICK"
+  },
+  "P1638": {
+    "Meaning": "Generator F-Terminal Circuit",
+    "Brand": "BUICK"
+  },
+  "P1639": {
+    "Meaning": "5 Volt Reference 2 Circuit",
+    "Brand": "BUICK"
+  },
+  "P1640": {
+    "Meaning": "Driver 1 Input High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1641": {
+    "Meaning": "FC Relay 1 Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1642": {
+    "Meaning": "FC Relay 2 And 3 Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1643": {
+    "Meaning": "Engine Speed Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1644": {
+    "Meaning": "TP Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1645": {
+    "Meaning": "EVAP Solenoid Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1646": {
+    "Meaning": "Driver 1 Line 6",
+    "Brand": "BUICK"
+  },
+  "P1647": {
+    "Meaning": "Driver 1 Line 7",
+    "Brand": "BUICK"
+  },
+  "P1650": {
+    "Meaning": "Driver 2 Input High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1651": {
+    "Meaning": "Fan 1 Relay Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1652": {
+    "Meaning": "Powertrain Induced Chassis Pitch Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1653": {
+    "Meaning": "Oil Level Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1654": {
+    "Meaning": "Service Throttle Soon Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1655": {
+    "Meaning": "EVAP Purge Solenoid Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1656": {
+    "Meaning": "Driver 2 Line 6",
+    "Brand": "BUICK"
+  },
+  "P1657": {
+    "Meaning": "1-4 Upshift Solenoid Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1658": {
+    "Meaning": "Starter Enable Relay Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1660": {
+    "Meaning": "Cooling Fans Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1661": {
+    "Meaning": "MIL Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1662": {
+    "Meaning": "Cruise Control Inhibit Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1663": {
+    "Meaning": "Oil Life Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1664": {
+    "Meaning": "1-4 Upshift Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1665": {
+    "Meaning": "Driver 3 Line 5",
+    "Brand": "BUICK"
+  },
+  "P1666": {
+    "Meaning": "Driver 3 Line 6",
+    "Brand": "BUICK"
+  },
+  "P1667": {
+    "Meaning": "Reverse Inhibit Solenoid Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1669": {
+    "Meaning": "ABS Unit Expected",
+    "Brand": "BUICK"
+  },
+  "P1670": {
+    "Meaning": "Driver 4",
+    "Brand": "BUICK"
+  },
+  "P1671": {
+    "Meaning": "Driver 4 Line 1",
+    "Brand": "BUICK"
+  },
+  "P1672": {
+    "Meaning": "Low Engine Oil Level Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1673": {
+    "Meaning": "Engine Hot Lamp Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1674": {
+    "Meaning": "Tachometer Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1675": {
+    "Meaning": "EVAP Vent Solenoid Control Circuit",
+    "Brand": "BUICK"
+  },
+  "P1676": {
+    "Meaning": "Driver 4 Line 6",
+    "Brand": "BUICK"
+  },
+  "P1677": {
+    "Meaning": "Driver 4 Line 7",
+    "Brand": "BUICK"
+  },
+  "P1680": {
+    "Meaning": "Driver 5",
+    "Brand": "BUICK"
+  },
+  "P1681": {
+    "Meaning": "Driver 5 Line 1",
+    "Brand": "BUICK"
+  },
+  "P1682": {
+    "Meaning": "Driver 5 Line 2",
+    "Brand": "BUICK"
+  },
+  "P1683": {
+    "Meaning": "Driver 5 Line 3",
+    "Brand": "BUICK"
+  },
+  "P1684": {
+    "Meaning": "Driver 5 Line 4",
+    "Brand": "BUICK"
+  },
+  "P1685": {
+    "Meaning": "Driver 5 Line 5",
+    "Brand": "BUICK"
+  },
+  "P1686": {
+    "Meaning": "Driver 5 Line 6",
+    "Brand": "BUICK"
+  },
+  "P1687": {
+    "Meaning": "Driver 5 Line 7",
+    "Brand": "BUICK"
+  },
+  "P1689": {
+    "Meaning": "Delivered Torque Circuit Fault",
+    "Brand": "BUICK"
+  },
+  "P1690": {
+    "Meaning": "ECM Loop Overrun",
+    "Brand": "BUICK"
+  },
+  "P1691": {
+    "Meaning": "Coolant Gage Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1692": {
+    "Meaning": "Coolant Gage Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1693": {
+    "Meaning": "Tachometer Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1694": {
+    "Meaning": "Tachometer Circuit High Voltag",
+    "Brand": "BUICK"
+  },
+  "P1695": {
+    "Meaning": "Remote Keyless Entry Circuit Low",
+    "Brand": "BUICK"
+  },
+  "P1696": {
+    "Meaning": "Remote Keyless Entry Voltage High",
+    "Brand": "BUICK"
+  },
+  "P1700": {
+    "Meaning": "Transmission MIL Request",
+    "Brand": "BUICK"
+  },
+  "P1701": {
+    "Meaning": "Transmission MIL Request Circuit",
+    "Brand": "BUICK"
+  },
+  "P1705": {
+    "Meaning": "P/N Signal Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1740": {
+    "Meaning": "Transmission Torque Reduction Request Circuit",
+    "Brand": "BUICK"
+  },
+  "P1743": {
+    "Meaning": "TP Signal From ECM",
+    "Brand": "BUICK"
+  },
+  "P1760": {
+    "Meaning": "ECM Supply Voltage Interrupted",
+    "Brand": "BUICK"
+  },
+  "P1779": {
+    "Meaning": "Engine Torque Delivered To TCM Signal",
+    "Brand": "BUICK"
+  },
+  "P1780": {
+    "Meaning": "Park/Neutral Postion (PNP) Switch Circuit Engine Torque Signal Circuit",
+    "Brand": "BUICK"
+  },
+  "P1790": {
+    "Meaning": "Transmission Control Module Checksum",
+    "Brand": "BUICK"
+  },
+  "P1791": {
+    "Meaning": "Transmission Control Module Loop",
+    "Brand": "BUICK"
+  },
+  "P1792": {
+    "Meaning": "Transmission Control Module Reprogrammable Memory",
+    "Brand": "BUICK"
+  },
+  "P1793": {
+    "Meaning": "Transmission control Module Stack Overrun",
+    "Brand": "BUICK"
+  },
+  "P1795": {
+    "Meaning": "CAN Bus Throttle Body Position",
+    "Brand": "BUICK"
+  },
+  "P1800": {
+    "Meaning": "TCM Power Control Relay Circuit Open",
+    "Brand": "BUICK"
+  },
+  "P1801": {
+    "Meaning": "Performance Selector Switch Failure",
+    "Brand": "BUICK"
+  },
+  "P1804": {
+    "Meaning": "Ground Control Relay",
+    "Brand": "BUICK"
+  },
+  "P1810": {
+    "Meaning": "TFP Valve Position Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1811": {
+    "Meaning": "Maximum Adapt And Long Shift",
+    "Brand": "BUICK"
+  },
+  "P1812": {
+    "Meaning": "Transmission Over Temperature Condition",
+    "Brand": "BUICK"
+  },
+  "P1813": {
+    "Meaning": "Torque Control",
+    "Brand": "BUICK"
+  },
+  "P1814": {
+    "Meaning": "Torque Converter Overstressed",
+    "Brand": "BUICK"
+  },
+  "P1815": {
+    "Meaning": "Transmission Range Switch Start In Wrong Range",
+    "Brand": "BUICK"
+  },
+  "P1816": {
+    "Meaning": "TFP Valve Position Switch Park/Neutral With Drive Ratio",
+    "Brand": "BUICK"
+  },
+  "P1817": {
+    "Meaning": "TFP Valve Position Switch Reverse With Drive Ratio",
+    "Brand": "BUICK"
+  },
+  "P1818": {
+    "Meaning": "TFP Valve Position Switch Drive Without Drive Ratio",
+    "Brand": "BUICK"
+  },
+  "P1819": {
+    "Meaning": "Internal Mode Swtich No Start, Wrong Range",
+    "Brand": "BUICK"
+  },
+  "P1820": {
+    "Meaning": "Internal Mode Switch Circuit A Low",
+    "Brand": "BUICK"
+  },
+  "P1822": {
+    "Meaning": "Internal Mode Switch Circuit B High",
+    "Brand": "BUICK"
+  },
+  "P1823": {
+    "Meaning": "Internal Mode Switch Circuit P Low",
+    "Brand": "BUICK"
+  },
+  "P1825": {
+    "Meaning": "Internal Mode Switch Illegal Range",
+    "Brand": "BUICK"
+  },
+  "P1826": {
+    "Meaning": "Internal Mode Switch Circuit C High",
+    "Brand": "BUICK"
+  },
+  "P1831": {
+    "Meaning": "PC Solenoid Power Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1833": {
+    "Meaning": "A/T Solenoids Power Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1835": {
+    "Meaning": "Kick-Down Switch",
+    "Brand": "BUICK"
+  },
+  "P1836": {
+    "Meaning": "Kick-Down Switch Failed Open",
+    "Brand": "BUICK"
+  },
+  "P1837": {
+    "Meaning": "Kick-Down Switch Failed Short",
+    "Brand": "BUICK"
+  },
+  "P1842": {
+    "Meaning": "1-2 Shift Solenoid Circuit Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1843": {
+    "Meaning": "1-2 Shift Solenoid Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1844": {
+    "Meaning": "Torque Reduction Signal Circuit Desired By TCM",
+    "Brand": "BUICK"
+  },
+  "P1845": {
+    "Meaning": "Transmission Gear Ratio Output Circuit",
+    "Brand": "BUICK"
+  },
+  "P1847": {
+    "Meaning": "2-3 Shift Solenoid Circuit High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1850": {
+    "Meaning": "Brake Band Apply Solenoid Circuit",
+    "Brand": "BUICK"
+  },
+  "P1851": {
+    "Meaning": "Brake Band Apply Solenoid Performance",
+    "Brand": "BUICK"
+  },
+  "P1852": {
+    "Meaning": "Brake Band Apply Solenoid Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1853": {
+    "Meaning": "Brake Band Apply Solenoid High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1860": {
+    "Meaning": "TCC PWM Solenoid Circuit Electrical",
+    "Brand": "BUICK"
+  },
+  "P1864": {
+    "Meaning": "Torque Converter Clutch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1868": {
+    "Meaning": "Transmission Fluid Life",
+    "Brand": "BUICK"
+  },
+  "P1870": {
+    "Meaning": "Transmission Component Slipping",
+    "Brand": "BUICK"
+  },
+  "P1871": {
+    "Meaning": "Undefined Gear Ratio",
+    "Brand": "BUICK"
+  },
+  "P1873": {
+    "Meaning": "TCC Stator Temp. Switch Circuit Low",
+    "Brand": "BUICK"
+  },
+  "P1874": {
+    "Meaning": "TCC Stator Temp. Switch Circuit High",
+    "Brand": "BUICK"
+  },
+  "P1875": {
+    "Meaning": "4WD Low Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1884": {
+    "Meaning": "TCC Enable/Shift Light Circuit",
+    "Brand": "BUICK"
+  },
+  "P1886": {
+    "Meaning": "Shift Timing Solenoid",
+    "Brand": "BUICK"
+  },
+  "P1887": {
+    "Meaning": "TCC Release Switch Circuit",
+    "Brand": "BUICK"
+  },
+  "P1890": {
+    "Meaning": "ECM Data Input Circuit",
+    "Brand": "BUICK"
+  },
+  "P1891": {
+    "Meaning": "Throttle Position Sensor PWM Signal Low",
+    "Brand": "BUICK"
+  },
+  "P1892": {
+    "Meaning": "Throttle Position Sensor PWM Signal High",
+    "Brand": "BUICK"
+  },
+  "P1893": {
+    "Meaning": "Engine Torque Signal Low Voltage",
+    "Brand": "BUICK"
+  },
+  "P1894": {
+    "Meaning": "Engine Torque Signal High Voltage",
+    "Brand": "BUICK"
+  },
+  "P1895": {
+    "Meaning": "TCM To ECM Torque Reduction Circuit",
+    "Brand": "BUICK"
+  }
+}

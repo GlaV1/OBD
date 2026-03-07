@@ -1,0 +1,462 @@
+{
+  "P1031": {
+    "Meaning": "HO2S Heater Current Monitor Control Circuit Sensors 1",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1032": {
+    "Meaning": "HO2S Heater Warm Up Control Circuit Sensors 1",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1105": {
+    "Meaning": "Open Or Shorted Condition Detected In The Baro Read Solenoid Control Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1192": {
+    "Meaning": "Inlet Air Temp Circuit Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1193": {
+    "Meaning": "Inlet Air Temp Circuit High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1194": {
+    "Meaning": "Incorrect Or Irrational Performance Has Been Detected For The PWM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1195": {
+    "Meaning": "O2 Sensor 1/1 (Bank 1 Sensor 1) Slow During Catalyst Monitor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1196": {
+    "Meaning": "O2 Sensor 2/1 (Bank 2 Sensor 1) Slow During Catalyst Monitor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1197": {
+    "Meaning": "O2 Sensor 1/2 (Bank 1 Sensor 2) Slow During Catalyst Monitor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1198": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1199": {
+    "Meaning": "Radiator Temperature Sensor Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1243": {
+    "Meaning": "Open Or Shorted Condition Detected In The Turbocharger Surge Valve Solenoid Control",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1280": {
+    "Meaning": "Open Or Shorted Condition Detected In The Fuel System Relay Control Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1281": {
+    "Meaning": "Engine Operating Temp Below Acceptable Range",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1282": {
+    "Meaning": "Fuel Pump Relay Control Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1283": {
+    "Meaning": "Idle Select Signal Invalid",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1284": {
+    "Meaning": "Fuel Injection Pump Battery Voltage Out Of Range",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1285": {
+    "Meaning": "Fuel Injection Pump Controller Always On",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1286": {
+    "Meaning": "Accelerator Pedal Position Sensor Supply Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1287": {
+    "Meaning": "Fuel Injection Pump Controller Supply Voltage Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1288": {
+    "Meaning": "Intake Manifold Short Runner Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1289": {
+    "Meaning": "Manifold Tune Valve Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1290": {
+    "Meaning": "CNG Fuel Pressure Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1291": {
+    "Meaning": "No Temp Rise Seen From Fuel Heaters",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1292": {
+    "Meaning": "CNG Pressure Sensor Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1293": {
+    "Meaning": "CNG Pressure Sensor Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1294": {
+    "Meaning": "Target Idle Not Reached",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1295": {
+    "Meaning": "Loss Of 5 Volts To TP Sensor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1296": {
+    "Meaning": "Loss Of 5 Volts To MAP Sensor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1297": {
+    "Meaning": "No Change In MAP From Start To Run",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1298": {
+    "Meaning": "Lean Operation At Wide Open Throttle",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1299": {
+    "Meaning": "Vacuum Leak Found IAC Fully Seated",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1388": {
+    "Meaning": "Auto Shutdown ASD Relay Control Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1389": {
+    "Meaning": "No Auto Shutdown ASD Relay Output Voltage At PCM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1390": {
+    "Meaning": "Timing Belt Skipped One Tooth Or More",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1391": {
+    "Meaning": "Intermittent Loss of CMP Or CKP",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1398": {
+    "Meaning": "PCM Is Unable To Learn The Crankshaft Position Sensor's Signal",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1399": {
+    "Meaning": "Wait To Start Lamp Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1403": {
+    "Meaning": "Loss Of 5 Volts To EGR Sensor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1404": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 2",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1405": {
+    "Meaning": "Exhaust Gas Recirculation System Valve 3",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1406": {
+    "Meaning": "EGR Valve Pintle Position Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1407": {
+    "Meaning": "EGR Air Intrusion In Exhaust Supply To EGR Valve",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1408": {
+    "Meaning": "Intake Manifold Pressure Sensor Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1409": {
+    "Meaning": "EGR Vacuum System Leak",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1410": {
+    "Meaning": "Fuel Tank Pressure System",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1415": {
+    "Meaning": "Secondary Air Injection AIR System",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1416": {
+    "Meaning": "AIR System Bank 1",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1418": {
+    "Meaning": "Secondary Air Injection System Relay A Control Circuit High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1420": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit Low Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1421": {
+    "Meaning": "Intake Air Low Pressure Switch Circuit High Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1423": {
+    "Meaning": "Intake Air High Pressure Switch Circuit High Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1431": {
+    "Meaning": "Fuel Level Sensor 2 Performance",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1432": {
+    "Meaning": "Fuel Level Sensor 2 Circuit Low Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1433": {
+    "Meaning": "Fuel Level Sensor 2 Circuit High Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1441": {
+    "Meaning": "Evaporative Emission EVAP System Flow During Non-Purge",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1442": {
+    "Meaning": "EVAP Vacuum Switch High Voltage During Ignition On",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1450": {
+    "Meaning": "Barometric Pressure Sensor Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1451": {
+    "Meaning": "Barometric Pressure Sensor Performance",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1460": {
+    "Meaning": "Cooling Fan Control System",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1480": {
+    "Meaning": "Open Or Shorted Condition Detected In The Positive Crankcase Ventilation (PCV)",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1481": {
+    "Meaning": "EATX RPM pulse generator signal for misfire detection",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1482": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1483": {
+    "Meaning": "Catalyst Temperature Sensor Circuit Shorted High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1484": {
+    "Meaning": "Catalytic Converter Overheat Detected",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1485": {
+    "Meaning": "Air Injection Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1486": {
+    "Meaning": "Evap Leak Monitor Pinched Hose",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1487": {
+    "Meaning": "Hi Speed Rad Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1488": {
+    "Meaning": "Auxiliary 5 Volt Supply Output Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1489": {
+    "Meaning": "High Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1490": {
+    "Meaning": "Low Speed Fan CTRL Relay Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1491": {
+    "Meaning": "Radiator Fan Control Relay Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1492": {
+    "Meaning": "Battery Temperature Sensor Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1493": {
+    "Meaning": "Battery Temperature Sensor Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1494": {
+    "Meaning": "Leak Detection Pump Switch Or Mechanical Fault",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1495": {
+    "Meaning": "Leak Detection Pump Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1496": {
+    "Meaning": "5 Volt Supply Output Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1498": {
+    "Meaning": "High speed Rad Fan Ground CTRL Rly Circuit",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1499": {
+    "Meaning": "Open Or Shorted Condition Detected In The Hydraulic Cooling Fan Solenoid Control",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1594": {
+    "Meaning": "Charging System Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1595": {
+    "Meaning": "Speed Control Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1596": {
+    "Meaning": "Speed Control Switch Always High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1597": {
+    "Meaning": "Speed Control Switch Always Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1598": {
+    "Meaning": "A/C Pressure Sensor Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1599": {
+    "Meaning": "A/C Pressure Sensor Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1602": {
+    "Meaning": "PCM Not Programmed",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1680": {
+    "Meaning": "Clutch Released Switch Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1681": {
+    "Meaning": "No Instrument Panel Cluster CCD J1850 Messages Received",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1682": {
+    "Meaning": "Charging System Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1683": {
+    "Meaning": "Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1684": {
+    "Meaning": "Battery Disconnected Within Last 50 Starts",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1685": {
+    "Meaning": "Skim Invalid Key",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1686": {
+    "Meaning": "No SKIM Bus Message Received",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1687": {
+    "Meaning": "No Cluster Bus Message",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1688": {
+    "Meaning": "Internal Fuel Injection Pump Controller Failure",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1689": {
+    "Meaning": "No Communication Between ECM & Injection Pump Module",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1690": {
+    "Meaning": "Fuel Injection Pump CKP Sensor Does Not Agree With ECM CKP Sensor",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1691": {
+    "Meaning": "Fuel Injection Pump Controller Calibration Failure",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1693": {
+    "Meaning": "DTC Detected In ECM Or PCM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1694": {
+    "Meaning": "No CCD Messages Received From ECM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1695": {
+    "Meaning": "No CCD J1850 Message From BCM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1696": {
+    "Meaning": "PCM Failure EEPROM Write Denied",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1697": {
+    "Meaning": "PCM Failure SRI Mile Not Stored",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1698": {
+    "Meaning": "No CCD Messages Received From PCM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1699": {
+    "Meaning": "No CCD J1850 Messages Received From The Climate Control Module CCM",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1719": {
+    "Meaning": "Skip Shift Solenoid Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1740": {
+    "Meaning": "TCC Or OD Solenoid Performance",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1756": {
+    "Meaning": "Governor Pressure Not Equal To Target At 15-20 PSI",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1757": {
+    "Meaning": "Governor Pressure Above 3 PSI When Request Is 0 PSI",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1762": {
+    "Meaning": "Governor Pressure Sensor Offset Improper Voltage",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1763": {
+    "Meaning": "Governor Pressure Sensor Voltage Too High",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1764": {
+    "Meaning": "Governor Pressure Sensor Voltage Too Low",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1765": {
+    "Meaning": "Trans 12 Volt Supply Relay Control Circuit Open Or Shorted",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1830": {
+    "Meaning": "Open Or Shorted Condition Detected In The Clutch Pedal Switch Over-Ride Relay Control",
+    "Brand": "PONTIAC_CODES"
+  },
+  "P1899": {
+    "Meaning": "Park Neutral Position Switch Stuck In Park or In Gear",
+    "Brand": "PONTIAC_CODES"
+  }
+}

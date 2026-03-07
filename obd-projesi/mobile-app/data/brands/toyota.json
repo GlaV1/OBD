@@ -1,0 +1,182 @@
+{
+  "P1100": {
+    "Meaning": "BARO Sensor Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1120": {
+    "Meaning": "Accelerator Pedal Position Sensor Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1121": {
+    "Meaning": "Accelerator Pedal Position Sensor Range Performance Problem",
+    "Brand": "TOYOTA"
+  },
+  "P1125": {
+    "Meaning": "Throttle Control Motor Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1126": {
+    "Meaning": "Magnetic Clutch Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1127": {
+    "Meaning": "ETCS Actuator Power Source Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1128": {
+    "Meaning": "Throttle Control Motor Lock",
+    "Brand": "TOYOTA"
+  },
+  "P1129": {
+    "Meaning": "Electric Throttle Control System",
+    "Brand": "TOYOTA"
+  },
+  "P1130": {
+    "Meaning": "Air/Fuel Sensor Circuit Range Performance Bank 1 Sensor 1",
+    "Brand": "TOYOTA"
+  },
+  "P1133": {
+    "Meaning": "Air/Fuel Sensor Circuit Response Bank 1 Sensor 1",
+    "Brand": "TOYOTA"
+  },
+  "P1135": {
+    "Meaning": "Air/Fuel Sensor Heater Circuit Response Bank 1 Sensor 1",
+    "Brand": "TOYOTA"
+  },
+  "P1150": {
+    "Meaning": "Air/Fuel Sensor Circuit Range Performance Bank 1 Sensor 2",
+    "Brand": "TOYOTA"
+  },
+  "P1153": {
+    "Meaning": "Air/Fuel Sensor Circuit Response Bank 1 Sensor 2",
+    "Brand": "TOYOTA"
+  },
+  "P1155": {
+    "Meaning": "Air/Fuel Sensor Heater Circuit Bank 1 Sensor 2",
+    "Brand": "TOYOTA"
+  },
+  "P1200": {
+    "Meaning": "Fuel Pump Relay Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1300": {
+    "Meaning": "Igniter Circuit Malfunction No 1",
+    "Brand": "TOYOTA"
+  },
+  "P1305": {
+    "Meaning": "Igniter Circuit Malfunction No 2",
+    "Brand": "TOYOTA"
+  },
+  "P1335": {
+    "Meaning": "No Crankshaft Position Sensor Signal Engine Running",
+    "Brand": "TOYOTA"
+  },
+  "P1349": {
+    "Meaning": "VVT System",
+    "Brand": "TOYOTA"
+  },
+  "P1400": {
+    "Meaning": "Sub-Throttle Position Sensor",
+    "Brand": "TOYOTA"
+  },
+  "P1401": {
+    "Meaning": "Sub-Throttle Position Sensor Range Performance Problem",
+    "Brand": "TOYOTA"
+  },
+  "P1405": {
+    "Meaning": "Turbo Pressure Sensor Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1406": {
+    "Meaning": "Turbo Pressure Sensor Range Performance Problem",
+    "Brand": "TOYOTA"
+  },
+  "P1410": {
+    "Meaning": "EGR Valve Position Sensor Circuit Malfunction",
+    "Brand": "TOYOTA"
+  },
+  "P1411": {
+    "Meaning": "EGR Valve Position Sensor Circuit Range Performance",
+    "Brand": "TOYOTA"
+  },
+  "P1500": {
+    "Meaning": "Starter Signal Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1510": {
+    "Meaning": "Boost Pressure Control Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1511": {
+    "Meaning": "Boost Pressure Low",
+    "Brand": "TOYOTA"
+  },
+  "P1512": {
+    "Meaning": "Boost Pressure High",
+    "Brand": "TOYOTA"
+  },
+  "P1520": {
+    "Meaning": "Stop Lamp Switch Signal Malfunction",
+    "Brand": "TOYOTA"
+  },
+  "P1565": {
+    "Meaning": "Cruise Control Main Switch Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1600": {
+    "Meaning": "ECM BATT Malfunction",
+    "Brand": "TOYOTA"
+  },
+  "P1605": {
+    "Meaning": "Knock Control CPU",
+    "Brand": "TOYOTA"
+  },
+  "P1630": {
+    "Meaning": "Traction Control System",
+    "Brand": "TOYOTA"
+  },
+  "P1633": {
+    "Meaning": "ECM",
+    "Brand": "TOYOTA"
+  },
+  "P1652": {
+    "Meaning": "Idle Air Control Valve Control Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1656": {
+    "Meaning": "OCV Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1658": {
+    "Meaning": "Wastegate Valve Control Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1661": {
+    "Meaning": "EGR Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1662": {
+    "Meaning": "EGR Bypass Valve Control Circuit",
+    "Brand": "TOYOTA"
+  },
+  "P1700": {
+    "Meaning": "Vehicle Speed Sensor 2 Circuit Fault",
+    "Brand": "TOYOTA"
+  },
+  "P1705": {
+    "Meaning": "Direct Clutch Speed Circuit Fault",
+    "Brand": "TOYOTA"
+  },
+  "P1765": {
+    "Meaning": "Linear Shift Solenoid Circuit Fault",
+    "Brand": "TOYOTA"
+  },
+  "P1780": {
+    "Meaning": "Park Neutral Position Switch Malfunction Only For A/T",
+    "Brand": "TOYOTA"
+  },
+  "P1895": {
+    "Meaning": "TCM To ECM Torque Reduction Circuit Malfunction",
+    "Brand": "TOYOTA"
+  }
+}

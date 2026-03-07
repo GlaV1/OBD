@@ -1,0 +1,78 @@
+{
+  "P1250": {
+    "Meaning": "Early Fuel Evaporation Heater Circuit Fault",
+    "Brand": "GEO"
+  },
+  "P1300": {
+    "Meaning": "Ignition Coil 1 Primary Feedback Circuit",
+    "Brand": "GEO"
+  },
+  "P1305": {
+    "Meaning": "Ignition Coil 2 Primary Feedback Circuit",
+    "Brand": "GEO"
+  },
+  "P1310": {
+    "Meaning": "Ignition Coil 3 Primary Feedback Circuit",
+    "Brand": "GEO"
+  },
+  "P1315": {
+    "Meaning": "Ignition Coil 4 Primary Feedback Circuit",
+    "Brand": "GEO"
+  },
+  "P1335": {
+    "Meaning": "Crankshaft Position Sensor Circuit",
+    "Brand": "GEO"
+  },
+  "P1346": {
+    "Meaning": "Intake Camshaft Position System Performance",
+    "Brand": "GEO"
+  },
+  "P1349": {
+    "Meaning": "Intake Camshaft Position System",
+    "Brand": "GEO"
+  },
+  "P1408": {
+    "Meaning": "MAP Sensor Circuit",
+    "Brand": "GEO"
+  },
+  "P1410": {
+    "Meaning": "Fuel Tank Pressure System Fault",
+    "Brand": "GEO"
+  },
+  "P1450": {
+    "Meaning": "Barometric Pressure Sensor Circuit Fault",
+    "Brand": "GEO"
+  },
+  "P1451": {
+    "Meaning": "Barometric Pressure Sensor Performance",
+    "Brand": "GEO"
+  },
+  "P1460": {
+    "Meaning": "Cooling Fan Control System Fault",
+    "Brand": "GEO"
+  },
+  "P1500": {
+    "Meaning": "Starter Signal Circuit Fault",
+    "Brand": "GEO"
+  },
+  "P1510": {
+    "Meaning": "Backup Power Supply Fault",
+    "Brand": "GEO"
+  },
+  "P1520": {
+    "Meaning": "Stop Lamp Switch Circuit",
+    "Brand": "GEO"
+  },
+  "P1530": {
+    "Meaning": "Ignition Timing Adjustment Switch Circuit",
+    "Brand": "GEO"
+  },
+  "P1600": {
+    "Meaning": "PCM Battery Circuit Fault",
+    "Brand": "GEO"
+  },
+  "P1656": {
+    "Meaning": "Intake CMP Actuator Solenoid Control Circuit",
+    "Brand": "GEO"
+  }
+}
