@@ -1,28 +1,71 @@
+import { useState, useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { ConnectionProvider, useConnection, getStatusColor, getStatusText } from '../context/ConnectionContext';
+import {
+  ConnectionProvider,
+  useConnection,
+  getStatusColor,
+  getStatusText,
+} from '../context/ConnectionContext';
+import ErrorView from '../components/ErrorView';
+import { getError, OBDErrorDef } from '../utils/errors';
 
 // --- GLOBAL BAĞLANTI BANNER'I ---
 function ConnectionBanner() {
-  const { status, lastError, connect } = useConnection();
+  const { status, lastError, connect, reconnectAttempt } = useConnection();
+  const [activeError, setActiveError] = useState<OBDErrorDef | null>(null);
 
+  // Bağlantı durumu değişince uygun hatayı göster
+  useEffect(() => {
+    if (status === 'connected') {
+      setActiveError(null);
+      return;
+    }
+    if (status === 'error') {
+      if (reconnectAttempt > 0) {
+        // Yeniden bağlanmaya çalışıyor — timeout hatası göster
+        setActiveError({
+          ...getError('CONNECTION_TIMEOUT'),
+          message: `Yeniden bağlanılıyor... (${reconnectAttempt}/5)`,
+        });
+      } else {
+        setActiveError(getError('CONNECTION_LOST'));
+      }
+    }
+    if (status === 'disconnected') {
+      setActiveError(null); // kasıtlı kesilmede hata gösterme
+    }
+  }, [status, reconnectAttempt]);
+
+  // Bağlıysa banner yok
   if (status === 'connected') return null;
 
   const color = getStatusColor(status);
   const text = lastError || getStatusText(status);
 
   return (
-    <TouchableOpacity
-      style={[styles.banner, { borderBottomColor: color }]}
-      onPress={status === 'error' || status === 'disconnected' ? connect : undefined}
-      activeOpacity={0.7}
-    >
-      <View style={[styles.bannerDot, { backgroundColor: color }]} />
-      <Text style={[styles.bannerText, { color }]}>{text}</Text>
-      {(status === 'disconnected' || status === 'error') && (
-        <Text style={styles.bannerAction}>Bağlan →</Text>
-      )}
-    </TouchableOpacity>
+    <View>
+      {/* Üst ince banner — her zaman görünür */}
+      <TouchableOpacity
+        style={[styles.banner, { borderBottomColor: color }]}
+        onPress={status === 'error' || status === 'disconnected' ? connect : undefined}
+        activeOpacity={0.7}
+      >
+        <View style={[styles.bannerDot, { backgroundColor: color }]} />
+        <Text style={[styles.bannerText, { color }]}>{text}</Text>
+        {(status === 'disconnected' || status === 'error') && (
+          <Text style={styles.bannerAction}>Bağlan →</Text>
+        )}
+      </TouchableOpacity>
+
+      {/* Hata detayı — sadece error durumunda, modal olarak */}
+      <ErrorView
+        error={activeError}
+        onDismiss={() => setActiveError(null)}
+        onRetry={connect}
+        mode="modal"
+      />
+    </View>
   );
 }
 
@@ -35,11 +78,7 @@ function RootNavigator() {
         screenOptions={{
           headerStyle: { backgroundColor: '#0d0d1a' },
           headerTintColor: '#00d2ff',
-          headerTitleStyle: {
-            fontWeight: '700',
-            color: '#ffffff',
-            fontSize: 16,
-          },
+          headerTitleStyle: { fontWeight: '700', color: '#ffffff', fontSize: 16 },
           headerShadowVisible: false,
           contentStyle: { backgroundColor: '#0d0d1a' },
           animation: 'slide_from_right',
@@ -77,19 +116,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     gap: 8,
   },
-  bannerDot: {
-    width: 6,
-    height: 6,
-    borderRadius: 3,
-  },
-  bannerText: {
-    flex: 1,
-    fontSize: 12,
-    fontWeight: '600',
-  },
-  bannerAction: {
-    fontSize: 12,
-    color: '#00d2ff',
-    fontWeight: '700',
-  },
+  bannerDot: { width: 6, height: 6, borderRadius: 3 },
+  bannerText: { flex: 1, fontSize: 12, fontWeight: '600' },
+  bannerAction: { fontSize: 12, color: '#00d2ff', fontWeight: '700' },
 });

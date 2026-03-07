@@ -1,25 +1,21 @@
 import { useEffect, useState } from 'react';
 import {
   StyleSheet, Text, View, SafeAreaView,
-  Dimensions, ScrollView, ActivityIndicator
+  Dimensions, ScrollView, ActivityIndicator,
 } from 'react-native';
 import { io, Socket } from 'socket.io-client';
 import { ProgressChart } from 'react-native-chart-kit';
 import { useConnection } from '../context/ConnectionContext';
+import ErrorView from '../components/ErrorView';
+import { getError, OBDErrorDef } from '../utils/errors';
 
 const SERVER_URL = 'http://192.168.X.X:3000';
 const screenWidth = Dimensions.get('window').width;
 
-interface DTC {
-  Code: string;
-  Description: string;
-}
-
+interface DTC { Code: string; Description: string; }
 interface VehicleData {
-  RPM: number;
-  Speed: number;
-  EngineTemp: number;
-  FuelLevel: number;
+  RPM: number; Speed: number;
+  EngineTemp: number; FuelLevel: number;
   DTCs: DTC[];
 }
 
@@ -32,35 +28,47 @@ export default function LiveDataScreen() {
   const isConnected = status === 'connected';
 
   const [vehicleData, setVehicleData] = useState<VehicleData>(DEFAULT_DATA);
-  const [hasReceivedData, setHasReceivedData] = useState(false); // ilk veri geldi mi?
+  const [hasReceivedData, setHasReceivedData] = useState(false);
+  const [activeError, setActiveError] = useState<OBDErrorDef | null>(null);
 
   useEffect(() => {
-    if (!isConnected) return;
+    if (!isConnected) {
+      setActiveError(getError('NOT_CONNECTED'));
+      return;
+    }
 
+    setActiveError(null);
     const socket: Socket = io(SERVER_URL);
 
     socket.on('vehicleData', (data: VehicleData) => {
-      if (data && typeof data.RPM === 'number') {
-        setVehicleData(data);
-        setHasReceivedData(true);
+      try {
+        if (data && typeof data.RPM === 'number') {
+          setVehicleData(data);
+          setHasReceivedData(true);
+          setActiveError(null);
+        } else {
+          setActiveError(getError('DATA_PARSE_ERROR'));
+        }
+      } catch {
+        setActiveError(getError('DATA_PARSE_ERROR'));
       }
     });
 
     socket.on('disconnect', () => {
-      // Bağlantı kopunca son veriyi koru, banner zaten uyarır
+      setActiveError(getError('DATA_STREAM_LOST'));
     });
 
-    return () => {
-      socket.disconnect();
-    };
+    socket.on('connect_error', () => {
+      setActiveError(getError('CONNECTION_LOST'));
+    });
+
+    return () => { socket.disconnect(); };
   }, [isConnected]);
 
-  // Grafik için değerleri 0-1 arasına normalize et
-  // Sıfır veri gelirse grafik yerine loading göster
   const chartData = {
     labels: ['RPM', 'Yakıt', 'Isı'],
     data: [
-      Math.min(Math.max(vehicleData.RPM / 8000, 0.01), 1),   // min 0.01 — grafik 0'da bozulmasın
+      Math.min(Math.max(vehicleData.RPM / 8000, 0.01), 1),
       Math.min(Math.max(vehicleData.FuelLevel / 100, 0.01), 1),
       Math.min(Math.max(vehicleData.EngineTemp / 120, 0.01), 1),
     ],
@@ -71,21 +79,19 @@ export default function LiveDataScreen() {
       <ScrollView contentContainerStyle={styles.scrollContent}>
 
         {/* BAĞLANTI DURUMU */}
-        <View style={[
-          styles.statusBox,
-          { borderColor: isConnected ? '#4ade8033' : '#f8717133' }
-        ]}>
-          <View style={[
-            styles.statusDot,
-            { backgroundColor: isConnected ? '#4ade80' : '#f87171' }
-          ]} />
-          <Text style={{
-            color: isConnected ? '#4ade80' : '#f87171',
-            fontWeight: '700', fontSize: 13
-          }}>
+        <View style={[styles.statusBox, { borderColor: isConnected ? '#4ade8033' : '#f8717133' }]}>
+          <View style={[styles.statusDot, { backgroundColor: isConnected ? '#4ade80' : '#f87171' }]} />
+          <Text style={{ color: isConnected ? '#4ade80' : '#f87171', fontWeight: '700', fontSize: 13 }}>
             {isConnected ? 'ECU Bağlı — Veri Akıyor' : 'ECU Bağlantısı Yok'}
           </Text>
         </View>
+
+        {/* HATA GÖSTER — sadece warning/info seviyesi, error ise tam göster */}
+        <ErrorView
+          error={activeError}
+          onDismiss={() => setActiveError(null)}
+          onRetry={() => setActiveError(null)}
+        />
 
         {/* HIZ GÖSTERGESİ */}
         <View style={styles.speedBox}>
@@ -93,12 +99,14 @@ export default function LiveDataScreen() {
           <Text style={styles.speedLabel}>km/h</Text>
         </View>
 
-        {/* HALKA GRAFİKLER — veri gelene kadar loading göster */}
+        {/* HALKA GRAFİKLER */}
         <View style={styles.chartBox}>
           {!hasReceivedData ? (
             <View style={styles.chartLoading}>
               <ActivityIndicator color="#00d2ff" size="large" />
-              <Text style={styles.chartLoadingText}>Veri bekleniyor...</Text>
+              <Text style={styles.chartLoadingText}>
+                {isConnected ? 'Veri bekleniyor...' : 'Bağlantı yok'}
+              </Text>
             </View>
           ) : (
             <ProgressChart
@@ -125,30 +133,17 @@ export default function LiveDataScreen() {
 
         {/* DETAY KUTULARI */}
         <View style={styles.grid}>
-          <View style={styles.dataCard}>
-            <Text style={styles.dataLabel}>RPM</Text>
-            <Text style={[styles.dataValue, { color: '#00d2ff' }]}>
-              {hasReceivedData ? vehicleData.RPM : '—'}
-            </Text>
-          </View>
-          <View style={styles.dataCard}>
-            <Text style={styles.dataLabel}>Motor Isısı</Text>
-            <Text style={[styles.dataValue, { color: '#f87171' }]}>
-              {hasReceivedData ? `${vehicleData.EngineTemp.toFixed(1)}°C` : '—'}
-            </Text>
-          </View>
-          <View style={styles.dataCard}>
-            <Text style={styles.dataLabel}>Yakıt</Text>
-            <Text style={[styles.dataValue, { color: '#4ade80' }]}>
-              {hasReceivedData ? `%${vehicleData.FuelLevel.toFixed(1)}` : '—'}
-            </Text>
-          </View>
-          <View style={styles.dataCard}>
-            <Text style={styles.dataLabel}>Hız</Text>
-            <Text style={[styles.dataValue, { color: '#facc15' }]}>
-              {hasReceivedData ? `${vehicleData.Speed} km/h` : '—'}
-            </Text>
-          </View>
+          {[
+            { label: 'RPM', value: hasReceivedData ? String(vehicleData.RPM) : '—', color: '#00d2ff' },
+            { label: 'Motor Isısı', value: hasReceivedData ? `${vehicleData.EngineTemp.toFixed(1)}°C` : '—', color: '#f87171' },
+            { label: 'Yakıt', value: hasReceivedData ? `%${vehicleData.FuelLevel.toFixed(1)}` : '—', color: '#4ade80' },
+            { label: 'Hız', value: hasReceivedData ? `${vehicleData.Speed} km/h` : '—', color: '#facc15' },
+          ].map(item => (
+            <View key={item.label} style={styles.dataCard}>
+              <Text style={styles.dataLabel}>{item.label}</Text>
+              <Text style={[styles.dataValue, { color: item.color }]}>{item.value}</Text>
+            </View>
+          ))}
         </View>
 
         {/* HATA KODLARI */}
@@ -173,58 +168,42 @@ export default function LiveDataScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0d0d1a' },
-  scrollContent: {
-    alignItems: 'center',
-    paddingVertical: 20,
-    paddingHorizontal: 16,
-    paddingBottom: 40,
-  },
+  scrollContent: { alignItems: 'center', paddingVertical: 20, paddingHorizontal: 16, paddingBottom: 40 },
   statusBox: {
     flexDirection: 'row', alignItems: 'center', gap: 8,
-    backgroundColor: '#1a1a2e', paddingHorizontal: 16,
-    paddingVertical: 10, borderRadius: 20, borderWidth: 1,
-    marginBottom: 24, alignSelf: 'stretch', justifyContent: 'center',
+    backgroundColor: '#1a1a2e', paddingHorizontal: 16, paddingVertical: 10,
+    borderRadius: 20, borderWidth: 1, marginBottom: 16,
+    alignSelf: 'stretch', justifyContent: 'center',
   },
   statusDot: { width: 8, height: 8, borderRadius: 4 },
   speedBox: {
     alignItems: 'center', justifyContent: 'center',
     width: 180, height: 180, borderRadius: 90,
-    borderWidth: 3, borderColor: '#00d2ff',
-    backgroundColor: '#1a1a2e', marginBottom: 24,
-    shadowColor: '#00d2ff', shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.4, shadowRadius: 12, elevation: 8,
+    borderWidth: 3, borderColor: '#00d2ff', backgroundColor: '#1a1a2e',
+    marginBottom: 24, shadowColor: '#00d2ff',
+    shadowOffset: { width: 0, height: 0 }, shadowOpacity: 0.4,
+    shadowRadius: 12, elevation: 8,
   },
   speedValue: { fontSize: 64, fontWeight: '800', color: '#ffffff' },
   speedLabel: { fontSize: 16, color: '#555', fontWeight: '600' },
   chartBox: {
-    backgroundColor: '#1a1a2e', borderRadius: 16,
-    padding: 8, marginBottom: 16, borderWidth: 1,
-    borderColor: '#ffffff08', alignSelf: 'stretch',
-    minHeight: 216,
+    backgroundColor: '#1a1a2e', borderRadius: 16, padding: 8,
+    marginBottom: 16, borderWidth: 1, borderColor: '#ffffff08',
+    alignSelf: 'stretch', minHeight: 216,
   },
-  chartLoading: {
-    height: 200, alignItems: 'center',
-    justifyContent: 'center', gap: 12,
-  },
+  chartLoading: { height: 200, alignItems: 'center', justifyContent: 'center', gap: 12 },
   chartLoadingText: { color: '#555', fontSize: 13 },
-  grid: {
-    flexDirection: 'row', flexWrap: 'wrap',
-    gap: 10, alignSelf: 'stretch', marginBottom: 16,
-  },
+  grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, alignSelf: 'stretch', marginBottom: 16 },
   dataCard: {
     flex: 1, minWidth: '45%', backgroundColor: '#1a1a2e',
     borderRadius: 12, padding: 16, alignItems: 'center',
     borderWidth: 1, borderColor: '#ffffff08',
   },
-  dataLabel: {
-    fontSize: 11, color: '#555', fontWeight: '600',
-    marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5,
-  },
+  dataLabel: { fontSize: 11, color: '#555', fontWeight: '600', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 },
   dataValue: { fontSize: 24, fontWeight: '800' },
   dtcContainer: {
     alignSelf: 'stretch', backgroundColor: '#1a1a2e',
-    padding: 16, borderRadius: 14,
-    borderWidth: 1, borderColor: '#ffffff08',
+    padding: 16, borderRadius: 14, borderWidth: 1, borderColor: '#ffffff08',
   },
   dtcHeader: {
     fontSize: 14, color: '#ffffff', fontWeight: '700',
