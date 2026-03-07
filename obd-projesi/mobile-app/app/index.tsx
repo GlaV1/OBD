@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useConnection, getStatusColor, getStatusText } from '../context/ConnectionContext';
 
 const { width } = Dimensions.get('window');
 
@@ -62,7 +63,10 @@ function formatDate(iso: string): string {
 // --- ANA COMPONENT ---
 export default function VehicleSelectScreen() {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState(0); // 0 = Son Araçlar, 1 = Yeni Araç
+  const { status, connect, lastError } = useConnection();
+  const isOBDConnected = status === 'connected';
+
+  const [activeTab, setActiveTab] = useState(0);
   const [recentVehicles, setRecentVehicles] = useState<Vehicle[]>([]);
   const [brand, setBrand] = useState('');
   const [vin, setVin] = useState('');
@@ -95,6 +99,8 @@ export default function VehicleSelectScreen() {
   };
 
   const handleConnect = async (vehicle?: Vehicle) => {
+    if (!isOBDConnected) return; // OBD bağlı değilse engelle
+
     const targetBrand = vehicle?.brand || brand.trim();
     const targetVin = vehicle?.vin || vin.trim();
 
@@ -123,6 +129,7 @@ export default function VehicleSelectScreen() {
   };
 
   const handleAutoScan = async () => {
+    if (!isOBDConnected) return;
     setIsScanning(true);
     // Simülasyon: OBD cihazı taraması (gerçekte Bluetooth scan olacak)
     await new Promise(r => setTimeout(r, 2000));
@@ -168,9 +175,10 @@ export default function VehicleSelectScreen() {
           contentContainerStyle={{ paddingBottom: 20 }}
           renderItem={({ item, index }) => (
             <TouchableOpacity
-              style={styles.vehicleCard}
+              style={[styles.vehicleCard, !isOBDConnected && styles.vehicleCardDisabled]}
               onPress={() => handleConnect(item)}
-              activeOpacity={0.75}
+              activeOpacity={isOBDConnected ? 0.75 : 1}
+              disabled={!isOBDConnected}
             >
               <View style={styles.vehicleCardLeft}>
                 <View style={styles.vehicleIndex}>
@@ -261,10 +269,10 @@ export default function VehicleSelectScreen() {
       <TouchableOpacity
         style={[
           styles.connectButton,
-          (!brand.trim() || isConnecting) && styles.connectButtonDisabled,
+          (!brand.trim() || isConnecting || !isOBDConnected) && styles.connectButtonDisabled,
         ]}
         onPress={() => handleConnect()}
-        disabled={!brand.trim() || isConnecting}
+        disabled={!brand.trim() || isConnecting || !isOBDConnected}
         activeOpacity={0.85}
       >
         {isConnecting ? (
@@ -288,6 +296,33 @@ export default function VehicleSelectScreen() {
         <Text style={styles.headerTitle}>OBD Diagnostics</Text>
         <Text style={styles.headerSub}>Araç seç veya yenisini ekle</Text>
       </View>
+
+      {/* OBD BAĞLANTI DURUMU BANNER */}
+      <TouchableOpacity
+        style={[
+          styles.connectionBanner,
+          { borderColor: getStatusColor(status) + '44', backgroundColor: getStatusColor(status) + '11' }
+        ]}
+        onPress={!isOBDConnected ? connect : undefined}
+        activeOpacity={isOBDConnected ? 1 : 0.7}
+      >
+        <View style={[styles.connectionDot, { backgroundColor: getStatusColor(status) }]} />
+        <Text style={[styles.connectionText, { color: getStatusColor(status) }]}>
+          {lastError || getStatusText(status)}
+        </Text>
+        {!isOBDConnected && (
+          <Text style={styles.connectionAction}>Bağlan →</Text>
+        )}
+      </TouchableOpacity>
+
+      {/* BAĞLI DEĞİLSE UYARI */}
+      {!isOBDConnected && (
+        <View style={styles.warningBox}>
+          <Text style={styles.warningText}>
+            ⚠️ OBD cihazına bağlanmadan araç seçemezsiniz. Yukarıdaki butona basarak bağlanmayı deneyin.
+          </Text>
+        </View>
+      )}
 
       {/* SEKME ÇUBUĞU */}
       <View style={styles.tabBar}>
@@ -597,5 +632,54 @@ const styles = StyleSheet.create({
     color: '#000000',
     fontSize: 16,
     fontWeight: '800',
+  },
+
+  // BAĞLANTI BANNER
+  connectionBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 16,
+    marginBottom: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 10,
+    borderWidth: 1,
+    gap: 8,
+  },
+  connectionDot: {
+    width: 7,
+    height: 7,
+    borderRadius: 4,
+  },
+  connectionText: {
+    flex: 1,
+    fontSize: 13,
+    fontWeight: '600',
+  },
+  connectionAction: {
+    fontSize: 12,
+    color: '#00d2ff',
+    fontWeight: '700',
+  },
+
+  // UYARI KUTUSU
+  warningBox: {
+    marginHorizontal: 16,
+    marginBottom: 8,
+    padding: 12,
+    backgroundColor: '#f8717111',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#f8717133',
+  },
+  warningText: {
+    color: '#f87171',
+    fontSize: 12,
+    lineHeight: 18,
+  },
+
+  // PASIF ARAÇ KARTI
+  vehicleCardDisabled: {
+    opacity: 0.4,
   },
 });

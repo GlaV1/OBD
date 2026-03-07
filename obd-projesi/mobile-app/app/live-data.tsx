@@ -1,94 +1,161 @@
 import { useEffect, useState } from 'react';
-import { StyleSheet, Text, View, SafeAreaView, Dimensions, ScrollView } from 'react-native';
-import { io } from 'socket.io-client';
-import { ProgressChart } from 'react-native-chart-kit'; // Grafik kütüphanemiz eklendi
+import {
+  StyleSheet, Text, View, SafeAreaView,
+  Dimensions, ScrollView, ActivityIndicator
+} from 'react-native';
+import { io, Socket } from 'socket.io-client';
+import { ProgressChart } from 'react-native-chart-kit';
+import { useConnection } from '../context/ConnectionContext';
 
-// DİKKAT: Buraya kendi bilgisayarının IP adresini yazmayı unutma!
-const SERVER_URL = 'http://192.168.1.101';
-const screenWidth = Dimensions.get("window").width;
+const SERVER_URL = 'http://192.168.X.X:3000';
+const screenWidth = Dimensions.get('window').width;
 
-export default function App() {
-  const [vehicleData, setVehicleData] = useState({
-    RPM: 0,
-    Speed: 0,
-    EngineTemp: 0,
-    FuelLevel: 0,
-    DTCs: [] // Hata kodları dizisi
-  });
+interface DTC {
+  Code: string;
+  Description: string;
+}
 
-  const [isConnected, setIsConnected] = useState(false);
+interface VehicleData {
+  RPM: number;
+  Speed: number;
+  EngineTemp: number;
+  FuelLevel: number;
+  DTCs: DTC[];
+}
+
+const DEFAULT_DATA: VehicleData = {
+  RPM: 0, Speed: 0, EngineTemp: 0, FuelLevel: 0, DTCs: [],
+};
+
+export default function LiveDataScreen() {
+  const { status } = useConnection();
+  const isConnected = status === 'connected';
+
+  const [vehicleData, setVehicleData] = useState<VehicleData>(DEFAULT_DATA);
+  const [hasReceivedData, setHasReceivedData] = useState(false); // ilk veri geldi mi?
 
   useEffect(() => {
-    const socket = io(SERVER_URL);
+    if (!isConnected) return;
 
-    socket.on('connect', () => setIsConnected(true));
-    
-    socket.on('vehicleData', (data) => {
-      setVehicleData(data);
+    const socket: Socket = io(SERVER_URL);
+
+    socket.on('vehicleData', (data: VehicleData) => {
+      if (data && typeof data.RPM === 'number') {
+        setVehicleData(data);
+        setHasReceivedData(true);
+      }
     });
 
-    socket.on('disconnect', () => setIsConnected(false));
+    socket.on('disconnect', () => {
+      // Bağlantı kopunca son veriyi koru, banner zaten uyarır
+    });
 
-    return () => socket.disconnect();
-  }, []);
+    return () => {
+      socket.disconnect();
+    };
+  }, [isConnected]);
 
-  // Grafikler için verileri 0 ile 1 arasına (yüzdeye) çevirmemiz gerekiyor
-  // Varsayım: Max RPM: 8000, Max Temp: 120, Max Fuel: 100
+  // Grafik için değerleri 0-1 arasına normalize et
+  // Sıfır veri gelirse grafik yerine loading göster
   const chartData = {
-    labels: ["RPM", "Yakıt", "Isı"],
+    labels: ['RPM', 'Yakıt', 'Isı'],
     data: [
-      Math.min(vehicleData.RPM / 8000, 1), 
-      Math.min(vehicleData.FuelLevel / 100, 1), 
-      Math.min(vehicleData.EngineTemp / 120, 1)
-    ]
+      Math.min(Math.max(vehicleData.RPM / 8000, 0.01), 1),   // min 0.01 — grafik 0'da bozulmasın
+      Math.min(Math.max(vehicleData.FuelLevel / 100, 0.01), 1),
+      Math.min(Math.max(vehicleData.EngineTemp / 120, 0.01), 1),
+    ],
   };
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={{ alignItems: 'center', paddingBottom: 20 }}>
-        
-        <Text style={styles.header}>OBD Canlı Veri</Text>
-        
-        <View style={styles.statusBox}>
-          <Text style={{ color: isConnected ? '#4ade80' : '#f87171', fontWeight: 'bold' }}>
-            {isConnected ? '🟢 ECU Bağlı ve Veri Akıyor' : '🔴 ECU Bağlantısı Yok'}
+      <ScrollView contentContainerStyle={styles.scrollContent}>
+
+        {/* BAĞLANTI DURUMU */}
+        <View style={[
+          styles.statusBox,
+          { borderColor: isConnected ? '#4ade8033' : '#f8717133' }
+        ]}>
+          <View style={[
+            styles.statusDot,
+            { backgroundColor: isConnected ? '#4ade80' : '#f87171' }
+          ]} />
+          <Text style={{
+            color: isConnected ? '#4ade80' : '#f87171',
+            fontWeight: '700', fontSize: 13
+          }}>
+            {isConnected ? 'ECU Bağlı — Veri Akıyor' : 'ECU Bağlantısı Yok'}
           </Text>
         </View>
 
-        {/* --- DİJİTAL HIZ GÖSTERGESİ --- */}
+        {/* HIZ GÖSTERGESİ */}
         <View style={styles.speedBox}>
           <Text style={styles.speedValue}>{vehicleData.Speed}</Text>
           <Text style={styles.speedLabel}>km/h</Text>
         </View>
 
-        {/* --- HALKA GRAFİKLER (RPM, Yakıt, Isı) --- */}
-        <ProgressChart
-          data={chartData}
-          width={screenWidth - 40}
-          height={220}
-          strokeWidth={16}
-          radius={32}
-          chartConfig={{
-            backgroundGradientFrom: "#1e1e2d",
-            backgroundGradientTo: "#1e1e2d",
-            color: (opacity = 1, index) => {
-              // Halka renkleri: RPM Mavi, Yakıt Yeşil/Sarı, Isı Kırmızı/Turuncu
-              if (index === 0) return `rgba(0, 210, 255, ${opacity})`; 
-              if (index === 1) return `rgba(74, 222, 128, ${opacity})`;
-              return `rgba(248, 113, 113, ${opacity})`;
-            },
-            labelColor: (opacity = 1) => `rgba(161, 161, 170, ${opacity})`,
-          }}
-          hideLegend={false}
-          style={{ borderRadius: 16, marginVertical: 20 }}
-        />
+        {/* HALKA GRAFİKLER — veri gelene kadar loading göster */}
+        <View style={styles.chartBox}>
+          {!hasReceivedData ? (
+            <View style={styles.chartLoading}>
+              <ActivityIndicator color="#00d2ff" size="large" />
+              <Text style={styles.chartLoadingText}>Veri bekleniyor...</Text>
+            </View>
+          ) : (
+            <ProgressChart
+              data={chartData}
+              width={screenWidth - 48}
+              height={200}
+              strokeWidth={14}
+              radius={28}
+              chartConfig={{
+                backgroundGradientFrom: '#1a1a2e',
+                backgroundGradientTo: '#1a1a2e',
+                color: (opacity = 1, index) => {
+                  if (index === 0) return `rgba(0, 210, 255, ${opacity})`;
+                  if (index === 1) return `rgba(74, 222, 128, ${opacity})`;
+                  return `rgba(248, 113, 113, ${opacity})`;
+                },
+                labelColor: (opacity = 1) => `rgba(161, 161, 170, ${opacity})`,
+              }}
+              hideLegend={false}
+              style={{ borderRadius: 12 }}
+            />
+          )}
+        </View>
 
-        {/* --- HATA KODLARI (DTC) MODÜLÜ --- */}
+        {/* DETAY KUTULARI */}
+        <View style={styles.grid}>
+          <View style={styles.dataCard}>
+            <Text style={styles.dataLabel}>RPM</Text>
+            <Text style={[styles.dataValue, { color: '#00d2ff' }]}>
+              {hasReceivedData ? vehicleData.RPM : '—'}
+            </Text>
+          </View>
+          <View style={styles.dataCard}>
+            <Text style={styles.dataLabel}>Motor Isısı</Text>
+            <Text style={[styles.dataValue, { color: '#f87171' }]}>
+              {hasReceivedData ? `${vehicleData.EngineTemp.toFixed(1)}°C` : '—'}
+            </Text>
+          </View>
+          <View style={styles.dataCard}>
+            <Text style={styles.dataLabel}>Yakıt</Text>
+            <Text style={[styles.dataValue, { color: '#4ade80' }]}>
+              {hasReceivedData ? `%${vehicleData.FuelLevel.toFixed(1)}` : '—'}
+            </Text>
+          </View>
+          <View style={styles.dataCard}>
+            <Text style={styles.dataLabel}>Hız</Text>
+            <Text style={[styles.dataValue, { color: '#facc15' }]}>
+              {hasReceivedData ? `${vehicleData.Speed} km/h` : '—'}
+            </Text>
+          </View>
+        </View>
+
+        {/* HATA KODLARI */}
         <View style={styles.dtcContainer}>
-          <Text style={styles.dtcHeader}>Arıza Kayıtları (DTC)</Text>
-          
+          <Text style={styles.dtcHeader}>Arıza Kayıtları</Text>
           {vehicleData.DTCs.length === 0 ? (
-            <Text style={styles.noError}>Sistem Temiz, Arıza Yok 🟢</Text>
+            <Text style={styles.noError}>✅ Sistem Temiz</Text>
           ) : (
             vehicleData.DTCs.map((error, index) => (
               <View key={index} style={styles.errorBox}>
@@ -105,86 +172,70 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1e1e2d', // Lacivert/Siyah koyu tema
-  },
-  header: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#ffffff',
-    marginTop: 20,
-    marginBottom: 10,
+  container: { flex: 1, backgroundColor: '#0d0d1a' },
+  scrollContent: {
+    alignItems: 'center',
+    paddingVertical: 20,
+    paddingHorizontal: 16,
+    paddingBottom: 40,
   },
   statusBox: {
-    marginBottom: 20,
-    backgroundColor: '#2b2b40',
-    paddingHorizontal: 20,
-    paddingVertical: 10,
-    borderRadius: 20,
+    flexDirection: 'row', alignItems: 'center', gap: 8,
+    backgroundColor: '#1a1a2e', paddingHorizontal: 16,
+    paddingVertical: 10, borderRadius: 20, borderWidth: 1,
+    marginBottom: 24, alignSelf: 'stretch', justifyContent: 'center',
   },
+  statusDot: { width: 8, height: 8, borderRadius: 4 },
   speedBox: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: 200,
-    height: 200,
-    borderRadius: 100,
-    borderWidth: 4,
-    borderColor: '#00d2ff',
-    backgroundColor: '#2b2b40',
-    marginBottom: 10,
-    shadowColor: '#00d2ff',
-    shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.5,
-    shadowRadius: 10,
+    alignItems: 'center', justifyContent: 'center',
+    width: 180, height: 180, borderRadius: 90,
+    borderWidth: 3, borderColor: '#00d2ff',
+    backgroundColor: '#1a1a2e', marginBottom: 24,
+    shadowColor: '#00d2ff', shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.4, shadowRadius: 12, elevation: 8,
   },
-  speedValue: {
-    fontSize: 72,
-    fontWeight: 'bold',
-    color: '#ffffff',
+  speedValue: { fontSize: 64, fontWeight: '800', color: '#ffffff' },
+  speedLabel: { fontSize: 16, color: '#555', fontWeight: '600' },
+  chartBox: {
+    backgroundColor: '#1a1a2e', borderRadius: 16,
+    padding: 8, marginBottom: 16, borderWidth: 1,
+    borderColor: '#ffffff08', alignSelf: 'stretch',
+    minHeight: 216,
   },
-  speedLabel: {
-    fontSize: 20,
-    color: '#a1a1aa',
+  chartLoading: {
+    height: 200, alignItems: 'center',
+    justifyContent: 'center', gap: 12,
   },
+  chartLoadingText: { color: '#555', fontSize: 13 },
+  grid: {
+    flexDirection: 'row', flexWrap: 'wrap',
+    gap: 10, alignSelf: 'stretch', marginBottom: 16,
+  },
+  dataCard: {
+    flex: 1, minWidth: '45%', backgroundColor: '#1a1a2e',
+    borderRadius: 12, padding: 16, alignItems: 'center',
+    borderWidth: 1, borderColor: '#ffffff08',
+  },
+  dataLabel: {
+    fontSize: 11, color: '#555', fontWeight: '600',
+    marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5,
+  },
+  dataValue: { fontSize: 24, fontWeight: '800' },
   dtcContainer: {
-    width: '90%',
-    backgroundColor: '#2b2b40',
-    padding: 20,
-    borderRadius: 15,
-    marginTop: 10,
+    alignSelf: 'stretch', backgroundColor: '#1a1a2e',
+    padding: 16, borderRadius: 14,
+    borderWidth: 1, borderColor: '#ffffff08',
   },
   dtcHeader: {
-    fontSize: 18,
-    color: '#ffffff',
-    fontWeight: 'bold',
-    marginBottom: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#3f3f46',
-    paddingBottom: 5,
+    fontSize: 14, color: '#ffffff', fontWeight: '700',
+    marginBottom: 12, paddingBottom: 10,
+    borderBottomWidth: 1, borderBottomColor: '#ffffff08',
   },
-  noError: {
-    color: '#4ade80',
-    fontSize: 16,
-    textAlign: 'center',
-    marginTop: 10,
-  },
+  noError: { color: '#4ade80', fontSize: 13, textAlign: 'center', paddingVertical: 8 },
   errorBox: {
-    backgroundColor: 'rgba(248, 113, 113, 0.1)', // Hafif kırmızı arka plan
-    padding: 15,
-    borderRadius: 10,
-    marginTop: 10,
-    borderLeftWidth: 4,
-    borderLeftColor: '#f87171',
+    backgroundColor: 'rgba(248,113,113,0.08)', padding: 12,
+    borderRadius: 10, marginTop: 8, borderLeftWidth: 3, borderLeftColor: '#f87171',
   },
-  errorCode: {
-    color: '#f87171',
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  errorDesc: {
-    color: '#ffffff',
-    fontSize: 14,
-    marginTop: 5,
-  }
+  errorCode: { color: '#f87171', fontSize: 15, fontWeight: '700', fontFamily: 'monospace' },
+  errorDesc: { color: '#aaa', fontSize: 12, marginTop: 4 },
 });
