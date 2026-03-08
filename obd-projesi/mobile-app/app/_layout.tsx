@@ -7,6 +7,7 @@ import {
   getStatusColor,
   getStatusText,
 } from '../context/ConnectionContext';
+import { SettingsProvider } from '../context/SettingsContext';
 import ErrorView from '../components/ErrorView';
 import { getError, OBDErrorDef } from '../utils/errors';
 
@@ -88,10 +89,14 @@ function RootNavigator() {
       >
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="dashboard" options={{ title: 'Dashboard', headerBackTitle: 'Araçlar' }} />
+        <Stack.Screen name="vehicle-info" options={{ title: 'Araç Bilgileri', headerBackTitle: 'Geri' }} />
+        <Stack.Screen name="service-reset" options={{ title: 'Servis İşlemleri', headerBackTitle: 'Geri' }} />
+        <Stack.Screen name="live-data-selection" options={{ title: 'Veri Seçimi', headerBackTitle: 'Geri', presentation: 'modal' }} />
         <Stack.Screen name="live-data" options={{ title: 'Canlı Veriler', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="fault-codes" options={{ title: 'Arıza Kodları', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="freeze-frame" options={{ title: 'Freeze Frame', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="readiness" options={{ title: 'Hazırlık Testleri', headerBackTitle: 'Geri' }} />
+        <Stack.Screen name="settings" options={{ title: 'Ayarlar', presentation: 'modal' }} />
       </Stack>
     </View>
   );
@@ -100,9 +105,11 @@ function RootNavigator() {
 // --- ROOT LAYOUT ---
 export default function RootLayout() {
   return (
-    <ConnectionProvider>
-      <RootNavigator />
-    </ConnectionProvider>
+    <SettingsProvider>
+      <ConnectionProvider>
+        <RootNavigator />
+      </ConnectionProvider>
+    </SettingsProvider>
   );
 }
 

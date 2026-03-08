@@ -22,7 +22,13 @@ Tamirciler ve araç meraklıları için geliştirilmiş, açık kaynaklı OBD-II
 - Fiat Marelli ECU modülü
 - Freeze Frame veri okuma
 - Emisyon hazırlık testleri
-- Gerçek donanım (Arduino + MCP2515) entegrasyonu
+- Gerçek donanım (Arduino + MCP2515 veya ESP32) entegrasyonu
+
+### Planlanan Gelişmiş Özellikler 🌟
+- **Yapay Zeka Destekli Arıza Çözümü:** Gemini AI entegrasyonu ile DTC kodları için sadece arıza tanımını değil, mekanik ustalara özel adım adım Türkçe çözüm yolları ve olası arıza sebepleri üretme.
+- **Tüm Sistemleri Tarama (All-System Scan):** Sadece OBD2 motor (P) kodları değil, marka-özel paketler ile ABS, Airbag, Şanzıman gibi diğer modüllere bağlanma.
+- **Gelişmiş Canlı Veri ve Tekleme (Misfire) Takibi:** Canlı motor verilerini grafiksel olarak izleme ve silindir bazlı tekleme (misfire) sorunlarını tespit etme.
+- **Servis ve Adaptasyon İşlemleri:** Yağ bakımı sıfırlama, kelebek adaptasyonu gibi sanayide sıkça ihtiyaç duyulan tek tuşla çözüm fonksiyonları.
 
 ---
 
@@ -94,13 +100,22 @@ Araç OBD-II Portu (16 pin)
   React Native Uygulama     ← Telefon / tablet
 ```
 
-### Planlanan Donanım Listesi
+### Planlanan Donanım Listesi (Mevcut Başlangıç Kurulumu)
 | Parça | Açıklama |
 |---|---|
 | Arduino Mega 2560 | Ana mikrodenetleyici |
 | MCP2515 CAN Modülü | CAN Bus iletişimi (2008+ araçlar) |
 | ESP8266 Wi-Fi Modülü | Telefona kablosuz veri aktarımı |
 | OBD-II 16 Pin Konnektör | Araca fiziksel bağlantı |
+
+### ⚡ Alternatif / Gelişmiş Donanım Hedefi (V2)
+İlk aşamada eldeki Arduino Mega sistemiyle bir **MVP (Minimum Çalışan Ürün)** oluşturulacaktır. Ancak sistemin kararlılığını artırmak, devreyi küçültmek ve veri iletim darboğazlarını aşmak için daha sonraki aşamalarda aşağıdaki donanım mimarisine geçilmesi planlanmaktadır:
+
+| Parça | Açıklama |
+|---|---|
+| **ESP32** | İçerisinde dahili CAN (TWAI) kontrolcüsü, Wi-Fi ve Bluetooth barındıran, çok daha hızlı ve kompakt ana denetleyici. |
+| **CAN Transceiver (Örn: SN65HVD230)** | ESP32'nin dahili CAN donanımını fiziksel CAN hattına bağlamak için küçük ve ucuz entegre. |
+| **K-Line Çipi (Örn: L9637D)** | Eski araçlara (2006 öncesi) veya ABS/Airbag gibi CAN hattında olmayan modüllere bağlanmak için eklenecek KWP2000/ISO9141 protokol entegresi. |
 
 ---
 
@@ -160,14 +175,17 @@ if (b.includes('mercedes') || b.includes('benz')) return 'MERCEDES';
 - [x] DTC veritabanı entegrasyonu
 - [x] Araç profili kaydetme (AsyncStorage)
 - [x] Marka bazlı modül sistemi
-- [ ] DTC Türkçe açıklamalar ve çözüm önerileri
+- [ ] DTC Türkçe açıklamalar (İlk Aşama)
+- [ ] **Gemini AI Entegrasyonu ile Akıllı Arıza Çözüm Rehberi**
 - [ ] Freeze Frame veri okuma
-- [ ] Arduino + MCP2515 donanım entegrasyonu
+- [ ] Arduino + MCP2515 donanım entegrasyonu (MVP Aşama 1)
 - [ ] Wi-Fi üzerinden gerçek araç bağlantısı
-- [ ] VW/Audi UDS protokol modülleri
+- [ ] **Tekleme (Misfire) Sayacı ve Gelişmiş Canlı Veri Grafikleri**
+- [ ] VW/Audi UDS protokol modülleri ve Servis Sıfırlama
 - [ ] BMW özel protokol modülleri
 - [ ] Renault / Fiat modülleri
-- [ ] Hata kodu geçmişi ve raporlama
+- [ ] **K-Line ve ESP32 Donanım Yükseltmesi (Aşama 2)**
+- [ ] Hata kodu geçmişi, araç cari/raporlama sistemi
 
 ---
 

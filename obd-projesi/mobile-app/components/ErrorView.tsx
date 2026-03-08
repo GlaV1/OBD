@@ -42,15 +42,15 @@ export default function ErrorView({ error, onDismiss, onRetry, mode = 'inline' }
         onDismiss?.();
         break;
       case 'go_manual':
-        router.push('/');           // index'e gider, kullanıcı manuel seçer
+        router.push('/' as any);           // index'e gider, kullanıcı manuel seçer
         onDismiss?.();
         break;
       case 'go_home':
-        router.push('/');
+        router.push('/' as any);
         onDismiss?.();
         break;
       case 'go_settings':
-        router.push('/settings');   // ileride eklenecek
+        router.push('/settings' as any);   // ileride eklenecek
         onDismiss?.();
         break;
       case 'retry':
