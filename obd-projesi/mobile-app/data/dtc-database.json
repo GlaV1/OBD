@@ -1,786 +1,982 @@
 {
   "B0001": {
     "Meaning": "Driver Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0002": {
     "Meaning": "Driver Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0003": {
     "Meaning": "Driver Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0004": {
     "Meaning": "Driver Knee Bolster Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0005": {
     "Meaning": "Collapsible Steering Column Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0010": {
     "Meaning": "Passenger Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0011": {
     "Meaning": "Passenger Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0012": {
     "Meaning": "Passenger Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0013": {
     "Meaning": "Passenger Knee Bolster Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0018": {
     "Meaning": "Center Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0019": {
     "Meaning": "Center Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B001A": {
     "Meaning": "Center Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0020": {
     "Meaning": "Left Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0021": {
     "Meaning": "Left Curtain Deployment Control 1",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0022": {
     "Meaning": "Left Curtain Deployment Control 2",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0028": {
     "Meaning": "Right Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0029": {
     "Meaning": "Right Curtain Deployment Control 1",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B002A": {
     "Meaning": "Right Curtain Deployment Control 2",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0030": {
     "Meaning": "Second Row Left Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0031": {
     "Meaning": "Second Row Left Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0032": {
     "Meaning": "Second Row Left Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0033": {
     "Meaning": "Second Row Left Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0038": {
     "Meaning": "Second Row Right Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0039": {
     "Meaning": "Second Row Right Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B003A": {
     "Meaning": "Second Row Right Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B003B": {
     "Meaning": "Second Row Right Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0040": {
     "Meaning": "Third Row Left Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0041": {
     "Meaning": "Third Row Left Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0042": {
     "Meaning": "Third Row Left Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0043": {
     "Meaning": "Third Row Left Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0048": {
     "Meaning": "Third Row Right Side Airbag Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0049": {
     "Meaning": "Third Row Right Frontal Stage 1 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B004A": {
     "Meaning": "Third Row Right Frontal Stage 2 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B004B": {
     "Meaning": "Third Row Right Frontal Stage 3 Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0050": {
     "Meaning": "Driver Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0051": {
     "Meaning": "First Row Center Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0052": {
     "Meaning": "Passenger Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0053": {
     "Meaning": "Second Row Left Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0054": {
     "Meaning": "Second Row Center Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0055": {
     "Meaning": "Second Row Right Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0056": {
     "Meaning": "Third Row Left Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0057": {
     "Meaning": "Third Row Center Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0058": {
     "Meaning": "Third Row Right Seat Belt Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0060": {
     "Meaning": "Driver Seat Belt Tension Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0061": {
     "Meaning": "Passenger Seat Belt Tension Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0070": {
     "Meaning": "Driver Seat Belt Pretensioner A Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0071": {
     "Meaning": "First Row Center Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0072": {
     "Meaning": "Passenger Seat Belt Pretensioner A Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0073": {
     "Meaning": "Second Row Left Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0074": {
     "Meaning": "Second Row Center Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0075": {
     "Meaning": "Second Row Right Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0076": {
     "Meaning": "Third Row Left Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0077": {
     "Meaning": "Third Row Center Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0078": {
     "Meaning": "Third Row Right Seat Belt Pretensioner Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0079": {
     "Meaning": "Driver Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007A": {
     "Meaning": "Passenger Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007B": {
     "Meaning": "Second Row Left Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007C": {
     "Meaning": "Second Row Right Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007D": {
     "Meaning": "Second Row Center Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007E": {
     "Meaning": "Driver Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B007F": {
     "Meaning": "Passenger Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0080": {
     "Meaning": "Driver Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0081": {
     "Meaning": "First Row Center Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0082": {
     "Meaning": "Passenger Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0083": {
     "Meaning": "Second Row Left Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0084": {
     "Meaning": "Second Row Center Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0085": {
     "Meaning": "Second Row Right Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0086": {
     "Meaning": "Third Row Left Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0087": {
     "Meaning": "Third Row Center Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0088": {
     "Meaning": "Third Row Right Seat Belt Load Limiter Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0090": {
     "Meaning": "Left Frontal Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0091": {
     "Meaning": "Left Side Restraints Sensor 1",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0092": {
     "Meaning": "Left Side Restraints Sensor 2",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0093": {
     "Meaning": "Left Side Restraints Sensor 3",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0094": {
     "Meaning": "Center Frontal Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0095": {
     "Meaning": "Right Frontal Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0096": {
     "Meaning": "Right Side Restraints Sensor 1",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0097": {
     "Meaning": "Right Side Restraints Sensor 2",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0098": {
     "Meaning": "Right Side Restraints Sensor 3",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0099": {
     "Meaning": "Roll Over Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009A": {
     "Meaning": "Left Side Restraints Sensor 4",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009B": {
     "Meaning": "Left Side Restraints Sensor 5",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009C": {
     "Meaning": "Left Side Restraints Sensor 6",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009D": {
     "Meaning": "Right Side Restraints Sensor 4",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009E": {
     "Meaning": "Right Side Restraints Sensor 5",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B009F": {
     "Meaning": "Right Side Restraints Sensor 6",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00A0": {
     "Meaning": "Occupant Classification System",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00A1": {
     "Meaning": "Occupant Position System",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B0": {
     "Meaning": "Driver Seat Occupant Classification Sensor A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B1": {
     "Meaning": "Driver Seat Occupant Classification Sensor B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B2": {
     "Meaning": "Driver Seat Occupant Classification Sensor C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B3": {
     "Meaning": "Driver Seat Occupant Classification Sensor D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B4": {
     "Meaning": "Driver Seat Occupant Classification Sensor E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B5": {
     "Meaning": "Driver Seat Track Position Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B6": {
     "Meaning": "Driver Seat Recline Position Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B7": {
     "Meaning": "Driver Seat Occupant Position Sensor A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B8": {
     "Meaning": "Driver Seat Occupant Position Sensor B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00B9": {
     "Meaning": "Driver Seat Occupant Position Sensor C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00BA": {
     "Meaning": "Driver Seat Occupant Position Sensor D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00BB": {
     "Meaning": "Driver Seat Occupant Position Sensor E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C0": {
     "Meaning": "Passenger Seat Occupant Classification Sensor A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C1": {
     "Meaning": "Passenger Seat Occupant Classification Sensor B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C2": {
     "Meaning": "Passenger Seat Occupant Classification Sensor C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C3": {
     "Meaning": "Passenger Seat Occupant Classification Sensor D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C4": {
     "Meaning": "Passenger Seat Occupant Classification Sensor E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C5": {
     "Meaning": "Passenger Seat Track Position Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C6": {
     "Meaning": "Passenger Seat Recline Position Restraints Sensor",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C7": {
     "Meaning": "Passenger Seat Occupant Position Sensor A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C8": {
     "Meaning": "Passenger Seat Occupant Position Sensor B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00C9": {
     "Meaning": "Passenger Seat Occupant Position Sensor C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00CA": {
     "Meaning": "Passenger Seat Occupant Position Sensor D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00CB": {
     "Meaning": "Passenger Seat Occupant Position Sensor E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D0": {
     "Meaning": "Driver Seat Belt Indicator",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D1": {
     "Meaning": "Passenger Seat Belt Indicator",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D2": {
     "Meaning": "Restraint System Malfunction Indicator 1",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D3": {
     "Meaning": "Restraint System Malfunction Indicator 2",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D4": {
     "Meaning": "Restraint System Malfunction Audible Indicator",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00D5": {
     "Meaning": "Restraint System Passenger Disable Indicator",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00DF": {
     "Meaning": "Passenger Restraints Disable Switch",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E0": {
     "Meaning": "Third Row Left Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E1": {
     "Meaning": "Third Row Right Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E2": {
     "Meaning": "Third Row Center Seat Belt Pretensioner B Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E3": {
     "Meaning": "Second Row Left Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E4": {
     "Meaning": "Second Row Right Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E5": {
     "Meaning": "Second Row Center Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E6": {
     "Meaning": "Third Row Right Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E7": {
     "Meaning": "Third Row Left Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00E8": {
     "Meaning": "Third Row Center Seat Belt Pretensioner C Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F0": {
     "Meaning": "Driver Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F1": {
     "Meaning": "Passenger Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F2": {
     "Meaning": "Second Row Left Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F3": {
     "Meaning": "Second Row Center Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F4": {
     "Meaning": "Second Row Right Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F5": {
     "Meaning": "Third Row Left Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F6": {
     "Meaning": "Third Row Center Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B00F7": {
     "Meaning": "Third Row Right Inflatable Seat Belt Deployment Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0100": {
     "Meaning": "Sensor Cleaning Air Blower Actuator A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0101": {
     "Meaning": "Sensor Cleaning Air Blower Actuator B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0102": {
     "Meaning": "Sensor Cleaning Air Blower Actuator A Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0103": {
     "Meaning": "Sensor Cleaning Air Blower Actuator B Control",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0104": {
     "Meaning": "Sensor Cleaning Air Blower Actuator A Control Relay",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0105": {
     "Meaning": "Sensor Cleaning Air Blower Actuator B Control Relay",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0106": {
     "Meaning": "LIDAR Washer Actuator A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0107": {
     "Meaning": "LIDAR Washer Actuator B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0108": {
     "Meaning": "LIDAR Washer Actuator C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0109": {
     "Meaning": "LIDAR Washer Actuator D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010A": {
     "Meaning": "Camera Washer Actuator A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010B": {
     "Meaning": "Camera Washer Actuator B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010C": {
     "Meaning": "Camera Washer Actuator C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010D": {
     "Meaning": "Camera Washer Actuator D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010E": {
     "Meaning": "Camera Washer Actuator E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B010F": {
     "Meaning": "Camera Washer Actuator F",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0110": {
     "Meaning": "Camera Washer Actuator G",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0111": {
     "Meaning": "Camera Washer Actuator H",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0112": {
     "Meaning": "Camera Washer Actuator J",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0113": {
     "Meaning": "Camera Washer Actuator K",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0114": {
     "Meaning": "Camera Washer Actuator L",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0115": {
     "Meaning": "Camera Washer Actuator M",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0116": {
     "Meaning": "Camera Washer Actuator N",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0117": {
     "Meaning": "Camera Washer Actuator O",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0118": {
     "Meaning": "Camera Washer Actuator P",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0119": {
     "Meaning": "Camera Washer Actuator Q",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011A": {
     "Meaning": "Camera Washer Actuator R",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011B": {
     "Meaning": "Camera Washer Actuator S",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011C": {
     "Meaning": "Fluid Reservoir Level Sensor A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011D": {
     "Meaning": "Fluid Reservoir Level Sensor B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011E": {
     "Meaning": "Fluid Reservoir Level Sensor C",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B011F": {
     "Meaning": "Fluid Reservoir Level Sensor D",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0120": {
     "Meaning": "Fluid Reservoir Level Sensor E",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0121": {
     "Meaning": "Fluid Reservoir Level Sensor F",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0122": {
     "Meaning": "Pedestrian Alert Speaker A",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0123": {
     "Meaning": "Pedestrian Alert Speaker B",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0124": {
     "Meaning": "Night Vision Camera",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0125": {
     "Meaning": "Night Vision Control Module",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0126": {
     "Meaning": "Driver Monitoring Camera",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0127": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet “A” Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0128": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet “B” Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0129": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet “C” Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012A": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet “D” Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012B": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet “E” Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012C": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet Control Module “A”",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012D": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet Control Module “B”",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012E": {
     "Meaning": "DC/AC Converter A High Voltage Power Outlet Control Module “C”",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B012F": {
     "Meaning": "A/V Sensor Washer Fluid A Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0130": {
     "Meaning": "A/V Sensor Washer Fluid B Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0131": {
     "Meaning": "A/V Sensor Washer Fluid C Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0132": {
     "Meaning": "A/V Sensor Washer Fluid D Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0133": {
     "Meaning": "A/V Sensor Washer Fluid E Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B0134": {
     "Meaning": "A/V Sensor Washer Fluid F Control Circuit",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B2000": {
     "Meaning": "Manufacturer Controlled DTC",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3000": {
     "Meaning": "B3000-B3999 ISO/SAE Reserved",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A00": {
     "Meaning": "A/C Refrigerant Distribution Valve Actuator C Stuck/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A01": {
     "Meaning": "A/C Refrigerant Distribution Valve Actuator C Control Circuit/Open",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A02": {
     "Meaning": "A/C Refrigerant Distribution Valve Actuator C Control Circuit Low",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A03": {
     "Meaning": "A/C Refrigerant Distribution Valve Actuator C Control Circuit High",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A04": {
     "Meaning": "A/C Refrigerant Distribution Valve C Control Circuit Driver Current/Temperature Too High",
+    "Meaning_tr": "turkish",
     "Brand": "GENERIC"
   },
   "B3A05": {

@@ -7,6 +7,12 @@ const SERVER_URL_KEY = 'obd_server_url';
 const DEFAULT_URL = 'http://192.168.1.1:3000';
 const MAX_RECONNECT_ATTEMPTS = 5;
 
+// ─── GELİŞTİRME MODU ───────────────────────────────────────────
+// true  → Gerçek OBD bağlantısı olmadan "bağlı" simüle eder
+// false → Gerçek bağlantı (production / donanım testi)
+const DEV_MODE = true;
+// ───────────────────────────────────────────────────────────────
+
 export type ConnectionStatus = 'disconnected' | 'connecting' | 'connected' | 'error';
 
 interface ConnectionContextType {
@@ -30,7 +36,8 @@ const ConnectionContext = createContext<ConnectionContextType>({
 });
 
 export function ConnectionProvider({ children }: { children: ReactNode }) {
-  const [status, setStatus] = useState<ConnectionStatus>('disconnected');
+  // DEV_MODE açıksa baştan 'connected' olarak başla
+  const [status, setStatus] = useState<ConnectionStatus>(DEV_MODE ? 'connected' : 'disconnected');
   const [serverUrl, setServerUrlState] = useState(DEFAULT_URL);
   const [lastError, setLastError] = useState<string | null>(null);
   const [reconnectAttempt, setReconnectAttempt] = useState(0);
@@ -73,6 +80,14 @@ export function ConnectionProvider({ children }: { children: ReactNode }) {
   };
 
   const connect = useCallback(() => {
+    // DEV_MODE: gerçek bağlantı kurmadan direkt connected yap
+    if (DEV_MODE) {
+      setStatus('connected');
+      setLastError(null);
+      setReconnectAttempt(0);
+      return;
+    }
+
     if (socketRef.current?.connected) return;
     if (status === 'connecting') return; // çift tıklama koruması
 
@@ -136,6 +151,10 @@ export function ConnectionProvider({ children }: { children: ReactNode }) {
   }, [serverUrl, status]);
 
   const disconnect = () => {
+    if (DEV_MODE) {
+      setStatus('disconnected');
+      return;
+    }
     intentionalDisconnect.current = true;
     socketRef.current?.disconnect();
     socketRef.current = null;
@@ -176,7 +195,7 @@ export function getStatusColor(status: ConnectionStatus): string {
 
 export function getStatusText(status: ConnectionStatus): string {
   switch (status) {
-    case 'connected':    return 'OBD Bağlı';
+    case 'connected':    return DEV_MODE ? '🛠 Geliştirme Modu (Simüle)' : 'OBD Bağlı';
     case 'connecting':   return 'Bağlanıyor...';
     case 'error':        return 'Bağlantı Hatası';
     case 'disconnected': return 'Bağlı Değil';

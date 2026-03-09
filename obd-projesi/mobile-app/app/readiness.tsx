@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useConnection } from '../context/ConnectionContext';
-import { useTranslation } from '../utils/i18n';
+import tr from '../locales/tr';
 import ErrorView from '../components/ErrorView';
 import { getError, OBDErrorDef } from '../utils/errors';
 
@@ -25,7 +25,7 @@ const MOCK_MONITORS: { id: keyof typeof import('../locales/tr').default['monitor
 export default function ReadinessScreen() {
     const router = useRouter();
     const { status } = useConnection();
-    const { t } = useTranslation();
+    const t = tr;
     const isConnected = status === 'connected';
 
     const [loading, setLoading] = useState(true);

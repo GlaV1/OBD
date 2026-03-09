@@ -7,9 +7,9 @@ import {
   getStatusColor,
   getStatusText,
 } from '../context/ConnectionContext';
-import { SettingsProvider } from '../context/SettingsContext';
 import ErrorView from '../components/ErrorView';
 import { getError, OBDErrorDef } from '../utils/errors';
+import { loadLanguage } from '../utils/i18n';
 
 // --- GLOBAL BAĞLANTI BANNER'I ---
 function ConnectionBanner() {
@@ -88,15 +88,17 @@ function RootNavigator() {
         }}
       >
         <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="dashboard" options={{ title: 'Dashboard', headerBackTitle: 'Araçlar' }} />
-        <Stack.Screen name="vehicle-info" options={{ title: 'Araç Bilgileri', headerBackTitle: 'Geri' }} />
-        <Stack.Screen name="service-reset" options={{ title: 'Servis İşlemleri', headerBackTitle: 'Geri' }} />
-        <Stack.Screen name="live-data-selection" options={{ title: 'Veri Seçimi', headerBackTitle: 'Geri', presentation: 'modal' }} />
+        <Stack.Screen name="connect" options={{ headerShown: false }} />
+        {/* Dashboard header'ı kapatıyoruz — kendi başlığını kendisi yönetiyor */}
+        <Stack.Screen name="dashboard" options={{ headerShown: false }} />
         <Stack.Screen name="live-data" options={{ title: 'Canlı Veriler', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="fault-codes" options={{ title: 'Arıza Kodları', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="freeze-frame" options={{ title: 'Freeze Frame', headerBackTitle: 'Geri' }} />
         <Stack.Screen name="readiness" options={{ title: 'Hazırlık Testleri', headerBackTitle: 'Geri' }} />
-        <Stack.Screen name="settings" options={{ title: 'Ayarlar', presentation: 'modal' }} />
+        <Stack.Screen name="settings" options={{ title: 'Ayarlar', headerBackTitle: 'Geri' }} />
+        <Stack.Screen name="appointments" options={{ title: 'Randevular', headerBackTitle: 'Geri' }} />
+        <Stack.Screen name="appointment-form" options={{ title: 'Randevu Kaydı', headerBackTitle: 'İptal' }} />
+        <Stack.Screen name="appointment-detail" options={{ title: 'Randevu Detayı', headerBackTitle: 'Geri' }} />
       </Stack>
     </View>
   );
@@ -104,12 +106,18 @@ function RootNavigator() {
 
 // --- ROOT LAYOUT ---
 export default function RootLayout() {
+  const [langReady, setLangReady] = useState(false);
+
+  useEffect(() => {
+    loadLanguage().then(() => setLangReady(true));
+  }, []);
+
+  if (!langReady) return null; // dil yüklenene kadar boş ekran (anlık)
+
   return (
-    <SettingsProvider>
-      <ConnectionProvider>
-        <RootNavigator />
-      </ConnectionProvider>
-    </SettingsProvider>
+    <ConnectionProvider>
+      <RootNavigator />
+    </ConnectionProvider>
   );
 }
 
