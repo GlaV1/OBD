@@ -189,12 +189,11 @@ if (b.includes('mercedes') || b.includes('benz')) return 'MERCEDES';
 
 ---
 
-## 🤝 Katkı
-
-Yeni marka protokolü eklemek veya mevcut modülleri geliştirmek isteyenler için katkı süreci basit tutulmuştur. `dashboard.tsx` modül mimarisini incele ve pull request aç.
-
----
-
 ## ⚠️ Sorumluluk Reddi
 
 Bu uygulama araştırma ve kişisel kullanım amaçlıdır. Araç ECU'larına yapılan müdahaleler garanti kapsamını etkileyebilir. Kullanım sorumluluğu kullanıcıya aittir.
+
+---
+
+## 📜 Lisans
+Bu proje MIT Lisansı ile lisanslanmıştır. Eğitim ve geliştirme amaçlıdır.

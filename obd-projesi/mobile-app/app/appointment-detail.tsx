@@ -94,7 +94,7 @@ export default function AppointmentDetailScreen() {
                 <View style={styles.actions}>
                     <TouchableOpacity
                         style={styles.editBtn}
-                        onPress={() => router.push({ pathname: '/appointment-form', params: { id: data.id } })}
+                        onPress={() => router.push({ pathname: '/appointment-form' as any, params: { id: data.id.toString() } })}
                     >
                         <Text style={styles.editBtnText}>Düzenle</Text>
                     </TouchableOpacity>

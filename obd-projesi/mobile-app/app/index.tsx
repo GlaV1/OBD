@@ -31,7 +31,7 @@ export default function HomeScreen() {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.mainButton}
-            onPress={() => router.push('/connect')}
+            onPress={() => router.push('/connect' as any)}
             activeOpacity={0.8}
           >
             <View style={styles.iconCircle}>
@@ -46,7 +46,7 @@ export default function HomeScreen() {
 
           <TouchableOpacity
             style={[styles.mainButton, styles.mt16]}
-            onPress={() => router.push('/appointments')}
+            onPress={() => router.push('/appointments' as any)}
             activeOpacity={0.8}
           >
             <View style={[styles.iconCircle, { backgroundColor: '#4ade8022' }]}>

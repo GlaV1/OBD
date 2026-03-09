@@ -75,7 +75,7 @@ export default function AppointmentsScreen() {
     const renderItem = ({ item }: { item: Appointment }) => (
         <TouchableOpacity
             style={styles.card}
-            onPress={() => router.push({ pathname: '/appointment-detail', params: { id: item.id } })}
+            onPress={() => router.push({ pathname: '/appointment-detail' as any, params: { id: item.id.toString() } })}
             activeOpacity={0.7}
         >
             <View style={styles.cardHeader}>
@@ -140,7 +140,7 @@ export default function AppointmentsScreen() {
 
             <TouchableOpacity
                 style={styles.fab}
-                onPress={() => router.push('/appointment-form')}
+                onPress={() => router.push('/appointment-form' as any)}
             >
                 <Text style={styles.fabIcon}>+</Text>
             </TouchableOpacity>

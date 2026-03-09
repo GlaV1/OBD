@@ -1,4 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import tr, { type Translations } from '../locales/tr';
+import en from '../locales/en';
 
 // ─── Desteklenen diller ────────────────────────────────────────
 export type AppLanguage = 'tr' | 'en';
@@ -6,6 +8,11 @@ const LANG_KEY = 'obd_app_language';
 
 // ─── Aktif dil (bellek içi, uygulama boyunca sabit) ───────────
 let _currentLang: AppLanguage = 'tr'; // varsayılan Türkçe
+
+const translations: Record<AppLanguage, Translations> = {
+  tr,
+  en,
+};
 
 export function getCurrentLang(): AppLanguage {
   return _currentLang;
@@ -18,7 +25,7 @@ export async function loadLanguage(): Promise<AppLanguage> {
     if (saved === 'tr' || saved === 'en') {
       _currentLang = saved;
     }
-  } catch {}
+  } catch { }
   return _currentLang;
 }
 
@@ -27,7 +34,7 @@ export async function setLanguage(lang: AppLanguage): Promise<void> {
   _currentLang = lang;
   try {
     await AsyncStorage.setItem(LANG_KEY, lang);
-  } catch {}
+  } catch { }
 }
 
 // ─── UI metinleri çevirisi ─────────────────────────────────────
@@ -99,4 +106,11 @@ export function getDTCSolution(entry: {
 }): string | undefined {
   if (_currentLang === 'tr' && entry.Solution_tr) return entry.Solution_tr;
   return entry.Solution;
+}
+
+export function useTranslation() {
+  return {
+    t: translations[_currentLang],
+    lang: _currentLang
+  };
 }

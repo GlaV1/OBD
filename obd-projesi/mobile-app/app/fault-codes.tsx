@@ -9,6 +9,7 @@ import { useConnection } from '../context/ConnectionContext';
 import ErrorView from '../components/ErrorView';
 import { getError, OBDErrorDef } from '../utils/errors';
 import { t, getDTCMeaning, getDTCSolution } from '../utils/i18n';
+import { BRAND_DATABASES, genericDB } from '../data/brandDatabases';
 
 const SERVER_URL = 'http://192.168.X.X:3000';
 
@@ -23,48 +24,42 @@ interface DTCEntry {
 
 // ─── Marka adından dosya adına çevir ──────────────────────────
 // dashboard'dan gelen brand: "BMW", "Volkswagen", "Toyota" vs.
+// NOT: Dönen değer BRAND_DATABASES key'leriyle eşleşmelidir
 function getBrandFileName(brand: string): string | null {
   const b = brand.toLowerCase();
   if (b.includes('acura'))                                    return 'acura';
-  if (b.includes('alfa'))                                     return 'alfa_romeo';
   if (b.includes('audi'))                                     return 'audi';
   if (b.includes('bmw') || b.includes('mini'))                return 'bmw';
-  if (b.includes('chevrolet') || b.includes('chevy'))         return 'chevrolet';
+  if (b.includes('buick'))                                    return 'buick';
+  if (b.includes('cadillac'))                                 return 'cadillac';
+  if (b.includes('chevrolet') || b.includes('chevy'))         return 'chevy';
   if (b.includes('chrysler'))                                  return 'chrysler';
-  if (b.includes('citroen') || b.includes('citroën'))         return 'citroen';
-  if (b.includes('dacia'))                                    return 'dacia';
-  if (b.includes('dodge'))                                    return 'dodge';
-  if (b.includes('fiat'))                                     return 'fiat';
+  if (b.includes('dodge'))                                     return 'dodge';
   if (b.includes('ford'))                                     return 'ford';
+  if (b.includes('geo'))                                      return 'geo';
   if (b.includes('gmc'))                                      return 'gmc';
+  if (b.includes('gm'))                                       return 'gm';
   if (b.includes('honda'))                                    return 'honda';
-  if (b.includes('hyundai'))                                  return 'hyundai';
   if (b.includes('infiniti'))                                 return 'infiniti';
-  if (b.includes('isuzu'))                                    return 'isuzu';
   if (b.includes('jaguar'))                                   return 'jaguar';
   if (b.includes('jeep'))                                     return 'jeep';
   if (b.includes('kia'))                                      return 'kia';
-  if (b.includes('land rover') || b.includes('landrover'))    return 'land_rover';
   if (b.includes('lexus'))                                    return 'lexus';
   if (b.includes('lincoln'))                                  return 'lincoln';
   if (b.includes('mazda'))                                    return 'mazda';
   if (b.includes('mercedes'))                                 return 'mercedes';
+  if (b.includes('mercury'))                                  return 'mercury';
   if (b.includes('mitsubishi'))                               return 'mitsubishi';
   if (b.includes('nissan'))                                   return 'nissan';
-  if (b.includes('opel') || b.includes('vauxhall'))           return 'opel';
-  if (b.includes('peugeot'))                                  return 'peugeot';
+  if (b.includes('oldsmobile'))                               return 'oldsmobile';
+  if (b.includes('other'))                                    return 'other';
+  if (b.includes('plymouth'))                                 return 'plymouth';
   if (b.includes('pontiac'))                                  return 'pontiac';
-  if (b.includes('porsche'))                                  return 'porsche';
-  if (b.includes('renault'))                                  return 'renault';
-  if (b.includes('saab'))                                     return 'saab';
   if (b.includes('saturn'))                                   return 'saturn';
-  if (b.includes('seat'))                                     return 'seat';
-  if (b.includes('skoda') || b.includes('škoda'))             return 'skoda';
   if (b.includes('subaru'))                                   return 'subaru';
   if (b.includes('suzuki'))                                   return 'suzuki';
   if (b.includes('toyota'))                                   return 'toyota';
   if (b.includes('volkswagen') || b.includes('vw'))           return 'volkswagen';
-  if (b.includes('volvo'))                                    return 'volvo';
   return null; // eşleşme yoksa sadece generic kullan
 }
 
@@ -75,19 +70,11 @@ function loadDTCDatabases(brand: string): {
   genericDB: Record<string, DTCEntry>;
 } {
   let brandDB: Record<string, DTCEntry> = {};
-  let genericDB: Record<string, DTCEntry> = {};
 
-  // Generic (tüm araçlar)
-  try { genericDB = require('../data/dtc-database.json'); } catch {}
-
-  // Marka özel
+  // Marka özel — statik import kullan
   const fileName = getBrandFileName(brand);
-  if (fileName) {
-    try {
-      brandDB = require(`../data/brands/${fileName}.json`);
-    } catch {
-      // Dosya yoksa sadece generic kullan, hata verme
-    }
+  if (fileName && BRAND_DATABASES[fileName as keyof typeof BRAND_DATABASES]) {
+    brandDB = BRAND_DATABASES[fileName as keyof typeof BRAND_DATABASES];
   }
 
   return { brandDB, genericDB };
