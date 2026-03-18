@@ -1,44 +1,30 @@
+// app/live-data.tsx
 import { useEffect, useState } from 'react';
 import {
   StyleSheet, Text, View, SafeAreaView,
   Dimensions, ScrollView, ActivityIndicator,
 } from 'react-native';
-import { io, Socket } from 'socket.io-client';
 import { LineChart } from 'react-native-chart-kit';
 import { useLocalSearchParams } from 'expo-router';
-import { useConnection } from '../context/ConnectionContext';
-import { useTranslation } from '../utils/i18n';
+import { useBluetooth } from '../context/BluetoothContext';
 import ErrorView from '../components/ErrorView';
 import { getError, OBDErrorDef } from '../utils/errors';
 import { AVAILABLE_PARAMETERS, LiveDataParameter } from './live-data-selection';
+import tr from '../locales/tr';
 
-const SERVER_URL = 'http://192.168.X.X:3000';
+const t = tr;
 const screenWidth = Dimensions.get('window').width;
-
-interface DTC { Code: string; Description: string; }
-interface VehicleData {
-  RPM: number; Speed: number;
-  EngineTemp: number; OilTemp: number; TurboBoost: number;
-  O2Voltage: number; BatteryVolts: number; FuelLevel: number;
-  DTCs: DTC[];
-}
-
-const DEFAULT_DATA: VehicleData = {
-  RPM: 0, Speed: 0, EngineTemp: 0, OilTemp: 0, TurboBoost: 0,
-  O2Voltage: 0, BatteryVolts: 0, FuelLevel: 0, DTCs: [],
-};
-
 const CHART_HISTORY_LENGTH = 15;
 
 export default function LiveDataScreen() {
-  const { status } = useConnection();
-  const { t } = useTranslation();
+  const { status, vehicleData } = useBluetooth();
   const isConnected = status === 'connected';
 
   const params = useLocalSearchParams<{ selectedParams: string }>();
-  const selectedParamIds = params.selectedParams ? params.selectedParams.split(',') : ['RPM', 'Speed', 'EngineTemp'];
+  const selectedParamIds = params.selectedParams
+    ? params.selectedParams.split(',')
+    : ['rpm', 'speed', 'engineTemp'];
 
-  const [vehicleData, setVehicleData] = useState<VehicleData>(DEFAULT_DATA);
   const [hasReceivedData, setHasReceivedData] = useState(false);
   const [activeError, setActiveError] = useState<OBDErrorDef | null>(null);
   const [history, setHistory] = useState<Record<string, number[]>>({});
@@ -54,46 +40,36 @@ export default function LiveDataScreen() {
       setActiveError(getError('NOT_CONNECTED'));
       return;
     }
-
     setActiveError(null);
-    const socket: Socket = io(SERVER_URL);
-
-    socket.on('vehicleData', (data: VehicleData) => {
-      try {
-        if (data && typeof data.RPM === 'number') {
-          setVehicleData(data);
-          setHasReceivedData(true);
-          setActiveError(null);
-          setHistory(prev => {
-            const nextHist = { ...prev };
-            selectedParamIds.forEach(id => {
-              if (!nextHist[id]) nextHist[id] = new Array(CHART_HISTORY_LENGTH).fill(0);
-              const val = data[id as keyof VehicleData];
-              if (typeof val === 'number') {
-                const arr = [...nextHist[id], val];
-                if (arr.length > CHART_HISTORY_LENGTH) arr.shift();
-                nextHist[id] = arr;
-              }
-            });
-            return nextHist;
-          });
-        } else {
-          setActiveError(getError('DATA_PARSE_ERROR'));
-        }
-      } catch {
-        setActiveError(getError('DATA_PARSE_ERROR'));
-      }
-    });
-
-    socket.on('disconnect', () => setActiveError(getError('DATA_STREAM_LOST')));
-    socket.on('connect_error', () => setActiveError(getError('CONNECTION_LOST')));
-
-    return () => { socket.disconnect(); };
   }, [isConnected]);
+
+  // vehicleData değişince history güncelle
+  useEffect(() => {
+    if (!isConnected) return;
+    const data = vehicleData as any;
+    if (typeof data?.rpm !== 'number') return;
+
+    setHasReceivedData(true);
+    setHistory(prev => {
+      const next = { ...prev };
+      selectedParamIds.forEach(id => {
+        if (!next[id]) next[id] = new Array(CHART_HISTORY_LENGTH).fill(0);
+        const val = data[id];
+        if (typeof val === 'number') {
+          const arr = [...next[id], val];
+          if (arr.length > CHART_HISTORY_LENGTH) arr.shift();
+          next[id] = arr;
+        }
+      });
+      return next;
+    });
+  }, [vehicleData, isConnected]);
 
   const activeParams = selectedParamIds
     .map(id => AVAILABLE_PARAMETERS.find(p => p.id === id))
     .filter((p): p is LiveDataParameter => p !== undefined);
+
+  const data = vehicleData as any;
 
   return (
     <SafeAreaView style={styles.container}>
@@ -106,14 +82,10 @@ export default function LiveDataScreen() {
           </Text>
         </View>
 
-        <ErrorView
-          error={activeError}
-          onDismiss={() => setActiveError(null)}
-          onRetry={() => setActiveError(null)}
-        />
+        <ErrorView error={activeError} onDismiss={() => setActiveError(null)} onRetry={() => setActiveError(null)} />
 
         <View style={styles.speedBox}>
-          <Text style={styles.speedValue}>{vehicleData.Speed}</Text>
+          <Text style={styles.speedValue}>{data?.speed ?? 0}</Text>
           <Text style={styles.speedLabel}>km/h</Text>
         </View>
 
@@ -128,41 +100,38 @@ export default function LiveDataScreen() {
           <View style={styles.graphsContainer}>
             {activeParams.map((param, index) => {
               const dataPoints = history[param.id] || new Array(CHART_HISTORY_LENGTH).fill(0);
-              const currentValue = vehicleData[param.id as keyof VehicleData];
+              const currentValue = data?.[param.id];
               const colors = ['#00d2ff', '#f87171', '#4ade80', '#facc15', '#a78bfa', '#fb923c'];
               const color = colors[index % colors.length];
 
               return (
                 <View key={param.id} style={styles.chartBox}>
                   <View style={styles.chartHeader}>
-                    <Text style={styles.chartTitle}>{t.params[param.key]}</Text>
+                    <Text style={styles.chartTitle}>{(t.params as any)[param.key] ?? param.id}</Text>
                     <Text style={[styles.currentValue, { color }]}>
                       {typeof currentValue === 'number'
-                        ? (Number.isInteger(currentValue) ? currentValue : currentValue.toFixed(2))
-                        : String(currentValue)}
-                      <Text style={styles.unitText}> {param.unit}</Text>
+                        ? (Number.isInteger(currentValue)
+                          ? currentValue
+                          : currentValue.toFixed(1))
+                        : '—'} {param.unit}
                     </Text>
                   </View>
-
                   <LineChart
-                    data={{ labels: [], datasets: [{ data: dataPoints }] }}
+                    data={{ labels: [], datasets: [{ data: dataPoints.map(v => isNaN(v) ? 0 : v), color: () => color }] }}
                     width={screenWidth - 48}
-                    height={100}
+                    height={120}
                     withDots={false}
                     withInnerLines={false}
                     withOuterLines={false}
-                    withVerticalLabels={false}
                     withHorizontalLabels={false}
+                    withVerticalLabels={false}
                     chartConfig={{
-                      backgroundColor: '#1a1a2e',
-                      backgroundGradientFrom: '#1a1a2e',
-                      backgroundGradientTo: '#1a1a2e',
-                      decimalPlaces: 0,
-                      color: () => color,
-                      labelColor: () => '#555',
+                      backgroundColor: 'transparent', backgroundGradientFrom: '#111122',
+                      backgroundGradientTo: '#111122', color: () => color,
+                      strokeWidth: 2, propsForBackgroundLines: { stroke: 'transparent' },
                     }}
                     bezier
-                    style={{ marginVertical: 8, borderRadius: 12, paddingRight: 0 }}
+                    style={{ borderRadius: 10, marginTop: 8 }}
                   />
                 </View>
               );
@@ -175,19 +144,22 @@ export default function LiveDataScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0d0d1a' },
-  scrollContent: { alignItems: 'center', paddingVertical: 20, paddingHorizontal: 16, paddingBottom: 40 },
-  statusBox: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: '#1a1a2e', paddingHorizontal: 16, paddingVertical: 10, borderRadius: 20, borderWidth: 1, marginBottom: 16, alignSelf: 'stretch', justifyContent: 'center' },
-  statusDot: { width: 8, height: 8, borderRadius: 4 },
-  speedBox: { alignItems: 'center', justifyContent: 'center', width: 160, height: 160, borderRadius: 80, borderWidth: 3, borderColor: '#00d2ff', backgroundColor: '#1a1a2e', marginBottom: 24, shadowColor: '#00d2ff', shadowOffset: { width: 0, height: 0 }, shadowOpacity: 0.4, shadowRadius: 12, elevation: 8 },
-  speedValue: { fontSize: 56, fontWeight: '800', color: '#ffffff' },
-  speedLabel: { fontSize: 14, color: '#00d2ff', fontWeight: '700' },
-  chartLoading: { height: 200, alignItems: 'center', justifyContent: 'center', gap: 12 },
-  chartLoadingText: { color: '#555', fontSize: 13 },
-  graphsContainer: { width: '100%', gap: 16 },
-  chartBox: { backgroundColor: '#1a1a2e', borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#ffffff08' },
-  chartHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 },
-  chartTitle: { fontSize: 13, color: '#aaa', fontWeight: '600', textTransform: 'uppercase', letterSpacing: 0.5 },
-  currentValue: { fontSize: 24, fontWeight: '800' },
-  unitText: { fontSize: 12, color: '#666', fontWeight: '600' },
+  container:        { flex: 1, backgroundColor: '#0d0d1a' },
+  scrollContent:    { padding: 16, paddingBottom: 40 },
+  statusBox: {
+    flexDirection: 'row', alignItems: 'center', gap: 8,
+    padding: 10, borderRadius: 8, borderWidth: 1,
+    backgroundColor: '#0f0f1f', marginBottom: 16,
+  },
+  statusDot:        { width: 8, height: 8, borderRadius: 4 },
+  speedBox:         { alignItems: 'center', marginVertical: 16 },
+  speedValue:       { fontSize: 72, fontWeight: '800', color: '#fff' },
+  speedLabel:       { fontSize: 16, color: '#555', marginTop: -8 },
+  chartLoading:     { alignItems: 'center', paddingVertical: 40 },
+  chartLoadingText: { color: '#555', marginTop: 12, fontSize: 14 },
+  graphsContainer:  { gap: 16 },
+  chartBox:         { backgroundColor: '#111122', borderRadius: 12, padding: 16 },
+  chartHeader:      { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  chartTitle:       { color: '#aaa', fontSize: 13, fontWeight: '600' },
+  currentValue:     { fontSize: 20, fontWeight: '800' },
 });
