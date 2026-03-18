@@ -1,4 +1,5 @@
 // app/bluetooth-scan.tsx
+// OBD modülü gelince kullanılacak cihaz seçim sayfası
 import React, { useEffect, useState } from 'react';
 import {
   StyleSheet, Text, View, SafeAreaView,
@@ -27,10 +28,14 @@ export default function BluetoothScanScreen() {
   };
 
   const handleDisconnect = () => {
-    Alert.alert('Bağlantıyı Kes', `${connectedDevice?.name} cihazından ayrılınsın mı?`, [
-      { text: 'İptal', style: 'cancel' },
-      { text: 'Kes', style: 'destructive', onPress: disconnect },
-    ]);
+    Alert.alert(
+      'Bağlantıyı Kes',
+      `${connectedDevice?.name} cihazından ayrılınsın mı?`,
+      [
+        { text: 'İptal', style: 'cancel' },
+        { text: 'Kes', style: 'destructive', onPress: disconnect },
+      ]
+    );
   };
 
   return (
@@ -73,7 +78,9 @@ export default function BluetoothScanScreen() {
         <View style={styles.center}>
           <Text style={{ fontSize: 40, marginBottom: 12 }}>📡</Text>
           <Text style={styles.emptyText}>Eşleştirilmiş cihaz yok</Text>
-          <Text style={styles.hint}>Telefon Bluetooth ayarlarından HC-06'yı önce eşleştirin (PIN: 1234)</Text>
+          <Text style={styles.hint}>
+            Telefon Bluetooth ayarlarından HC-06'yı önce eşleştirin (PIN: 1234)
+          </Text>
           <TouchableOpacity style={styles.retryBtn} onPress={scan}>
             <Text style={styles.retryText}>Tekrar Tara</Text>
           </TouchableOpacity>
@@ -127,9 +134,9 @@ const styles = StyleSheet.create({
   statusText:     { fontSize: 13, fontWeight: '600', flex: 1 },
   connectedCard: {
     flexDirection: 'row', alignItems: 'center',
-    marginHorizontal: 16, marginBottom: 12,
-    padding: 14, borderRadius: 12,
-    backgroundColor: '#0a2a1a', borderWidth: 1, borderColor: '#4ade8033',
+    marginHorizontal: 16, marginBottom: 12, padding: 14,
+    borderRadius: 12, backgroundColor: '#0a2a1a',
+    borderWidth: 1, borderColor: '#4ade8033',
   },
   connectedLabel: { fontSize: 11, color: '#4ade80', fontWeight: '700' },
   connectedName:  { fontSize: 16, color: '#fff', fontWeight: '700' },

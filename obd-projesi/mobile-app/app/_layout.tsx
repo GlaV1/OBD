@@ -1,41 +1,40 @@
+// app/_layout.tsx
 import { useState, useEffect } from 'react';
 import { Stack } from 'expo-router';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { BluetoothProvider, useBluetooth, getBTStatusColor, getBTStatusText } from '../context/BluetoothContext';
+import { View, Text, StyleSheet } from 'react-native';
+import {
+  BluetoothProvider, useBluetooth,
+  getBTStatusColor, getBTStatusText,
+} from '../context/BluetoothContext';
 import { loadLanguage } from '../utils/i18n';
 
-function BluetoothBanner() {
-  const { status, lastError, scan } = useBluetooth();
-  if (status === 'connected') return null;
+// Sadece durum gösterir, tıklanamaz
+function StatusBanner() {
+  const { status } = useBluetooth();
   const color = getBTStatusColor(status);
+  const text  = getBTStatusText(status);
+
   return (
-    <TouchableOpacity
-      style={[styles.banner, { borderBottomColor: color }]}
-      onPress={status !== 'scanning' && status !== 'connecting' ? scan : undefined}
-      activeOpacity={0.7}
-    >
-      <View style={[styles.bannerDot, { backgroundColor: color }]} />
-      <Text style={[styles.bannerText, { color }]}>{lastError ?? getBTStatusText(status)}</Text>
-      {(status === 'disconnected' || status === 'error') && (
-        <Text style={styles.bannerAction}>Bağlan →</Text>
-      )}
-    </TouchableOpacity>
+    <View style={[styles.banner, { borderBottomColor: color + '55' }]}>
+      <View style={[styles.dot, { backgroundColor: color }]} />
+      <Text style={[styles.bannerText, { color }]}>{text}</Text>
+    </View>
   );
 }
 
 function RootNavigator() {
   return (
     <View style={{ flex: 1, backgroundColor: '#0d0d1a' }}>
-      <BluetoothBanner />
+      <StatusBanner />
       <Stack
         screenOptions={{
-          headerStyle: { backgroundColor: '#0d0d1a' },
-          headerTintColor: '#00d2ff',
+          headerStyle:      { backgroundColor: '#0d0d1a' },
+          headerTintColor:  '#00d2ff',
           headerTitleStyle: { fontWeight: '700', color: '#ffffff', fontSize: 16 },
           headerShadowVisible: false,
-          contentStyle: { backgroundColor: '#0d0d1a' },
-          animation: 'slide_from_right',
-          gestureEnabled: true,
+          contentStyle:     { backgroundColor: '#0d0d1a' },
+          animation:        'slide_from_right',
+          gestureEnabled:   true,
           gestureDirection: 'horizontal',
         }}
       >
@@ -69,11 +68,14 @@ export default function RootLayout() {
 
 const styles = StyleSheet.create({
   banner: {
-    flexDirection: 'row', alignItems: 'center',
-    backgroundColor: '#0d0d1a', paddingHorizontal: 16,
-    paddingVertical: 8, borderBottomWidth: 1, gap: 8,
+    flexDirection:  'row',
+    alignItems:     'center',
+    backgroundColor:'#0d0d1a',
+    paddingHorizontal: 16,
+    paddingVertical: 6,
+    borderBottomWidth: 1,
+    gap: 8,
   },
-  bannerDot:    { width: 6, height: 6, borderRadius: 3 },
-  bannerText:   { flex: 1, fontSize: 12, fontWeight: '600' },
-  bannerAction: { fontSize: 12, color: '#00d2ff', fontWeight: '700' },
+  dot:        { width: 6, height: 6, borderRadius: 3 },
+  bannerText: { fontSize: 12, fontWeight: '600' },
 });

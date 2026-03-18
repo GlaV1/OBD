@@ -12,13 +12,13 @@ import { getError, OBDErrorDef } from '../utils/errors';
 import { AVAILABLE_PARAMETERS, LiveDataParameter } from './live-data-selection';
 import tr from '../locales/tr';
 
-const t = tr;
 const screenWidth = Dimensions.get('window').width;
 const CHART_HISTORY_LENGTH = 15;
 
 export default function LiveDataScreen() {
   const { status, vehicleData } = useBluetooth();
   const isConnected = status === 'connected';
+  const t = tr;
 
   const params = useLocalSearchParams<{ selectedParams: string }>();
   const selectedParamIds = params.selectedParams
@@ -26,8 +26,8 @@ export default function LiveDataScreen() {
     : ['rpm', 'speed', 'engineTemp'];
 
   const [hasReceivedData, setHasReceivedData] = useState(false);
-  const [activeError, setActiveError] = useState<OBDErrorDef | null>(null);
-  const [history, setHistory] = useState<Record<string, number[]>>({});
+  const [activeError, setActiveError]         = useState<OBDErrorDef | null>(null);
+  const [history, setHistory]                 = useState<Record<string, number[]>>({});
 
   useEffect(() => {
     const initHist: Record<string, number[]> = {};
@@ -36,19 +36,14 @@ export default function LiveDataScreen() {
   }, []);
 
   useEffect(() => {
-    if (!isConnected) {
-      setActiveError(getError('NOT_CONNECTED'));
-      return;
-    }
+    if (!isConnected) { setActiveError(getError('NOT_CONNECTED')); return; }
     setActiveError(null);
   }, [isConnected]);
 
-  // vehicleData değişince history güncelle
   useEffect(() => {
     if (!isConnected) return;
     const data = vehicleData as any;
     if (typeof data?.rpm !== 'number') return;
-
     setHasReceivedData(true);
     setHistory(prev => {
       const next = { ...prev };
@@ -82,7 +77,11 @@ export default function LiveDataScreen() {
           </Text>
         </View>
 
-        <ErrorView error={activeError} onDismiss={() => setActiveError(null)} onRetry={() => setActiveError(null)} />
+        <ErrorView
+          error={activeError}
+          onDismiss={() => setActiveError(null)}
+          onRetry={() => setActiveError(null)}
+        />
 
         <View style={styles.speedBox}>
           <Text style={styles.speedValue}>{data?.speed ?? 0}</Text>
@@ -110,14 +109,15 @@ export default function LiveDataScreen() {
                     <Text style={styles.chartTitle}>{(t.params as any)[param.key] ?? param.id}</Text>
                     <Text style={[styles.currentValue, { color }]}>
                       {typeof currentValue === 'number'
-                        ? (Number.isInteger(currentValue)
-                          ? currentValue
-                          : currentValue.toFixed(1))
+                        ? (Number.isInteger(currentValue) ? currentValue : currentValue.toFixed(1))
                         : '—'} {param.unit}
                     </Text>
                   </View>
                   <LineChart
-                    data={{ labels: [], datasets: [{ data: dataPoints.map(v => isNaN(v) ? 0 : v), color: () => color }] }}
+                    data={{
+                      labels: [],
+                      datasets: [{ data: dataPoints.map(v => isNaN(v) ? 0 : v), color: () => color }],
+                    }}
                     width={screenWidth - 48}
                     height={120}
                     withDots={false}
@@ -126,9 +126,12 @@ export default function LiveDataScreen() {
                     withHorizontalLabels={false}
                     withVerticalLabels={false}
                     chartConfig={{
-                      backgroundColor: 'transparent', backgroundGradientFrom: '#111122',
-                      backgroundGradientTo: '#111122', color: () => color,
-                      strokeWidth: 2, propsForBackgroundLines: { stroke: 'transparent' },
+                      backgroundColor: 'transparent',
+                      backgroundGradientFrom: '#111122',
+                      backgroundGradientTo: '#111122',
+                      color: () => color,
+                      strokeWidth: 2,
+                      propsForBackgroundLines: { stroke: 'transparent' },
                     }}
                     bezier
                     style={{ borderRadius: 10, marginTop: 8 }}
