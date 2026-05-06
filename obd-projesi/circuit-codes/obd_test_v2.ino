@@ -1,6 +1,8 @@
 // ================
 // OBD Test Sistemi
 // ================
+
+/*
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <SoftwareSerial.h>
@@ -148,3 +150,4 @@ void updateLcd() {
   lcd.print((char)223);   // derece 
   lcd.print("C ");
 }
+*/
